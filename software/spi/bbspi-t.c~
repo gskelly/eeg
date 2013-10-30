@@ -1,0 +1,53 @@
+/*
+* Copyright (C) 2013 Alan Backlund
+*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License version 2 as
+* published by the Free Software Foundation.
+*/
+#include "bbspi.h"
+
+int fd;
+
+int main(int argc, const char *argv[])
+{
+    int fd;
+    struct spi_ioc_transfer tr;
+    uint8_t cmd[4], rsp[4];
+
+    fd = bbspi_init("/dev/spidev1.0", &tr, NULL, rsp, 4);
+
+    cmd[0] = 0x02;
+    cmd[1] = 0x12;
+    cmd[2] = 0x34;
+    cmd[3] = 0x56;
+
+    /*Ready test*/
+    printf("S ready: %d\n", bbspi_spiready(fd));
+
+    /*First setup test*/
+    bbspi_setTXbuffer(&tr, cmd);
+    bbspi_transfer(fd, &tr);
+    printf("cmd: 0x%02X 0x%02X 0x%02X 0x%02X\n", cmd[0], cmd[1], cmd[2], cmd[3]);
+    printf("rsp: 0x%02X 0x%02X 0x%02X 0x%02X\n", rsp[0], rsp[1], rsp[2], rsp[3]);
+
+    /*Second setup test*/
+    cmd[0] = 0x64;
+    cmd[1] = 0x90;
+    printf("L = %d\n", bbspi_getDataLength(&tr));
+    bbspi_setDataLength(&tr, 1);
+    bbspi_transfer(fd, &tr);
+    printf("cmd: 0x%02X 0x%02X 0x%02X 0x%02X\n", cmd[0], cmd[1], cmd[2], cmd[3]);
+    printf("rsp: 0x%02X 0x%02X 0x%02X 0x%02X\n", rsp[0], rsp[1], rsp[2], rsp[3]);
+
+    /*Comunication test*/
+    while(1){
+        cmd[0] = rsp[0] + 1;
+        bbspi_transfer(fd, &tr);
+        printf("cmd: 0x%02X 0x%02X 0x%02X 0x%02X\n", cmd[0], cmd[1], cmd[2], cmd[3]);
+        printf("rsp: 0x%02X 0x%02X 0x%02X 0x%02X\n", rsp[0], rsp[1], rsp[2], rsp[3]);
+        sleep(1);
+    }
+
+    close(fd);
+}
