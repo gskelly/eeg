@@ -1,0 +1,261 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:brainboard_customparts
+LIBS:SparkFun-RF
+LIBS:SparkFun-Passives
+LIBS:brainboardv1-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title "BrainBoard: Open-Source Hardware for Wearable BCI"
+Date "30 sep 2013"
+Rev "0"
+Comp "Virginia Commonwealth University"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BLUETOOTH-RN41" U?
+U 1 1 5244B495
+P 5650 3700
+F 0 "U?" H 5650 2300 60  0000 C CNN
+F 1 "BLUETOOTH-RN42" H 5600 4050 60  0000 C CNN
+F 2 "" H 5650 3700 60  0000 C CNN
+F 3 "" H 5650 3700 60  0000 C CNN
+F 4 "Microchip Technology" H 5650 3700 60  0001 C CNN "Manufacturer 1"
+F 5 "RN42-I/RM" H 5650 3700 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 5650 3700 60  0001 C CNN "Vendor 1"
+F 7 "$19.14/1 $15.95/10" H 5650 3700 60  0001 C CNN "Pricing 1"
+	1    5650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 5244B496
+P 6600 5000
+F 0 "#PWR?" H 6600 5000 40  0001 C CNN
+F 1 "DGND" H 6600 4930 40  0000 C CNN
+F 2 "" H 6600 5000 60  0000 C CNN
+F 3 "" H 6600 5000 60  0000 C CNN
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4300 6600 4300
+Wire Wire Line
+	6600 4300 6600 5000
+Wire Wire Line
+	6450 4400 6600 4400
+Connection ~ 6600 4400
+Wire Wire Line
+	6450 4500 6600 4500
+Connection ~ 6600 4500
+Wire Wire Line
+	6450 4600 6600 4600
+Connection ~ 6600 4600
+Wire Wire Line
+	6450 4700 6600 4700
+Connection ~ 6600 4700
+Connection ~ 6600 4800
+Wire Wire Line
+	4850 2600 4700 2600
+Wire Wire Line
+	4700 2600 4700 2400
+Wire Wire Line
+	4850 2700 4650 2700
+NoConn ~ 6450 2600
+NoConn ~ 6450 2800
+NoConn ~ 6450 2900
+NoConn ~ 4850 2900
+NoConn ~ 4850 3000
+NoConn ~ 4850 3100
+NoConn ~ 4850 3200
+NoConn ~ 4850 4100
+NoConn ~ 4850 4200
+NoConn ~ 6450 3600
+NoConn ~ 6450 3700
+NoConn ~ 6450 3800
+NoConn ~ 6450 3900
+NoConn ~ 6450 4000
+NoConn ~ 6450 4100
+$Comp
+L R R?
+U 1 1 5244B497
+P 7450 4150
+F 0 "R?" V 7530 4150 40  0000 C CNN
+F 1 "10K" V 7457 4151 40  0000 C CNN
+F 2 "~" V 7380 4150 30  0000 C CNN
+F 3 "~" H 7450 4150 30  0000 C CNN
+F 4 "Stackpole Electronics" V 7450 4150 60  0001 C CNN "Manufacturer 1"
+F 5 "RMCF0603JT10K0" V 7450 4150 60  0001 C CNN "PN 1"
+F 6 "DigiKey" V 7450 4150 60  0001 C CNN "Vendor 1"
+F 7 "$0.02/1 $0.017/10 $0.0092/50" V 7450 4150 60  0001 C CNN "Pricing 1"
+	1    7450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3400 7450 3900
+Wire Wire Line
+	7450 4800 7450 4400
+$Comp
+L TST P?
+U 1 1 5244B498
+P 7450 3400
+F 0 "P?" H 7450 3700 40  0000 C CNN
+F 1 "BTRST" H 7450 3650 30  0000 C CNN
+F 2 "~" H 7450 3400 60  0000 C CNN
+F 3 "~" H 7450 3400 60  0000 C CNN
+	1    7450 3400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6450 3300
+Wire Wire Line
+	6450 3400 7450 3400
+Wire Wire Line
+	6450 4800 7450 4800
+Connection ~ 7450 3400
+Wire Wire Line
+	4850 3500 4650 3500
+Wire Wire Line
+	4850 3600 4650 3600
+NoConn ~ 4850 3700
+NoConn ~ 4850 3800
+Text GLabel 4650 3500 0    51   Input ~ 0
+UARTBT_RX
+Text GLabel 4650 3600 0    51   Output ~ 0
+UARTBT_TX
+Text GLabel 4650 2700 0    51   Input ~ 0
+RESET_BT
+$Comp
+L 3V3 #PWR?
+U 1 1 5244B499
+P 4700 2400
+F 0 "#PWR?" H 4700 2500 40  0001 C CNN
+F 1 "3V3" H 4700 2525 40  0000 C CNN
+F 2 "" H 4700 2400 60  0000 C CNN
+F 3 "" H 4700 2400 60  0000 C CNN
+	1    4700 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4850 4500
+NoConn ~ 4850 4600
+NoConn ~ 4850 4700
+NoConn ~ 4850 4800
+Text Label 6550 3400 0    51   ~ 0
+FACTORY
+$Comp
+L R R?
+U 1 1 5244B49A
+P 6800 4350
+F 0 "R?" V 6880 4350 40  0000 C CNN
+F 1 "330" V 6807 4351 40  0000 C CNN
+F 2 "~" V 6730 4350 30  0000 C CNN
+F 3 "~" H 6800 4350 30  0000 C CNN
+F 4 "Stackpole Electronics" V 6800 4350 60  0001 C CNN "Manufacturer 1"
+F 5 "RMCF0603JT330R" V 6800 4350 60  0001 C CNN "PN 1"
+F 6 "DigiKey" V 6800 4350 60  0001 C CNN "Vendor 1"
+F 7 "$0.02/1 $0.017/10 $0.0092/50" V 6800 4350 60  0001 C CNN "Pricing 1"
+	1    6800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5244B49B
+P 7200 4350
+F 0 "R?" V 7280 4350 40  0000 C CNN
+F 1 "330" V 7207 4351 40  0000 C CNN
+F 2 "~" V 7130 4350 30  0000 C CNN
+F 3 "~" H 7200 4350 30  0000 C CNN
+F 4 "Stackpole Electronics" V 7200 4350 60  0001 C CNN "Manufacturer 1"
+F 5 "RMCF0603JT330R" V 7200 4350 60  0001 C CNN "PN 1"
+F 6 "DigiKey" V 7200 4350 60  0001 C CNN "Vendor 1"
+F 7 "$0.02/1 $0.017/10 $0.0092/50" V 7200 4350 60  0001 C CNN "Pricing 1"
+	1    7200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5244B49C
+P 6800 3800
+F 0 "D?" H 6800 3900 50  0000 C CNN
+F 1 "RED" H 6800 3700 50  0000 C CNN
+F 2 "~" H 6800 3800 60  0000 C CNN
+F 3 "~" H 6800 3800 60  0000 C CNN
+F 4 "Kingbright Company LLC" H 6800 3800 60  0001 C CNN "Manufacturer 1"
+F 5 "APT1608SRCPRV" H 6800 3800 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 6800 3800 60  0001 C CNN "Vendor 1"
+F 7 "$0.17/1 $0.131/10 $0.1044/25" H 6800 3800 60  0001 C CNN "Pricing 1"
+	1    6800 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5244B49D
+P 7200 3800
+F 0 "D?" H 7200 3900 50  0000 C CNN
+F 1 "GREEN" H 7200 3700 50  0000 C CNN
+F 2 "~" H 7200 3800 60  0000 C CNN
+F 3 "~" H 7200 3800 60  0000 C CNN
+F 4 "Kingbright Company LLC" H 7200 3800 60  0001 C CNN "Manufacturer 1"
+F 5 "APT1608SGC" H 7200 3800 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 7200 3800 60  0001 C CNN "Vendor 1"
+F 7 "$0.16/1 $0.117/10 $0.0936/25" H 7200 3800 60  0001 C CNN "Pricing 1"
+	1    7200 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 3500 6800 3500
+Wire Wire Line
+	6800 3500 6800 3600
+Wire Wire Line
+	6800 4000 6800 4100
+Wire Wire Line
+	6800 4600 6800 4800
+Connection ~ 6800 4800
+Wire Wire Line
+	7200 4600 7200 4800
+Connection ~ 7200 4800
+Wire Wire Line
+	7200 4100 7200 4000
+Wire Wire Line
+	6450 3200 7200 3200
+Wire Wire Line
+	7200 3200 7200 3600
+Text Label 6550 3200 0    51   ~ 0
+STATUS
+Text Label 6550 3500 0    51   ~ 0
+STATUSn
+$EndSCHEMATC
