@@ -1,0 +1,130 @@
+* EESchema Netlist Version 1.1 (Spice format) creation date: 12/12/2013 1:45:34 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+*Sheet Name:/
+U2  CLK CLK ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? N-000032 N-000028 UARTUC_RTS ? UARTUC_CTS ? N-000024 N-000027 ? ? ? ? ? ? ? ? CLK CLK +3.3V +3.3V ? ? ? ? N-000043 SYS_RESETn UARTUC_TX ? UARTUC_RX ? ? ? ? ? I2C2_SCL I2C2_SDA ? ? ? ? ? ? ? ? MOSI MISO SCLK ? ? CLK ? ? ? ? ? ? ? ? CLK CLK CLK CLK BEAGLEBONE_BLACK		
+U1  /A0 /A1 /A2 CLK I2C2_SDA I2C2_SCL /WP +3.3V 24C256		
+R6  +3.3V I2C2_SDA 5.6K		
+R5  +3.3V I2C2_SCL 5.6K		
+R4  +3.3V /WP 10K		
+R2  +3.3V /A1 4.7K		
+R3  +3.3V /A0 4.7K		
+R1  +3.3V /A2 4.7K		
+P1  /WP WP		
+S2  CLK N-000043 CLK N-000043 SMT_BUTTON		
+SJ4  /A2 CLK SOLDERJUMPERNC2		
+SJ5  /A1 CLK SOLDERJUMPERNC2		
+P7  +3.3V 3V3		
+P5  CLK GND		
+SJ7  UARTBT_CTS N-000032 BT_CTS		
+SJ2  UARTBT_RX N-000024 BT_RX		
+SJ8  N-000028 UARTBT_RTS BT_RTS		
+SJ6  N-000027 UARTBT_TX BT_TX		
+P10  /CS_EXP1 /DRDY CLK START ? CONN_5		
+*Sheet Name:/BrainBoard Analog In/
+C21  AIN8P CLK 4.7nF		
+C22  AIN7P CLK 4.7nF		
+C23  AIN6P CLK 4.7nF		
+C24  AIN5P CLK 4.7nF		
+C25  AIN4P CLK 4.7nF		
+C26  AIN3P CLK 4.7nF		
+C27  AIN2N CLK 4.7nF		
+C28  AIN1N CLK 4.7nF		
+R14  /BrainBoard Analog In/CH8ELEC_P AIN8P 4.99K		
+R15  /BrainBoard Analog In/CH7ELEC_P AIN7P 4.99K		
+R16  /BrainBoard Analog In/CH6ELEC_P AIN6P 4.99K		
+R17  /BrainBoard Analog In/CH5ELEC_P AIN5P 4.99K		
+R18  /BrainBoard Analog In/CH4ELEC_P AIN4P 4.99K		
+R19  /BrainBoard Analog In/CH3ELEC_P AIN3P 4.99K		
+R20  /BrainBoard Analog In/CH2ELEC_P AIN2N 4.99K		
+R22  /BrainBoard Analog In/CH1ELEC_P AIN1N 4.99K		
+C18  +2.5V -2.5V 0.1uF		
+C17  +2.5V -2.5V 0.1uF		
+R11  /BrainBoard Analog In/BIAS_SHD SHIELD 4.99K		
+C20  REF CLK 4.7nF		
+R13  /BrainBoard Analog In/REF_ELEC REF 4.99K		
+R12  /BrainBoard Analog In/BIAS_ELEC BIAS 4.99K		
+C19  +2.5V -2.5V 0.1uF		
+U5  /BrainBoard Analog In/CH2ELEC_P -2.5V /BrainBoard Analog In/CH2ELEC_N /BrainBoard Analog In/CH1ELEC_P +2.5V /BrainBoard Analog In/CH1ELEC_N TPD4E001DBV		
+U6  /BrainBoard Analog In/CH5ELEC_P -2.5V /BrainBoard Analog In/CH6ELEC_P /BrainBoard Analog In/CH3ELEC_P +2.5V /BrainBoard Analog In/CH4ELEC_P TPD4E001DBV		
+P2  /BrainBoard Analog In/CH1ELEC_N /BrainBoard Analog In/CH1ELEC_P /BrainBoard Analog In/CH2ELEC_N /BrainBoard Analog In/CH2ELEC_P /BrainBoard Analog In/CH3ELEC_P /BrainBoard Analog In/CH4ELEC_P /BrainBoard Analog In/CH5ELEC_P /BrainBoard Analog In/CH6ELEC_P /BrainBoard Analog In/CH7ELEC_P /BrainBoard Analog In/CH8ELEC_P /BrainBoard Analog In/REF_ELEC /BrainBoard Analog In/BIAS_ELEC /BrainBoard Analog In/BIAS_SHD ? CONN_14		
+R23  /BrainBoard Analog In/CH1ELEC_N AIN1N 4.99K		
+R21  /BrainBoard Analog In/CH2ELEC_N AIN2N 4.99K		
+U7  /BrainBoard Analog In/BIAS_ELEC -2.5V /BrainBoard Analog In/REF_ELEC /BrainBoard Analog In/CH7ELEC_P +2.5V /BrainBoard Analog In/CH8ELEC_P TPD4E001DBV		
+*Sheet Name:/BrainBoard MCU/
+U8  CLK ? /CS_EXP1 /BrainBoard MCU/TDI SYS_RESETn /CS MISO MOSI ? UARTUC_TX /BrainBoard MCU/TCK I2C2_SDA /BrainBoard MCU/TDO /BrainBoard MCU/TMS UARTUC_RX SCLK +3.3V +3.3V CLK /DRDY /RESET /BrainBoard MCU/RESET_MCU ? ? /PWDN ? ? I2C2_SCL UARTBT_CTS UARTBT_TX UARTBT_RX UARTBT_RTS CLK +3.3V +3.3V UARTUC_RTS ? ? UARTUC_CTS ? START +3.3V CLK RESET_BT CLK IMU_INT ? +3.3V ATUC3L064		
+C33  +3.3V CLK 0.1uF		
+C34  +3.3V CLK 0.1uF		
+C32  +3.3V CLK 10uF		
+C31  +3.3V CLK 0.1uF		
+C30  +3.3V CLK 2.2uF		
+P3  /BrainBoard MCU/TCK CLK /BrainBoard MCU/TDO +3.3V /BrainBoard MCU/TMS /BrainBoard MCU/RESET_MCU ? ? /BrainBoard MCU/TDI CLK CONN_5X2		
+C35  +3.3V CLK 0.1uF		
+C29  +3.3V CLK 0.1uF		
+*Sheet Name:/BrainBoard Bluetooth/
+U9  CLK ? ? ? RESET_BT ? ? ? ? ? +3.3V CLK UARTBT_TX UARTBT_RX UARTBT_CTS UARTBT_RTS ? ? /BrainBoard Bluetooth/STATUS ? /BrainBoard Bluetooth/STATUSn /BrainBoard Bluetooth/FACTORY ? ? CLK ? CLK CLK CLK ? ? ? ? ? ? BLUETOOTH-RN42		
+R26  /BrainBoard Bluetooth/FACTORY CLK 10K		
+P4  /BrainBoard Bluetooth/FACTORY BTRST		
+R24  N-000163 CLK 330		
+R25  N-000161 CLK 330		
+D1  /BrainBoard Bluetooth/STATUSn N-000163 RED		
+D2  /BrainBoard Bluetooth/STATUS N-000161 GREEN		
+*Sheet Name:/BrainBoard Power/
+U12  CLK -3.3V -3.3V N-000171 -2.5V TPS72325		
+U11  +3.3V CLK +3.3V N-000170 +2.5V TPS73225		
+C38  N-000172 N-000173 1uF		
+P6  -3.3V -3V3		
+C37  +3.3V CLK 1uF		
+C36  +3.3V CLK 10uF		
+U10  -3.3V +3.3V N-000173 CLK N-000172 TPS60403		
+C40  -3.3V CLK 1uF		
+C39  -3.3V CLK 10uF		
+C41  +3.3V CLK 1uF		
+C47  N-000171 CLK 0.01uF		
+C42  N-000170 CLK 0.01uF		
+C44  +2.5V CLK 2.2uF		
+C43  +2.5V CLK 10uF		
+C49  -2.5V CLK 2.2uF		
+C48  -2.5V CLK 10uF		
+P8  +2.5V +2V5		
+P9  -2.5V -2V5		
+C46  -3.3V CLK 1uF		
+C45  +2.5V -2.5V 0.1uF		
+*Sheet Name:/BrainBoard AFE/
+U4  /BrainBoard AFE/SRB1 AIN8P /BrainBoard AFE/SRB1 AIN7P /BrainBoard AFE/SRB1 AIN6P /BrainBoard AFE/SRB1 AIN5P /BrainBoard AFE/SRB1 AIN4P /BrainBoard AFE/SRB1 AIN3P AIN2N AIN2N AIN1N AIN1N /BrainBoard AFE/SRB1 /BrainBoard AFE/SRB2 +2.5V -2.5V +2.5V +2.5V -2.5V /BrainBoard AFE/VREFP -2.5V /BrainBoard AFE/VCAP4 ? /BrainBoard AFE/VCAP1 ? /BrainBoard AFE/VCAP2 CLK -2.5V CLK MOSI /PWDN /RESET CLK START /CS SCLK CLK ? MISO ? ? ? /DRDY +3.3V CLK +3.3V CLK CLKSEL -2.5V +2.5V /BrainBoard AFE/VCAP3 +2.5V -2.5V -2.5V +2.5V ? BIASINV BIAS BIAS ? ADS1299		
+U3  SHIELD SHIELD BIAS -2.5V N-000176 /BrainBoard AFE/SRB1 /BrainBoard AFE/SRB1 +2.5V OPA2376		
+C4  /BrainBoard AFE/VCAP4 -2.5V 1uF		
+C5  /BrainBoard AFE/VCAP3 -2.5V 1uF		
+C6  /BrainBoard AFE/VCAP3 -2.5V 0.1uF		
+C7  /BrainBoard AFE/VCAP2 -2.5V 1uF		
+C8  /BrainBoard AFE/VCAP1 -2.5V 100uF		
+C3  -2.5V /BrainBoard AFE/VREFP 10uF		
+C9  +2.5V -2.5V 1uF		
+C11  +2.5V -2.5V 0.1uF		
+C13  +2.5V -2.5V 1uF		
+C15  +2.5V -2.5V 0.1uF		
+C10  +2.5V CLK 1uF		
+C12  +2.5V CLK 0.1uF		
+C14  +3.3V CLK 1uF		
+C16  +3.3V CLK 0.1uF		
+R7  +3.3V /CS 10K		
+R8  +3.3V /PWDN 10K		
+R10  +3.3V /RESET 10K		
+R9  BIAS BIASINV 499K,0.1%		
+C2  BIASINV BIAS 1nF		
+SJ3  BIAS BIASINV SOLDERJUMPERNO		
+SJ1  /BrainBoard AFE/SRB2 N-000176 REF SOLDERJUMPER_2WAYPASTE2&3		
+C1  +2.5V CLK 0.1uF		
+C50  -2.5V CLK 0.1uF		
+R27  +3.3V CLKSEL 10K		
+*Sheet Name:/BrainBoard IMU/
+U13  CLK ? ? +3.3V /BrainBoard IMU/AD0 /BrainBoard IMU/REGOUT CLK IMU_INT +3.3V CLK ? /BrainBoard IMU/CPOUT ? ? I2C2_SCL I2C2_SDA MPU6050		
+C54  +3.3V CLK 0.01uF		
+C51  +3.3V CLK 0.1uF		
+C52  /BrainBoard IMU/REGOUT CLK 0.1uF		
+C53  /BrainBoard IMU/CPOUT CLK 2.2nF		
+SJ9  +3.3V /BrainBoard IMU/AD0 CLK I2C Address Select (2&3NC)		
+
+.end

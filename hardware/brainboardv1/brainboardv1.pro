@@ -1,7 +1,12 @@
-update=9/30/2013 2:20:42 PM
-last_client=eeschema
+update=12/25/2013 9:50:01 PM
+last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -44,3 +49,56 @@ LibName30=valves
 LibName31=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/brainboardv0/brainboard_customparts
 LibName32=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/brainboardv0/SparkFun-RF
 LibName33=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/brainboardv0/SparkFun-Passives
+LibName34=mpu-6050-bob-cache
+LibName35=C:/Users/GrahamKelly/Dropbox/brainboard/brainboardv0/SparkFun-Passives
+LibName36=C:/Users/GrahamKelly/Dropbox/brainboard/brainboardv0/SparkFun-RF
+LibName37=C:/Users/GrahamKelly/Dropbox/brainboard/brainboardv0/brainboard_customparts
+[pcbnew]
+version=1
+LastNetListRead=brainboardv1.net
+UseCmpFile=1
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=0.899160000000
+PadSizeV=0.238760000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.000000000000
+ModuleTextSizeH=1.000000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.152400000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.100000000000
+ModuleOutlineThickness=0.150000000000
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=smd_capacitors
+LibName7=smd_resistors
+LibName8=smd_crystal&oscillator
+LibName9=smd_dil
+LibName10=smd_transistors
+LibName11=libcms
+LibName12=display
+LibName13=led
+LibName14=dip_sockets
+LibName15=pga_sockets
+LibName16=valves
+LibName17=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/mod_pin_strip/w_pin_strip
+LibName18=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/brainboardv0/brainboard_customparts
+LibName19=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/brainboardv0/SparkFun-Passives
+LibName20=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/brainboardv0/SparkFun-RF
+LibName21=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/mod_smd_strip/w_smd_strip
+LibName22=C:/Documents and Settings/Graham Kelly/My Documents/Dropbox/brainboard/mod_smd_qfn/w_smd_qfn
+LibName23=C:/Users/GrahamKelly/Dropbox/brainboard/mod_pin_strip/w_pin_strip
+LibName24=C:/Users/GrahamKelly/Dropbox/brainboard/mod_smd_qfn/w_smd_qfn
+LibName25=C:/Users/GrahamKelly/Dropbox/brainboard/mod_smd_strip/w_smd_strip
+LibName26=C:/Users/GrahamKelly/Dropbox/brainboard/brainboardv0/brainboard_customparts
+LibName27=C:/Users/GrahamKelly/Dropbox/brainboard/brainboardv0/SparkFun-Passives
+LibName28=C:/Users/GrahamKelly/Dropbox/brainboard/brainboardv0/SparkFun-RF
