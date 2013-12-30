@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "BrainBoard: Open-Source Hardware for Wearable BCI"
-Date "27 dec 2013"
+Date "30 dec 2013"
 Rev "0"
 Comp "Virginia Commonwealth University"
 Comment1 ""
@@ -694,7 +694,6 @@ F 7 "$0.70/1 $0.475/10 $0.2876/50" V 8500 6100 60  0001 C CNN "Pricing 1"
 $EndComp
 Text Label 7800 6250 0    51   ~ 0
 CH1ELEC_N
-NoConn ~ 6550 2900
 Text Label 7800 5700 0    51   ~ 0
 CH2ELEC_N
 $Comp
@@ -965,4 +964,21 @@ Connection ~ 9200 5900
 Wire Wire Line
 	8800 6650 8800 6550
 Connection ~ 9200 6450
+Wire Wire Line
+	6550 2900 6550 2400
+Wire Wire Line
+	6550 2400 6700 2400
+Wire Wire Line
+	6700 2400 6700 2550
+$Comp
+L AGND #PWR029
+U 1 1 52C1B584
+P 6700 2550
+F 0 "#PWR029" H 6700 2550 40  0001 C CNN
+F 1 "AGND" H 6700 2480 50  0000 C CNN
+F 2 "" H 6700 2550 60  0000 C CNN
+F 3 "" H 6700 2550 60  0000 C CNN
+	1    6700 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

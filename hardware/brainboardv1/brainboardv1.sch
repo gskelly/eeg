@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "BrainBoard: Open-Source Hardware for Wearable BCI"
-Date "27 dec 2013"
+Date "30 dec 2013"
 Rev "0"
 Comp "Virginia Commonwealth University"
 Comment1 ""
@@ -490,7 +490,7 @@ NoConn ~ 7050 2600
 NoConn ~ 8950 2300
 NoConn ~ 8950 2600
 Text Notes 8800 4500 0    51   ~ 0
-UARTBT on BBB UART1,\nUARTUC on BBB UART4
+UARTBT on BBB UART1 (w/ HW flow control),\nUARTUC on BBB UART4 (no flow control)
 NoConn ~ 8400 4600
 Connection ~ 5900 6700
 Wire Wire Line

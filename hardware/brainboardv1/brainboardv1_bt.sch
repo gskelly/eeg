@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "BrainBoard: Open-Source Hardware for Wearable BCI"
-Date "27 dec 2013"
+Date "30 dec 2013"
 Rev "0"
 Comp "Virginia Commonwealth University"
 Comment1 ""
@@ -63,10 +63,10 @@ F 7 "$19.14/1 $15.95/10" H 5650 3700 60  0001 C CNN "Pricing 1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DGND #PWR034
+L DGND #PWR035
 U 1 1 5244B496
 P 6600 5000
-F 0 "#PWR034" H 6600 5000 40  0001 C CNN
+F 0 "#PWR035" H 6600 5000 40  0001 C CNN
 F 1 "DGND" H 6600 4930 40  0000 C CNN
 F 2 "" H 6600 5000 60  0000 C CNN
 F 3 "" H 6600 5000 60  0000 C CNN
@@ -246,10 +246,10 @@ STATUS
 Text Label 6550 3500 0    51   ~ 0
 STATUSn
 $Comp
-L +3.3V #PWR035
+L +3.3V #PWR036
 U 1 1 528FA0C8
 P 4700 2400
-F 0 "#PWR035" H 4700 2360 30  0001 C CNN
+F 0 "#PWR036" H 4700 2360 30  0001 C CNN
 F 1 "+3.3V" H 4700 2510 30  0000 C CNN
 F 2 "" H 4700 2400 60  0000 C CNN
 F 3 "" H 4700 2400 60  0000 C CNN
