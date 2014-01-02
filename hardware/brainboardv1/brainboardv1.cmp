@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 12/23/2013 2:11:35 PM
+Cmp-Mod V01 Created by PcbNew date = 12/30/2013 4:34:44 PM
 
 BeginCmp
 TimeStamp = /5249C055/5249C704;
@@ -809,7 +809,7 @@ BeginCmp
 TimeStamp = /528E6EF5/528E7785;
 Reference = U13;
 ValeurCmp = MPU6050;
-IdModule  = QFN24-4x4;
+IdModule  = MPU60X0;
 EndCmp
 
 EndListe
