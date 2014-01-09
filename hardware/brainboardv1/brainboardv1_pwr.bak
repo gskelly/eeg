@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "BrainBoard: Open-Source Hardware for Wearable BCI"
-Date "30 dec 2013"
+Date "9 jan 2014"
 Rev "0"
 Comp "Virginia Commonwealth University"
 Comment1 ""
@@ -69,19 +69,6 @@ F 3 "~" H 6150 2850 60  0000 C CNN
 	1    6150 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 3000 5050 3000
-Wire Wire Line
-	5050 4300 5750 4300
-Wire Wire Line
-	3000 2700 5700 2700
-Wire Wire Line
-	3450 2600 3450 3000
-Wire Wire Line
-	5700 2850 5650 2850
-Wire Wire Line
-	5650 2850 5650 2700
-Connection ~ 5650 2700
 $Comp
 L C C38
 U 1 1 528EA3E4
@@ -93,28 +80,17 @@ F 3 "~" H 3450 3300 60  0000 C CNN
 	1    3450 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 3100 3500 3100
-Wire Wire Line
-	3450 3500 3500 3500
-Wire Wire Line
-	4400 3500 4400 3600
-Wire Wire Line
-	6200 4950 6200 4750
-Wire Wire Line
-	6150 3150 6150 3350
 $Comp
 L +3.3V #PWR037
 U 1 1 528EA597
-P 3450 2600
-F 0 "#PWR037" H 3450 2560 30  0001 C CNN
-F 1 "+3.3V" H 3450 2710 30  0000 C CNN
-F 2 "" H 3450 2600 60  0000 C CNN
-F 3 "" H 3450 2600 60  0000 C CNN
-	1    3450 2600
+P 3450 2650
+F 0 "#PWR037" H 3450 2610 30  0001 C CNN
+F 1 "+3.3V" H 3450 2760 30  0000 C CNN
+F 2 "" H 3450 2650 60  0000 C CNN
+F 3 "" H 3450 2650 60  0000 C CNN
+	1    3450 2650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3450 2700
 $Comp
 L TST P6
 U 1 1 528EA5B8
@@ -126,7 +102,6 @@ F 3 "~" H 5400 4300 60  0000 C CNN
 	1    5400 4300
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 4300
 $Comp
 L C C37
 U 1 1 528EA5CE
@@ -149,16 +124,6 @@ F 3 "~" H 2850 3300 60  0000 C CNN
 	1    2850 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 3100 3150 3100
-Wire Wire Line
-	3000 3100 3000 2700
-Connection ~ 3000 3100
-Wire Wire Line
-	2850 3500 3150 3500
-Wire Wire Line
-	3000 3500 3000 3600
-Connection ~ 3000 3500
 $Comp
 L AGND #PWR038
 U 1 1 528EA659
@@ -214,8 +179,6 @@ F 3 "~" H 3950 3350 60  0000 C CNN
 	1    3950 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 3000 3500 3000
 $Comp
 L C C40
 U 1 1 528EA69D
@@ -238,16 +201,6 @@ F 3 "~" H 4600 3300 60  0000 C CNN
 	1    4600 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 3100 4900 3100
-Wire Wire Line
-	4750 3100 4750 3000
-Connection ~ 4750 3100
-Wire Wire Line
-	4600 3500 4900 3500
-Wire Wire Line
-	4750 3500 4750 3600
-Connection ~ 4750 3500
 $Comp
 L AGND #PWR042
 U 1 1 528EA6AF
@@ -259,7 +212,6 @@ F 3 "" H 4750 3600 60  0000 C CNN
 	1    4750 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 4750 3000
 $Comp
 L C C41
 U 1 1 528EA9C6
@@ -271,7 +223,6 @@ F 3 "~" H 5400 2900 60  0000 C CNN
 	1    5400 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 2700
 $Comp
 L AGND #PWR043
 U 1 1 528EA9CC
@@ -283,8 +234,6 @@ F 3 "" H 5400 3350 60  0000 C CNN
 	1    5400 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 3350 5400 3100
 $Comp
 L C C47
 U 1 1 528EA9FD
@@ -296,8 +245,6 @@ F 3 "~" H 6900 4650 60  0000 C CNN
 	1    6900 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 4450 6650 4450
 $Comp
 L AGND #PWR044
 U 1 1 528EAA8D
@@ -309,8 +256,6 @@ F 3 "" H 6900 4950 60  0000 C CNN
 	1    6900 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 4850 6900 4950
 $Comp
 L C C42
 U 1 1 528EAAB6
@@ -333,10 +278,6 @@ F 3 "" H 6850 3350 60  0000 C CNN
 	1    6850 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 3250 6850 3350
-Wire Wire Line
-	6600 2850 6850 2850
 $Comp
 L C C44
 U 1 1 528EAB21
@@ -359,16 +300,6 @@ F 3 "~" H 7200 3050 60  0000 C CNN
 	1    7200 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 2850 7500 2850
-Wire Wire Line
-	7350 2700 7350 2850
-Connection ~ 7350 2850
-Wire Wire Line
-	7200 3250 7500 3250
-Wire Wire Line
-	7350 3250 7350 3350
-Connection ~ 7350 3250
 $Comp
 L AGND #PWR046
 U 1 1 528EAB33
@@ -402,16 +333,6 @@ F 3 "~" H 7200 4650 60  0000 C CNN
 	1    7200 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 4450 7500 4450
-Wire Wire Line
-	7350 4300 7350 4450
-Connection ~ 7350 4450
-Wire Wire Line
-	7200 4850 7500 4850
-Wire Wire Line
-	7350 4850 7350 4950
-Connection ~ 7350 4850
 $Comp
 L AGND #PWR047
 U 1 1 528EAB4B
@@ -423,12 +344,6 @@ F 3 "" H 7350 4950 60  0000 C CNN
 	1    7350 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 4300 8000 4300
-Wire Wire Line
-	6600 2700 8000 2700
-Connection ~ 7350 2700
-Connection ~ 7350 4300
 $Comp
 L +2.5V #PWR048
 U 1 1 528EAC3C
@@ -440,8 +355,6 @@ F 3 "" H 7700 2600 60  0000 C CNN
 	1    7700 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 2700 7700 2600
 $Comp
 L TST P8
 U 1 1 528EAC7F
@@ -486,13 +399,6 @@ F 3 "" H 5400 4950 60  0000 C CNN
 	1    5400 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 4850 5400 4950
-Wire Wire Line
-	5400 4450 5400 4300
-Connection ~ 5700 4300
-Wire Wire Line
-	5050 3000 5050 4300
 $Comp
 L -2.5V #PWR050
 U 1 1 528EB464
@@ -504,8 +410,6 @@ F 3 "" H 7700 4200 60  0000 C CNN
 	1    7700 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 4300 7700 4200
 $Comp
 L -3.3V #PWR051
 U 1 1 528EB4C0
@@ -517,7 +421,6 @@ F 3 "" H 5050 3000 60  0000 C CNN
 	1    5050 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5050 3000
 $Comp
 L C C45
 U 1 1 528EB7E5
@@ -529,16 +432,6 @@ F 3 "~" H 8000 3400 60  0000 C CNN
 	1    8000 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 2700 8000 3200
-Connection ~ 7700 2700
-Wire Wire Line
-	8000 4300 8000 3600
-Connection ~ 7700 4300
-Wire Wire Line
-	5700 4450 5750 4450
-Wire Wire Line
-	5700 4450 5700 4300
 $Comp
 L AGND #PWR052
 U 1 1 52B07216
@@ -583,10 +476,6 @@ F 3 "" H 4600 4850 60  0000 C CNN
 	1    4600 4850
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4300 4800 4300 4950
-Wire Wire Line
-	4600 4850 4600 4750
 $Comp
 L +3.3V #PWR056
 U 1 1 52B07230
@@ -598,9 +487,526 @@ F 3 "" H 4600 4750 60  0000 C CNN
 	1    4600 4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L MAX17043 U14
+U 1 1 52CF158C
+P 4650 6550
+F 0 "U14" H 4650 6200 60  0000 C CNN
+F 1 "MAX17043" H 4650 6900 60  0000 C CNN
+F 2 "~" H 4700 6200 60  0000 C CNN
+F 3 "~" H 4700 6200 60  0000 C CNN
+	1    4650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R27
+U 1 1 52CF159B
+P 3350 6150
+F 0 "R27" V 3430 6150 40  0000 C CNN
+F 1 "180" V 3357 6151 40  0000 C CNN
+F 2 "~" V 3280 6150 30  0000 C CNN
+F 3 "~" H 3350 6150 30  0000 C CNN
+	1    3350 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R28
+U 1 1 52CF15A8
+P 3750 6150
+F 0 "R28" V 3830 6150 40  0000 C CNN
+F 1 "1k" V 3757 6151 40  0000 C CNN
+F 2 "~" V 3680 6150 30  0000 C CNN
+F 3 "~" H 3750 6150 30  0000 C CNN
+	1    3750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C57
+U 1 1 52CF15C6
+P 3350 6850
+F 0 "C57" H 3350 6950 40  0000 L CNN
+F 1 "0.01uF" H 3356 6765 40  0000 L CNN
+F 2 "~" H 3388 6700 30  0000 C CNN
+F 3 "~" H 3350 6850 60  0000 C CNN
+	1    3350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR057
+U 1 1 52CF15EA
+P 3350 7150
+F 0 "#PWR057" H 3350 7150 40  0001 C CNN
+F 1 "AGND" H 3350 7080 50  0000 C CNN
+F 2 "" H 3350 7150 60  0000 C CNN
+F 3 "" H 3350 7150 60  0000 C CNN
+	1    3350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C58
+U 1 1 52CF15CC
+P 3750 6850
+F 0 "C58" H 3750 6950 40  0000 L CNN
+F 1 "1uF" H 3756 6765 40  0000 L CNN
+F 2 "~" H 3788 6700 30  0000 C CNN
+F 3 "~" H 3750 6850 60  0000 C CNN
+	1    3750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG058
+U 1 1 52CF195D
+P 3550 6500
+F 0 "#FLG058" H 3550 6595 30  0001 C CNN
+F 1 "PWR_FLAG" H 3550 6680 30  0000 C CNN
+F 2 "" H 3550 6500 60  0000 C CNN
+F 3 "" H 3550 6500 60  0000 C CNN
+	1    3550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR059
+U 1 1 52CF1AD0
+P 5350 7150
+F 0 "#PWR059" H 5350 7150 40  0001 C CNN
+F 1 "AGND" H 5350 7080 50  0000 C CNN
+F 2 "" H 5350 7150 60  0000 C CNN
+F 3 "" H 5350 7150 60  0000 C CNN
+	1    5350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P14
+U 1 1 52CF1BE6
+P 5400 6150
+F 0 "P14" H 5400 6450 40  0000 C CNN
+F 1 "~ALRT" H 5400 6400 30  0000 C CNN
+F 2 "~" H 5400 6150 60  0000 C CNN
+F 3 "~" H 5400 6150 60  0000 C CNN
+	1    5400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P13
+U 1 1 52CF1DA0
+P 3050 5800
+F 0 "P13" H 3050 6100 40  0000 C CNN
+F 1 "VBAT" H 3050 6050 30  0000 C CNN
+F 2 "~" H 3050 5800 60  0000 C CNN
+F 3 "~" H 3050 5800 60  0000 C CNN
+	1    3050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR060
+U 1 1 52CF1E85
+P 2700 5800
+F 0 "#PWR060" H 2700 5750 20  0001 C CNN
+F 1 "+BATT" H 2700 5900 30  0000 C CNN
+F 2 "~" H 2700 5800 60  0000 C CNN
+F 3 "~" H 2700 5800 60  0000 C CNN
+	1    2700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 52CF1E92
+P 2800 6850
+F 0 "R10" V 2880 6850 40  0000 C CNN
+F 1 "75k" V 2807 6851 40  0000 C CNN
+F 2 "~" V 2730 6850 30  0000 C CNN
+F 3 "~" H 2800 6850 30  0000 C CNN
+	1    2800 6850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L THERMISTOR TH1
+U 1 1 52CF1EA6
+P 3050 6850
+F 0 "TH1" V 3150 6900 50  0000 C CNN
+F 1 "10k NTC" V 2950 6850 50  0000 C CNN
+F 2 "~" H 3050 6850 60  0000 C CNN
+F 3 "~" H 3050 6850 60  0000 C CNN
+	1    3050 6850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR061
+U 1 1 52CF2077
+P 3050 7200
+F 0 "#PWR061" H 3050 7200 40  0001 C CNN
+F 1 "AGND" H 3050 7130 50  0000 C CNN
+F 2 "" H 3050 7200 60  0000 C CNN
+F 3 "" H 3050 7200 60  0000 C CNN
+	1    3050 7200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR062
+U 1 1 52CF22AF
+P 2550 6750
+F 0 "#PWR062" H 2550 6750 40  0001 C CNN
+F 1 "AGND" H 2550 6680 50  0000 C CNN
+F 2 "" H 2550 6750 60  0000 C CNN
+F 3 "" H 2550 6750 60  0000 C CNN
+	1    2550 6750
+	1    0    0    -1  
+$EndComp
+Text Label 5650 6650 2    51   ~ 0
+~ALRT
+Text Notes 5700 5600 2    60   ~ 0
+Fuel gauge and BBB battery connection
+$Comp
+L CONN_4 P12
+U 1 1 52CF2D66
+P 2000 6500
+F 0 "P12" V 1950 6500 50  0000 C CNN
+F 1 "CONN_4" V 2050 6500 50  0000 C CNN
+F 2 "~" H 2000 6500 60  0000 C CNN
+F 3 "~" H 2000 6500 60  0000 C CNN
+	1    2000 6500
+	-1   0    0    -1  
+$EndComp
+Text Label 2400 6350 0    60   ~ 0
+BAT
+Text Label 2400 6450 0    60   ~ 0
+SENSE
+Text Label 2400 6550 0    60   ~ 0
+TS
+Text Label 2400 6650 0    60   ~ 0
+GND
+$Comp
+L CONN_2 P11
+U 1 1 52CF3B6F
+P 2000 5950
+F 0 "P11" V 1950 5950 40  0000 C CNN
+F 1 "JST" V 2050 5950 40  0000 C CNN
+F 2 "~" H 2000 5950 60  0000 C CNN
+F 3 "~" H 2000 5950 60  0000 C CNN
+	1    2000 5950
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	4000 4800 4300 4800
+	4400 3000 4750 3000
+Wire Wire Line
+	4750 3000 5050 3000
+Wire Wire Line
+	5050 4300 5400 4300
+Wire Wire Line
+	5400 4300 5700 4300
+Wire Wire Line
+	5700 4300 5750 4300
+Wire Wire Line
+	3000 2700 3450 2700
+Wire Wire Line
+	3450 2700 5400 2700
+Wire Wire Line
+	5400 2700 5650 2700
+Wire Wire Line
+	5650 2700 5700 2700
+Wire Wire Line
+	3450 2650 3450 2700
+Wire Wire Line
+	3450 2700 3450 3000
+Wire Wire Line
+	5700 2850 5650 2850
+Wire Wire Line
+	5650 2850 5650 2700
+Connection ~ 5650 2700
+Wire Wire Line
+	3450 3100 3500 3100
+Wire Wire Line
+	3450 3500 3500 3500
+Wire Wire Line
+	4400 3500 4400 3600
+Wire Wire Line
+	6200 4950 6200 4750
+Wire Wire Line
+	6150 3150 6150 3350
+Connection ~ 3450 2700
+Connection ~ 5400 4300
+Wire Wire Line
+	2850 3100 3000 3100
+Wire Wire Line
+	3000 3100 3150 3100
+Wire Wire Line
+	3000 3100 3000 2700
+Connection ~ 3000 3100
+Wire Wire Line
+	2850 3500 3000 3500
+Wire Wire Line
+	3000 3500 3150 3500
+Wire Wire Line
+	3000 3500 3000 3600
+Connection ~ 3000 3500
+Wire Wire Line
+	3450 3000 3500 3000
+Wire Wire Line
+	4600 3100 4750 3100
+Wire Wire Line
+	4750 3100 4900 3100
+Wire Wire Line
+	4750 3100 4750 3000
+Connection ~ 4750 3100
+Wire Wire Line
+	4600 3500 4750 3500
+Wire Wire Line
+	4750 3500 4900 3500
+Wire Wire Line
+	4750 3500 4750 3600
+Connection ~ 4750 3500
+Connection ~ 4750 3000
+Connection ~ 5400 2700
+Wire Wire Line
+	5400 3350 5400 3100
+Wire Wire Line
+	6900 4450 6650 4450
+Wire Wire Line
+	6900 4850 6900 4950
+Wire Wire Line
+	6850 3250 6850 3350
+Wire Wire Line
+	6600 2850 6850 2850
+Wire Wire Line
+	7200 2850 7350 2850
+Wire Wire Line
+	7350 2850 7500 2850
+Wire Wire Line
+	7350 2700 7350 2850
+Connection ~ 7350 2850
+Wire Wire Line
+	7200 3250 7350 3250
+Wire Wire Line
+	7350 3250 7500 3250
+Wire Wire Line
+	7350 3250 7350 3350
+Connection ~ 7350 3250
+Wire Wire Line
+	7200 4450 7350 4450
+Wire Wire Line
+	7350 4450 7500 4450
+Wire Wire Line
+	7350 4300 7350 4450
+Connection ~ 7350 4450
+Wire Wire Line
+	7200 4850 7350 4850
+Wire Wire Line
+	7350 4850 7500 4850
+Wire Wire Line
+	7350 4850 7350 4950
+Connection ~ 7350 4850
+Wire Wire Line
+	6650 4300 7350 4300
+Wire Wire Line
+	7350 4300 7700 4300
+Wire Wire Line
+	7700 4300 8000 4300
+Wire Wire Line
+	6600 2700 7350 2700
+Wire Wire Line
+	7350 2700 7700 2700
+Wire Wire Line
+	7700 2700 8000 2700
+Connection ~ 7350 2700
+Connection ~ 7350 4300
+Wire Wire Line
+	7700 2700 7700 2600
+Wire Wire Line
+	5400 4850 5400 4950
+Wire Wire Line
+	5400 4450 5400 4300
+Connection ~ 5700 4300
+Wire Wire Line
+	5050 3000 5050 4300
+Wire Wire Line
+	7700 4300 7700 4200
+Connection ~ 5050 3000
+Wire Wire Line
+	8000 2700 8000 3200
+Connection ~ 7700 2700
+Wire Wire Line
+	8000 4300 8000 3600
+Connection ~ 7700 4300
+Wire Wire Line
+	5700 4450 5750 4450
+Wire Wire Line
+	5700 4450 5700 4300
+Wire Wire Line
+	4300 4800 4300 4950
+Wire Wire Line
+	4600 4850 4600 4750
+Wire Wire Line
+	4000 4800 4150 4800
+Wire Wire Line
+	4150 4800 4300 4800
 Wire Wire Line
 	4000 4800 4000 4950
 Connection ~ 4150 4800
+Wire Wire Line
+	3750 7100 3750 7050
+Wire Wire Line
+	3950 7100 3750 7100
+Wire Wire Line
+	3750 7100 3350 7100
+Wire Wire Line
+	3950 6350 3950 6650
+Wire Wire Line
+	3950 6650 3950 6750
+Wire Wire Line
+	3950 6750 3950 7100
+Wire Wire Line
+	3950 6750 4000 6750
+Wire Wire Line
+	3950 6650 4000 6650
+Connection ~ 3950 6750
+Wire Wire Line
+	3350 7050 3350 7100
+Wire Wire Line
+	3350 7100 3350 7150
+Connection ~ 3750 7100
+Connection ~ 3350 7100
+Wire Wire Line
+	4000 6450 3750 6450
+Wire Wire Line
+	3750 6400 3750 6450
+Wire Wire Line
+	3750 6450 3750 6650
+Wire Wire Line
+	3350 6400 3350 6550
+Wire Wire Line
+	3350 6550 3350 6650
+Wire Wire Line
+	3350 6550 3550 6550
+Wire Wire Line
+	3550 6550 4000 6550
+Wire Wire Line
+	4000 6350 3950 6350
+Connection ~ 3950 6650
+Connection ~ 3750 6450
+Connection ~ 3350 6550
+Wire Wire Line
+	5300 6550 5350 6550
+Wire Wire Line
+	5350 6550 5350 7150
+Wire Wire Line
+	5300 6650 5400 6650
+Wire Wire Line
+	5400 6650 5650 6650
+Wire Wire Line
+	5300 6350 5650 6350
+Wire Wire Line
+	5300 6450 5650 6450
+Wire Wire Line
+	5400 6150 5400 6650
+Connection ~ 5400 6650
+Wire Wire Line
+	3750 5850 3750 5900
+Wire Wire Line
+	2350 5850 2700 5850
+Wire Wire Line
+	2700 5850 3050 5850
+Wire Wire Line
+	3050 5850 3350 5850
+Wire Wire Line
+	3350 5850 3750 5850
+Wire Wire Line
+	3350 5900 3350 5850
+Connection ~ 3350 5850
+Connection ~ 2700 5850
+Wire Wire Line
+	3050 5800 3050 5850
+Connection ~ 3050 5850
+Wire Wire Line
+	3050 6550 3050 6600
+Wire Wire Line
+	2800 6550 2800 6600
+Connection ~ 2800 6550
+Wire Wire Line
+	3050 7100 3050 7150
+Wire Wire Line
+	3050 7150 3050 7200
+Wire Wire Line
+	3050 7150 2800 7150
+Wire Wire Line
+	2800 7150 2800 7100
+Connection ~ 3050 7150
+Wire Wire Line
+	2350 6650 2550 6650
+Wire Wire Line
+	2550 6650 2550 6750
+Wire Wire Line
+	2350 6450 2800 6450
+Wire Wire Line
+	2350 6550 2800 6550
+Wire Wire Line
+	2800 6550 3050 6550
+Wire Wire Line
+	2700 5800 2700 5850
+Wire Wire Line
+	2700 5850 2700 5900
+Wire Wire Line
+	2700 5900 2700 6350
+Connection ~ 2700 5900
+Wire Wire Line
+	2700 6350 2350 6350
+Wire Wire Line
+	2800 6450 2800 5900
+Wire Wire Line
+	2800 5900 2700 5900
+$Comp
+L AGND #PWR063
+U 1 1 52CF3BFE
+P 2550 6100
+F 0 "#PWR063" H 2550 6100 40  0001 C CNN
+F 1 "AGND" H 2550 6030 50  0000 C CNN
+F 2 "" H 2550 6100 60  0000 C CNN
+F 3 "" H 2550 6100 60  0000 C CNN
+	1    2550 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 6050 2550 6050
+Wire Wire Line
+	2550 6050 2550 6100
+Text Notes 1900 7100 0    60   ~ 0
+Connect SENSE to\nBAT directly at\nbattery terminal
+Wire Notes Line
+	1850 5450 1850 7350
+$Comp
+L +BATT #PWR064
+U 1 1 52CF4881
+P 4900 4750
+F 0 "#PWR064" H 4900 4700 20  0001 C CNN
+F 1 "+BATT" H 4900 4850 30  0000 C CNN
+F 2 "~" H 4900 4750 60  0000 C CNN
+F 3 "~" H 4900 4750 60  0000 C CNN
+	1    4900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG065
+U 1 1 52CF4887
+P 4900 4850
+F 0 "#FLG065" H 4900 4945 30  0001 C CNN
+F 1 "PWR_FLAG" H 4900 5030 30  0000 C CNN
+F 2 "" H 4900 4850 60  0000 C CNN
+F 3 "" H 4900 4850 60  0000 C CNN
+	1    4900 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 4750 4900 4850
+Text GLabel 5650 6350 2    51   BiDi ~ 0
+I2C2_SDA
+Text GLabel 5650 6450 2    51   Input ~ 0
+I2C2_SCL
+Wire Notes Line
+	1850 5450 6200 5450
+Wire Notes Line
+	6200 5450 6200 7350
+Wire Notes Line
+	6200 7350 1850 7350
+Wire Wire Line
+	3550 6500 3550 6550
+Connection ~ 3550 6550
 $EndSCHEMATC

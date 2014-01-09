@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 12/30/2013 4:34:44 PM
+Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 1/9/2014 4:54:06 PM
 
 BeginCmp
 TimeStamp = /5249C055/5249C704;
@@ -393,16 +393,30 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
+TimeStamp = /51DC88CE/52CF15C6;
+Reference = C57;
+ValeurCmp = 0.01uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DC88CE/52CF15CC;
+Reference = C58;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /51DC88CC/5244B49C;
 Reference = D1;
-ValeurCmp = RED;
+ValeurCmp = STAT;
 IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /51DC88CC/5244B49D;
 Reference = D2;
-ValeurCmp = GREEN;
+ValeurCmp = CONNECT;
 IdModule  = LED-0603;
 EndCmp
 
@@ -477,6 +491,34 @@ IdModule  = bb02-hp04;
 EndCmp
 
 BeginCmp
+TimeStamp = /51DC88CE/52CF3B6F;
+Reference = P11;
+ValeurCmp = JST;
+IdModule  = s2b-ph-sm4-tb;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DC88CE/52CF2D66;
+Reference = P12;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DC88CE/52CF1DA0;
+Reference = P13;
+ValeurCmp = VBAT;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DC88CE/52CF1BE6;
+Reference = P14;
+ValeurCmp = ~ALRT;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
 TimeStamp = /51DF24D3;
 Reference = R1;
 ValeurCmp = 4.7K;
@@ -537,6 +579,13 @@ TimeStamp = /5249C055/5249C6F7;
 Reference = R9;
 ValeurCmp = 499K,0.1%;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DC88CE/52CF1E92;
+Reference = R10;
+ValeurCmp = 75k;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -652,6 +701,20 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /51DC88CE/52CF159B;
+Reference = R27;
+ValeurCmp = 180;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DC88CE/52CF15A8;
+Reference = R28;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /51E4400F;
 Reference = S2;
 ValeurCmp = SMT_BUTTON;
@@ -719,6 +782,13 @@ TimeStamp = /528E6EF5/528E7C58;
 Reference = SJ9;
 ValeurCmp = I2C Address Select (2&3NC);
 IdModule  = SparkFun-Passives-SJ_3_PASTE2&3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DC88CE/52CF1EA6;
+Reference = TH1;
+ValeurCmp = 10k NTC;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -810,6 +880,13 @@ TimeStamp = /528E6EF5/528E7785;
 Reference = U13;
 ValeurCmp = MPU6050;
 IdModule  = MPU60X0;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DC88CE/52CF158C;
+Reference = U14;
+ValeurCmp = MAX17043;
+IdModule  = tdfn8;
 EndCmp
 
 EndListe

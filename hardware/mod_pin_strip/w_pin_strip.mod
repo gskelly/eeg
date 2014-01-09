@@ -1,0 +1,19850 @@
+PCBNEW-LibModule-V1  gio 17 ott 2013 21:22:46 CEST
+# encoding utf-8
+Units mm
+$INDEX
+PIN_SOCKET_19
+PIN_STRIP_19
+pin_socket_1
+pin_socket_10
+pin_socket_10x2
+pin_socket_10x2-90
+pin_socket_11
+pin_socket_11x2
+pin_socket_11x2-90
+pin_socket_12
+pin_socket_12x2
+pin_socket_12x2-90
+pin_socket_13
+pin_socket_13x2
+pin_socket_13x2-90
+pin_socket_14
+pin_socket_14x2
+pin_socket_14x2-90
+pin_socket_15
+pin_socket_15x2
+pin_socket_15x2-90
+pin_socket_16
+pin_socket_16x2
+pin_socket_16x2-90
+pin_socket_17
+pin_socket_17x2
+pin_socket_17x2-90
+pin_socket_18
+pin_socket_18x2
+pin_socket_18x2-90
+pin_socket_19x2
+pin_socket_19x2-90
+pin_socket_2
+pin_socket_20
+pin_socket_20x2
+pin_socket_20x2-90
+pin_socket_2x2
+pin_socket_2x2-90
+pin_socket_3
+pin_socket_3x2
+pin_socket_3x2-90
+pin_socket_4
+pin_socket_4x2
+pin_socket_4x2-90
+pin_socket_5
+pin_socket_5x2
+pin_socket_5x2-90
+pin_socket_6
+pin_socket_6x2
+pin_socket_6x2-90
+pin_socket_7
+pin_socket_7x2
+pin_socket_7x2-90
+pin_socket_8
+pin_socket_8x2
+pin_socket_8x2-90
+pin_socket_9
+pin_socket_9x2
+pin_socket_9x2-90
+pin_strip_1
+pin_strip_1-90
+pin_strip_10
+pin_strip_10-90
+pin_strip_10x2
+pin_strip_10x2-90
+pin_strip_11
+pin_strip_11-90
+pin_strip_11x2
+pin_strip_11x2-90
+pin_strip_12
+pin_strip_12-90
+pin_strip_12x2
+pin_strip_12x2-90
+pin_strip_13
+pin_strip_13-90
+pin_strip_13x2
+pin_strip_13x2-90
+pin_strip_14
+pin_strip_14-90
+pin_strip_14x2
+pin_strip_14x2-90
+pin_strip_15
+pin_strip_15-90
+pin_strip_15x2
+pin_strip_15x2-90
+pin_strip_16
+pin_strip_16-90
+pin_strip_16x2
+pin_strip_16x2-90
+pin_strip_17
+pin_strip_17-90
+pin_strip_17x2
+pin_strip_17x2-90
+pin_strip_18
+pin_strip_18-90
+pin_strip_18x2
+pin_strip_18x2-90
+pin_strip_19-90
+pin_strip_19x2
+pin_strip_19x2-90
+pin_strip_1x2-90
+pin_strip_2
+pin_strip_2-90
+pin_strip_20
+pin_strip_20-90
+pin_strip_20x2
+pin_strip_20x2-90
+pin_strip_2x2
+pin_strip_2x2-90
+pin_strip_3
+pin_strip_3-90
+pin_strip_3x2
+pin_strip_3x2-90
+pin_strip_4
+pin_strip_4-90
+pin_strip_4x2
+pin_strip_4x2-90
+pin_strip_5
+pin_strip_5-90
+pin_strip_5x2
+pin_strip_5x2-90
+pin_strip_6
+pin_strip_6-90
+pin_strip_6x2
+pin_strip_6x2-90
+pin_strip_7
+pin_strip_7-90
+pin_strip_7x2
+pin_strip_7x2-90
+pin_strip_8
+pin_strip_8-90
+pin_strip_8x2
+pin_strip_8x2-90
+pin_strip_9
+pin_strip_9-90
+pin_strip_9x2
+pin_strip_9x2-90
+$EndINDEX
+$MODULE PIN_SOCKET_19
+Po 0 0 0 15 4EF88F41 00000000 ~~
+Li PIN_SOCKET_19
+Cd Pin socket 19pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_19
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_19"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 24.13 1.27 -24.13 1.27 0.3048 21
+DS -24.13 -1.27 24.13 -1.27 0.3048 21
+DS 24.13 -1.27 24.13 1.27 0.3048 21
+DS -21.59 -1.27 -21.59 1.27 0.3048 21
+DS -24.13 1.27 -24.13 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 0
+$EndPAD
+$PAD
+Sh "19" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_19.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PIN_SOCKET_19
+$MODULE PIN_STRIP_19
+Po 0 0 0 15 4EF88F41 00000000 ~~
+Li PIN_STRIP_19
+Cd Pin strip 19pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_19
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_19"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 24.13 1.27 -24.13 1.27 0.3048 21
+DS -24.13 -1.27 24.13 -1.27 0.3048 21
+DS 24.13 -1.27 24.13 1.27 0.3048 21
+DS -21.59 -1.27 -21.59 1.27 0.3048 21
+DS -24.13 1.27 -24.13 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 0
+$EndPAD
+$PAD
+Sh "19" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_19.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PIN_STRIP_19
+$MODULE pin_socket_1
+Po 0 0 0 15 4B90E035 00000000 ~~
+Li pin_socket_1
+Cd Pin socket 1pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_1
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_1"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 1.27 1.27 -1.27 1.27 0.3048 21
+DS -1.27 -1.27 1.27 -1.27 0.3048 21
+DS -1.27 1.27 -1.27 -1.27 0.3048 21
+DS 1.27 -1.27 1.27 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_1
+$MODULE pin_socket_10
+Po 0 0 0 15 4B90DB5D 00000000 ~~
+Li pin_socket_10
+Cd Pin socket 10pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_10"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -10.16 -1.27 -10.16 1.27 0.3048 21
+DS -12.7 -1.27 12.7 -1.27 0.3048 21
+DS 12.7 -1.27 12.7 1.27 0.3048 21
+DS 12.7 1.27 -12.7 1.27 0.3048 21
+DS -12.7 1.27 -12.7 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_10.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_10
+$MODULE pin_socket_10x2
+Po 0 0 0 15 4B90DBE1 00000000 ~~
+Li pin_socket_10x2
+Cd Pin socket 10x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_10x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -12.7 0 -10.16 0 0.3048 21
+DS -10.16 0 -10.16 2.54 0.3048 21
+DS 12.7 -2.54 -12.7 -2.54 0.3048 21
+DS -12.7 -2.54 -12.7 2.54 0.3048 21
+DS -12.7 2.54 12.7 2.54 0.3048 21
+DS 12.7 2.54 12.7 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_10x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_10x2
+$MODULE pin_socket_10x2-90
+Po 0 0 0 15 52603203 00000000 ~~
+Li pin_socket_10x2-90
+Cd Pin socket 10x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_10x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -13 -2 13 -2 0.3048 21
+DS 13 -2 13 6.5 0.3048 21
+DS -13 6.5 13 6.5 0.3048 21
+DS -13 0 -10.16 0 0.3048 21
+DS -10.16 0 -10.16 6.5 0.3048 21
+DS -13 -2 -13 6.5 0.3048 21
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_10x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_10x2-90
+$MODULE pin_socket_11
+Po 0 0 0 15 4EF88ECC 00000000 ~~
+Li pin_socket_11
+Cd Pin socket 11pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_11
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_11"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -13.97 -1.27 13.97 -1.27 0.3048 21
+DS 13.97 -1.27 13.97 1.27 0.3048 21
+DS 13.97 1.27 -13.97 1.27 0.3048 21
+DS -11.43 -1.27 -11.43 1.27 0.3048 21
+DS -13.97 1.27 -13.97 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_11.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_11
+$MODULE pin_socket_11x2
+Po 0 0 0 15 4F09A63C 00000000 ~~
+Li pin_socket_11x2
+Cd Pin socket 11x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_11x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 13.97 2.54 -13.97 2.54 0.3048 21
+DS -13.97 -2.54 13.97 -2.54 0.3048 21
+DS -13.97 0 -11.43 0 0.3048 21
+DS -11.43 0 -11.43 2.54 0.3048 21
+DS -13.97 -2.54 -13.97 2.54 0.3048 21
+DS 13.97 2.54 13.97 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_11x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_11x2
+$MODULE pin_socket_11x2-90
+Po 0 0 0 15 5260327A 00000000 ~~
+Li pin_socket_11x2-90
+Cd Pin socket 11x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_11x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -14.3 -2 14.3 -2 0.3048 21
+DS 14.3 -2 14.3 6.5 0.3048 21
+DS -14.3 6.5 14.3 6.5 0.3048 21
+DS -14.3 0 -11.43 0 0.3048 21
+DS -11.43 0 -11.43 6.5 0.3048 21
+DS -14.3 -2 -14.3 6.5 0.3048 21
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_11x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_11x2-90
+$MODULE pin_socket_12
+Po 0 0 0 15 4EF8909E 00000000 ~~
+Li pin_socket_12
+Cd Pin socket 12pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_12
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_12"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 15.24 1.27 -15.24 1.27 0.3048 21
+DS -15.24 -1.27 15.24 -1.27 0.3048 21
+DS 15.24 -1.27 15.24 1.27 0.3048 21
+DS -12.7 -1.27 -12.7 1.27 0.3048 21
+DS -15.24 1.27 -15.24 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_12.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_12
+$MODULE pin_socket_12x2
+Po 0 0 0 15 4F09A699 00000000 ~~
+Li pin_socket_12x2
+Cd Pin socket 12x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_12x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 15.24 2.54 -15.24 2.54 0.3048 21
+DS -15.24 -2.54 15.24 -2.54 0.3048 21
+DS -15.24 0 -12.7 0 0.3048 21
+DS -12.7 0 -12.7 2.54 0.3048 21
+DS -15.24 -2.54 -15.24 2.54 0.3048 21
+DS 15.24 2.54 15.24 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_12x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_12x2
+$MODULE pin_socket_12x2-90
+Po 0 0 0 15 526032CE 00000000 ~~
+Li pin_socket_12x2-90
+Cd Pin socket 12x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_12x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -15.5 -2 15.5 -2 0.3048 21
+DS 15.5 -2 15.5 6.5 0.3048 21
+DS -15.5 6.5 15.5 6.5 0.3048 21
+DS -15.5 0 -12.7 0 0.3048 21
+DS -12.7 0 -12.7 6.5 0.3048 21
+DS -15.5 -2 -15.5 6.5 0.3048 21
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_12x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_12x2-90
+$MODULE pin_socket_13
+Po 0 0 0 15 4EF89075 00000000 ~~
+Li pin_socket_13
+Cd Pin socket 13pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_13
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_13"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 16.51 1.27 -16.51 1.27 0.3048 21
+DS -16.51 -1.27 16.51 -1.27 0.3048 21
+DS 16.51 -1.27 16.51 1.27 0.3048 21
+DS -13.97 -1.27 -13.97 1.27 0.3048 21
+DS -16.51 1.27 -16.51 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_13.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_13
+$MODULE pin_socket_13x2
+Po 0 0 0 15 4F09A6D6 00000000 ~~
+Li pin_socket_13x2
+Cd Pin socket 13x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_13x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 16.51 2.54 -16.51 2.54 0.3048 21
+DS -16.51 -2.54 16.51 -2.54 0.3048 21
+DS -16.51 0 -13.97 0 0.3048 21
+DS -13.97 0 -13.97 2.54 0.3048 21
+DS -16.51 -2.54 -16.51 2.54 0.3048 21
+DS 16.51 2.54 16.51 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_13x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_13x2
+$MODULE pin_socket_13x2-90
+Po 0 0 0 15 526033A4 00000000 ~~
+Li pin_socket_13x2-90
+Cd Pin socket 13x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_13x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -16.8 -2 16.8 -2 0.3048 21
+DS 16.8 -2 16.8 6.5 0.3048 21
+DS -16.8 6.5 16.8 6.5 0.3048 21
+DS -16.8 0 -13.97 0 0.3048 21
+DS -13.97 0 -13.97 6.5 0.3048 21
+DS -16.8 -2 -16.8 6.5 0.3048 21
+$PAD
+Sh "26" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -6.185
+$EndPAD
+$PAD
+Sh "25" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -3.645
+$EndPAD
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_13x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_13x2-90
+$MODULE pin_socket_14
+Po 0 0 0 15 4EF8904D 00000000 ~~
+Li pin_socket_14
+Cd Pin socket 14pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_14
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_14"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 17.78 1.27 -17.78 1.27 0.3048 21
+DS -17.78 -1.27 17.78 -1.27 0.3048 21
+DS 17.78 -1.27 17.78 1.27 0.3048 21
+DS -15.24 -1.27 -15.24 1.27 0.3048 21
+DS -17.78 1.27 -17.78 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_14.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_14
+$MODULE pin_socket_14x2
+Po 0 0 0 15 4F09A704 00000000 ~~
+Li pin_socket_14x2
+Cd Pin socket 14x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_14x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 17.78 2.54 -17.78 2.54 0.3048 21
+DS -17.78 -2.54 17.78 -2.54 0.3048 21
+DS -17.78 0 -15.24 0 0.3048 21
+DS -15.24 0 -15.24 2.54 0.3048 21
+DS -17.78 -2.54 -17.78 2.54 0.3048 21
+DS 17.78 2.54 17.78 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_14x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_14x2
+$MODULE pin_socket_14x2-90
+Po 0 0 0 15 5260350E 00000000 ~~
+Li pin_socket_14x2-90
+Cd Pin socket 14x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_14x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -18.1 -2 18.1 -2 0.3048 21
+DS 18.1 -2 18.1 6.5 0.3048 21
+DS -18.1 6.5 18.1 6.5 0.3048 21
+DS -18.1 0 -15.24 0 0.3048 21
+DS -15.24 0 -15.24 6.5 0.3048 21
+DS -18.1 -2 -18.1 6.5 0.3048 21
+$PAD
+Sh "27" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -3.645
+$EndPAD
+$PAD
+Sh "28" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -6.185
+$EndPAD
+$PAD
+Sh "26" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -6.185
+$EndPAD
+$PAD
+Sh "25" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -3.645
+$EndPAD
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_14x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_14x2-90
+$MODULE pin_socket_15
+Po 0 0 0 15 4EF88FEA 00000000 ~~
+Li pin_socket_15
+Cd Pin socket 15pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_15
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_15"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 19.05 1.27 -19.05 1.27 0.3048 21
+DS -19.05 -1.27 19.05 -1.27 0.3048 21
+DS 19.05 -1.27 19.05 1.27 0.3048 21
+DS -16.51 -1.27 -16.51 1.27 0.3048 21
+DS -19.05 1.27 -19.05 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_15.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_15
+$MODULE pin_socket_15x2
+Po 0 0 0 15 4F09A736 00000000 ~~
+Li pin_socket_15x2
+Cd Pin socket 15x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_15x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 19.05 2.54 -19.05 2.54 0.3048 21
+DS -19.05 -2.54 19.05 -2.54 0.3048 21
+DS -19.05 0 -16.51 0 0.3048 21
+DS -16.51 0 -16.51 2.54 0.3048 21
+DS -19.05 -2.54 -19.05 2.54 0.3048 21
+DS 19.05 2.54 19.05 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_15x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_15x2
+$MODULE pin_socket_15x2-90
+Po 0 0 0 15 52603589 00000000 ~~
+Li pin_socket_15x2-90
+Cd Pin socket 15x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_15x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -19.3 -2 19.3 -2 0.3048 21
+DS 19.3 -2 19.3 6.5 0.3048 21
+DS -19.3 6.5 19.3 6.5 0.3048 21
+DS -19.3 0 -16.51 0 0.3048 21
+DS -16.51 0 -16.51 6.5 0.3048 21
+DS -19.3 -2 -19.3 6.5 0.3048 21
+$PAD
+Sh "30" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -6.185
+$EndPAD
+$PAD
+Sh "29" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -3.645
+$EndPAD
+$PAD
+Sh "27" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -3.645
+$EndPAD
+$PAD
+Sh "28" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -6.185
+$EndPAD
+$PAD
+Sh "26" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -6.185
+$EndPAD
+$PAD
+Sh "25" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -3.645
+$EndPAD
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_15x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_15x2-90
+$MODULE pin_socket_16
+Po 0 0 0 15 4EF88FC6 00000000 ~~
+Li pin_socket_16
+Cd Pin socket 16pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_16
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_16"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 20.32 1.27 -20.32 1.27 0.3048 21
+DS -20.32 -1.27 20.32 -1.27 0.3048 21
+DS 20.32 -1.27 20.32 1.27 0.3048 21
+DS -17.78 -1.27 -17.78 1.27 0.3048 21
+DS -20.32 1.27 -20.32 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_16
+$MODULE pin_socket_16x2
+Po 0 0 0 15 4F09A769 00000000 ~~
+Li pin_socket_16x2
+Cd Pin socket 16x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_16x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 20.32 2.54 -20.32 2.54 0.3048 21
+DS -20.32 -2.54 20.32 -2.54 0.3048 21
+DS -20.32 0 -17.78 0 0.3048 21
+DS -17.78 0 -17.78 2.54 0.3048 21
+DS -20.32 -2.54 -20.32 2.54 0.3048 21
+DS 20.32 2.54 20.32 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_16x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_16x2
+$MODULE pin_socket_16x2-90
+Po 0 0 0 15 52603621 00000000 ~~
+Li pin_socket_16x2-90
+Cd Pin socket 16x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_16x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -20.6 -2 20.6 -2 0.3048 21
+DS 20.6 -2 20.6 6.5 0.3048 21
+DS -20.6 6.5 20.6 6.5 0.3048 21
+DS -20.6 0 -17.78 0 0.3048 21
+DS -17.78 0 -17.78 6.5 0.3048 21
+DS -20.6 -2 -20.6 6.5 0.3048 21
+$PAD
+Sh "31" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -3.645
+$EndPAD
+$PAD
+Sh "32" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -6.185
+$EndPAD
+$PAD
+Sh "30" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -6.185
+$EndPAD
+$PAD
+Sh "29" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -3.645
+$EndPAD
+$PAD
+Sh "27" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -3.645
+$EndPAD
+$PAD
+Sh "28" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -6.185
+$EndPAD
+$PAD
+Sh "26" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -6.185
+$EndPAD
+$PAD
+Sh "25" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -3.645
+$EndPAD
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_16x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_16x2-90
+$MODULE pin_socket_17
+Po 0 0 0 15 4EF88F9A 00000000 ~~
+Li pin_socket_17
+Cd Pin socket 17pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_17
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_17"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 21.59 1.27 -21.59 1.27 0.3048 21
+DS -21.59 -1.27 21.59 -1.27 0.3048 21
+DS 21.59 -1.27 21.59 1.27 0.3048 21
+DS -19.05 -1.27 -19.05 1.27 0.3048 21
+DS -21.59 1.27 -21.59 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_17.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_17
+$MODULE pin_socket_17x2
+Po 0 0 0 15 4F09A796 00000000 ~~
+Li pin_socket_17x2
+Cd Pin socket 17x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_17x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 21.59 2.54 -21.59 2.54 0.3048 21
+DS -21.59 -2.54 21.59 -2.54 0.3048 21
+DS -21.59 0 -19.05 0 0.3048 21
+DS -19.05 0 -19.05 2.54 0.3048 21
+DS -21.59 -2.54 -21.59 2.54 0.3048 21
+DS 21.59 2.54 21.59 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_17x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_17x2
+$MODULE pin_socket_17x2-90
+Po 0 0 0 15 5260377F 00000000 ~~
+Li pin_socket_17x2-90
+Cd Pin socket 17x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_17x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -21.9 -2 21.9 -2 0.3048 21
+DS 21.9 -2 21.9 6.5 0.3048 21
+DS -21.9 6.5 21.9 6.5 0.3048 21
+DS -21.9 0 -19.05 0 0.3048 21
+DS -19.05 0 -19.05 6.5 0.3048 21
+DS -21.9 -2 -21.9 6.5 0.3048 21
+$PAD
+Sh "34" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -6.185
+$EndPAD
+$PAD
+Sh "33" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -3.645
+$EndPAD
+$PAD
+Sh "31" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -3.645
+$EndPAD
+$PAD
+Sh "32" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -6.185
+$EndPAD
+$PAD
+Sh "30" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -6.185
+$EndPAD
+$PAD
+Sh "29" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -3.645
+$EndPAD
+$PAD
+Sh "27" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -3.645
+$EndPAD
+$PAD
+Sh "28" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -6.185
+$EndPAD
+$PAD
+Sh "26" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -6.185
+$EndPAD
+$PAD
+Sh "25" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -3.645
+$EndPAD
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_17x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_17x2-90
+$MODULE pin_socket_18
+Po 0 0 0 15 4EF88F70 00000000 ~~
+Li pin_socket_18
+Cd Pin socket 18pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_18
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_18"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 22.86 1.27 -22.86 1.27 0.3048 21
+DS -22.86 -1.27 22.86 -1.27 0.3048 21
+DS 22.86 -1.27 22.86 1.27 0.3048 21
+DS -20.32 -1.27 -20.32 1.27 0.3048 21
+DS -22.86 1.27 -22.86 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_18.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_18
+$MODULE pin_socket_18x2
+Po 0 0 0 15 4F09A80A 00000000 ~~
+Li pin_socket_18x2
+Cd Pin socket 18x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_18x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -22.86 2.54 22.86 2.54 0.3048 21
+DS 22.86 -2.54 -22.86 -2.54 0.3048 21
+DS -22.86 0 -20.32 0 0.3048 21
+DS -20.32 0 -20.32 2.54 0.3048 21
+DS -22.86 -2.54 -22.86 2.54 0.3048 21
+DS 22.86 2.54 22.86 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 1.27
+$EndPAD
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_18x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_18x2
+$MODULE pin_socket_18x2-90
+Po 0 0 0 15 52603849 00000000 ~~
+Li pin_socket_18x2-90
+Cd Pin socket 18x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_18x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -23.2 -2 23.2 -2 0.3048 21
+DS 23.2 -2 23.2 6.5 0.3048 21
+DS -23.2 6.5 23.2 6.5 0.3048 21
+DS -23.2 0 -20.32 0 0.3048 21
+DS -20.32 0 -20.32 6.5 0.3048 21
+DS -23.2 -2 -23.2 6.5 0.3048 21
+$PAD
+Sh "35" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -3.645
+$EndPAD
+$PAD
+Sh "36" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -6.185
+$EndPAD
+$PAD
+Sh "34" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -6.185
+$EndPAD
+$PAD
+Sh "33" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -3.645
+$EndPAD
+$PAD
+Sh "31" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -3.645
+$EndPAD
+$PAD
+Sh "32" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -6.185
+$EndPAD
+$PAD
+Sh "30" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -6.185
+$EndPAD
+$PAD
+Sh "29" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -3.645
+$EndPAD
+$PAD
+Sh "27" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -3.645
+$EndPAD
+$PAD
+Sh "28" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -6.185
+$EndPAD
+$PAD
+Sh "26" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -6.185
+$EndPAD
+$PAD
+Sh "25" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -3.645
+$EndPAD
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_18x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_18x2-90
+$MODULE pin_socket_19x2
+Po 0 0 0 15 4F09A845 00000000 ~~
+Li pin_socket_19x2
+Cd Pin socket 19x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_19x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 24.13 2.54 -24.13 2.54 0.3048 21
+DS -24.13 -2.54 24.13 -2.54 0.3048 21
+DS -24.13 0 -21.59 0 0.3048 21
+DS -21.59 0 -21.59 2.54 0.3048 21
+DS -24.13 -2.54 -24.13 2.54 0.3048 21
+DS 24.13 2.54 24.13 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 1.27
+$EndPAD
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -1.27
+$EndPAD
+$PAD
+Sh "37" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 1.27
+$EndPAD
+$PAD
+Sh "38" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_19x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_19x2
+$MODULE pin_socket_19x2-90
+Po 0 0 0 15 52603895 00000000 ~~
+Li pin_socket_19x2-90
+Cd Pin socket 19x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_19x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -24.4 -2 24.4 -2 0.3048 21
+DS 24.4 -2 24.4 6.5 0.3048 21
+DS -24.4 6.5 24.4 6.5 0.3048 21
+DS -24.4 0 -21.59 0 0.3048 21
+DS -21.59 0 -21.59 6.5 0.3048 21
+DS -24.4 -2 -24.4 6.5 0.3048 21
+$PAD
+Sh "38" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 -6.185
+$EndPAD
+$PAD
+Sh "37" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 -3.645
+$EndPAD
+$PAD
+Sh "35" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -3.645
+$EndPAD
+$PAD
+Sh "36" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -6.185
+$EndPAD
+$PAD
+Sh "34" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -6.185
+$EndPAD
+$PAD
+Sh "33" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -3.645
+$EndPAD
+$PAD
+Sh "31" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -3.645
+$EndPAD
+$PAD
+Sh "32" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -6.185
+$EndPAD
+$PAD
+Sh "30" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -6.185
+$EndPAD
+$PAD
+Sh "29" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -3.645
+$EndPAD
+$PAD
+Sh "27" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -3.645
+$EndPAD
+$PAD
+Sh "28" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -6.185
+$EndPAD
+$PAD
+Sh "26" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -6.185
+$EndPAD
+$PAD
+Sh "25" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -3.645
+$EndPAD
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_19x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_19x2-90
+$MODULE pin_socket_2
+Po 0 0 0 15 4F0999B2 00000000 ~~
+Li pin_socket_2
+Cd Pin socket 2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_2
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_2"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 0 -1.27 0 1.27 0.3048 21
+DS 0 1.27 -2.54 -1.27 0.3048 21
+DS -2.54 1.27 0 -1.27 0.3048 21
+DS 2.54 1.27 -2.54 1.27 0.3048 21
+DS -2.54 -1.27 2.54 -1.27 0.3048 21
+DS -2.54 1.27 -2.54 -1.27 0.3048 21
+DS 2.54 -1.27 2.54 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_2
+$MODULE pin_socket_20
+Po 0 0 0 15 4EF88F08 00000000 ~~
+Li pin_socket_20
+Cd Pin socket 20pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_20
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_20"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 25.4 1.27 -25.4 1.27 0.3048 21
+DS -25.4 -1.27 25.4 -1.27 0.3048 21
+DS 25.4 -1.27 25.4 1.27 0.3048 21
+DS -22.86 -1.27 -22.86 1.27 0.3048 21
+DS -25.4 1.27 -25.4 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$PAD
+Sh "19" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 0
+$EndPAD
+$PAD
+Sh "20" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_20.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_20
+$MODULE pin_socket_20x2
+Po 0 0 0 15 4F09A877 00000000 ~~
+Li pin_socket_20x2
+Cd Pin socket 20x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_20x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 25.4 2.54 -25.4 2.54 0.3048 21
+DS -25.4 -2.54 25.4 -2.54 0.3048 21
+DS -25.4 0 -22.86 0 0.3048 21
+DS -22.86 0 -22.86 2.54 0.3048 21
+DS -25.4 -2.54 -25.4 2.54 0.3048 21
+DS 25.4 2.54 25.4 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "37" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 1.27
+$EndPAD
+$PAD
+Sh "38" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -1.27
+$EndPAD
+$PAD
+Sh "39" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 1.27
+$EndPAD
+$PAD
+Sh "40" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_20x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_20x2
+$MODULE pin_socket_20x2-90
+Po 0 0 0 15 52603902 00000000 ~~
+Li pin_socket_20x2-90
+Cd Pin socket 20x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_20x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -25.7 -2 25.7 -2 0.3048 21
+DS 25.7 -2 25.7 6.5 0.3048 21
+DS -25.7 6.5 25.7 6.5 0.3048 21
+DS -25.7 0 -22.86 0 0.3048 21
+DS -22.86 0 -22.86 6.5 0.3048 21
+DS -25.7 -2 -25.7 6.5 0.3048 21
+$PAD
+Sh "39" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 -3.645
+$EndPAD
+$PAD
+Sh "40" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 -6.185
+$EndPAD
+$PAD
+Sh "38" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -6.185
+$EndPAD
+$PAD
+Sh "37" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -3.645
+$EndPAD
+$PAD
+Sh "35" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -3.645
+$EndPAD
+$PAD
+Sh "36" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -6.185
+$EndPAD
+$PAD
+Sh "34" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -6.185
+$EndPAD
+$PAD
+Sh "33" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -3.645
+$EndPAD
+$PAD
+Sh "31" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -3.645
+$EndPAD
+$PAD
+Sh "32" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -6.185
+$EndPAD
+$PAD
+Sh "30" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -6.185
+$EndPAD
+$PAD
+Sh "29" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -3.645
+$EndPAD
+$PAD
+Sh "27" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -3.645
+$EndPAD
+$PAD
+Sh "28" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -6.185
+$EndPAD
+$PAD
+Sh "26" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.185
+$EndPAD
+$PAD
+Sh "25" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.645
+$EndPAD
+$PAD
+Sh "23" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "24" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "22" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "21" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "19" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "20" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_20x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_20x2-90
+$MODULE pin_socket_2x2
+Po 0 0 0 15 4B90DF21 00000000 ~~
+Li pin_socket_2x2
+Cd Pin socket 2x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_2x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -2.54 -2.54 2.54 -2.54 0.3048 21
+DS 2.54 -2.54 2.54 2.54 0.3048 21
+DS 2.54 2.54 -2.54 2.54 0.3048 21
+DS -2.54 0 0 0 0.3048 21
+DS 0 0 0 2.54 0.3048 21
+DS -2.54 -2.54 -2.54 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_2x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_2x2
+$MODULE pin_socket_2x2-90
+Po 0 0 0 15 52602C9D 00000000 ~~
+Li pin_socket_2x2-90
+Cd Pin socket 2x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_2x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -2.8 -2 2.8 -2 0.3048 21
+DS 2.8 -2 2.8 6.5 0.3048 21
+DS -2.8 6.5 2.8 6.5 0.3048 21
+DS -2.8 0 0 0 0.3048 21
+DS 0 0 0 6.5 0.3048 21
+DS -2.8 -2 -2.8 6.5 0.3048 21
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_2x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_2x2-90
+$MODULE pin_socket_3
+Po 0 0 0 15 4B90E017 00000000 ~~
+Li pin_socket_3
+Cd Pin socket 3pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_3
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_3"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -1.27 1.27 -1.27 -1.27 0.3048 21
+DS -3.81 -1.27 3.81 -1.27 0.3048 21
+DS 3.81 -1.27 3.81 1.27 0.3048 21
+DS 3.81 1.27 -3.81 1.27 0.3048 21
+DS -3.81 1.27 -3.81 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_3.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_3
+$MODULE pin_socket_3x2
+Po 0 0 0 15 4B90DEF7 00000000 ~~
+Li pin_socket_3x2
+Cd Pin socket 3x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_3x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_3x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -3.81 -2.54 3.81 -2.54 0.3048 21
+DS 3.81 -2.54 3.81 2.54 0.3048 21
+DS 3.81 2.54 -3.81 2.54 0.3048 21
+DS -3.81 0 -1.27 0 0.3048 21
+DS -1.27 0 -1.27 2.54 0.3048 21
+DS -3.81 -2.54 -3.81 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_3x2
+$MODULE pin_socket_3x2-90
+Po 0 0 0 15 52602D13 00000000 ~~
+Li pin_socket_3x2-90
+Cd Pin socket 3x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_3x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -4.1 -2 4.1 -2 0.3048 21
+DS 4.1 -2 4.1 6.5 0.3048 21
+DS -4.1 6.5 4.1 6.5 0.3048 21
+DS -4.1 0 -1.27 0 0.3048 21
+DS -1.27 0 -1.27 6.5 0.3048 21
+DS -4.1 -2 -4.1 6.5 0.3048 21
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_3x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_3x2-90
+$MODULE pin_socket_4
+Po 0 0 0 15 4B90DFFC 00000000 ~~
+Li pin_socket_4
+Cd Pin socket 4pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_4
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_4"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -2.54 -1.27 -2.54 1.27 0.3048 21
+DS 5.08 1.27 -5.08 1.27 0.3048 21
+DS -5.08 -1.27 5.08 -1.27 0.3048 21
+DS -5.08 1.27 -5.08 -1.27 0.3048 21
+DS 5.08 -1.27 5.08 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_4.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_4
+$MODULE pin_socket_4x2
+Po 0 0 0 15 4B90DEC7 00000000 ~~
+Li pin_socket_4x2
+Cd Pin socket 4x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_4x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_4x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -5.08 -2.54 5.08 -2.54 0.3048 21
+DS 5.08 -2.54 5.08 2.54 0.3048 21
+DS 5.08 2.54 -5.08 2.54 0.3048 21
+DS -5.08 0 -2.54 0 0.3048 21
+DS -2.54 0 -2.54 2.54 0.3048 21
+DS -5.08 -2.54 -5.08 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_4x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_4x2
+$MODULE pin_socket_4x2-90
+Po 0 0 0 15 52602F1D 00000000 ~~
+Li pin_socket_4x2-90
+Cd Pin socket 4x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_4x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -5.4 -2 5.4 -2 0.3048 21
+DS 5.4 -2 5.4 6.5 0.3048 21
+DS -5.4 6.5 5.4 6.5 0.3048 21
+DS -5.4 0 -2.54 0 0.3048 21
+DS -2.54 0 -2.54 6.5 0.3048 21
+DS -5.4 -2 -5.4 6.5 0.3048 21
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_4x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_4x2-90
+$MODULE pin_socket_5
+Po 0 0 0 15 4B90DFE0 00000000 ~~
+Li pin_socket_5
+Cd Pin socket 5pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_5
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_5"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -3.81 -1.27 -3.81 1.27 0.3048 21
+DS 6.35 1.27 -6.35 1.27 0.3048 21
+DS -6.35 -1.27 6.35 -1.27 0.3048 21
+DS -6.35 1.27 -6.35 -1.27 0.3048 21
+DS 6.35 -1.27 6.35 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_5
+$MODULE pin_socket_5x2
+Po 0 0 0 15 4B90DE8F 00000000 ~~
+Li pin_socket_5x2
+Cd Pin socket 5x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_5x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_5x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -6.35 -2.54 6.35 -2.54 0.3048 21
+DS 6.35 -2.54 6.35 2.54 0.3048 21
+DS 6.35 2.54 -6.35 2.54 0.3048 21
+DS -6.35 0 -3.81 0 0.3048 21
+DS -3.81 0 -3.81 2.54 0.3048 21
+DS -6.35 -2.54 -6.35 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_5x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_5x2
+$MODULE pin_socket_5x2-90
+Po 0 0 0 15 52602F88 00000000 ~~
+Li pin_socket_5x2-90
+Cd Pin socket 5x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_5x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -6.6 -2 6.6 -2 0.3048 21
+DS 6.6 -2 6.6 6.5 0.3048 21
+DS -6.6 6.5 6.6 6.5 0.3048 21
+DS -6.6 0 -3.81 0 0.3048 21
+DS -3.81 0 -3.81 6.5 0.3048 21
+DS -6.6 -2 -6.6 6.5 0.3048 21
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_5x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_5x2-90
+$MODULE pin_socket_6
+Po 0 0 0 15 4B90DFC4 00000000 ~~
+Li pin_socket_6
+Cd Pin socket 6pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_6
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_6"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -5.08 -1.27 -5.08 1.27 0.3048 21
+DS -7.62 1.27 -7.62 -1.27 0.3048 21
+DS -7.62 -1.27 7.62 -1.27 0.3048 21
+DS 7.62 -1.27 7.62 1.27 0.3048 21
+DS 7.62 1.27 -7.62 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_6.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_6
+$MODULE pin_socket_6x2
+Po 0 0 0 15 4B90DE54 00000000 ~~
+Li pin_socket_6x2
+Cd Pin socket 6x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_6x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_6x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -7.62 -2.54 7.62 -2.54 0.3048 21
+DS 7.62 -2.54 7.62 2.54 0.3048 21
+DS 7.62 2.54 -7.62 2.54 0.3048 21
+DS -7.62 0 -5.08 0 0.3048 21
+DS -5.08 0 -5.08 2.54 0.3048 21
+DS -7.62 -2.54 -7.62 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_6x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_6x2
+$MODULE pin_socket_6x2-90
+Po 0 0 0 15 52602FE3 00000000 ~~
+Li pin_socket_6x2-90
+Cd Pin socket 6x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_6x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -7.9 -2 7.9 -2 0.3048 21
+DS 7.9 -2 7.9 6.5 0.3048 21
+DS -7.9 6.5 7.9 6.5 0.3048 21
+DS -7.9 0 -5.08 0 0.3048 21
+DS -5.08 0 -5.08 6.5 0.3048 21
+DS -7.9 -2 -7.9 6.5 0.3048 21
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_6x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_6x2-90
+$MODULE pin_socket_7
+Po 0 0 0 15 4B90DFA8 00000000 ~~
+Li pin_socket_7
+Cd Pin socket 7pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_7
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_7"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -6.35 -1.27 -6.35 1.27 0.3048 21
+DS -8.89 1.27 8.89 1.27 0.3048 21
+DS 8.89 -1.27 -8.89 -1.27 0.3048 21
+DS -8.89 1.27 -8.89 -1.27 0.3048 21
+DS 8.89 -1.27 8.89 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_7.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_7
+$MODULE pin_socket_7x2
+Po 0 0 0 15 4B90DCE3 00000000 ~~
+Li pin_socket_7x2
+Cd Pin socket 7x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_7x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_7x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -8.89 -2.54 8.89 -2.54 0.3048 21
+DS 8.89 -2.54 8.89 2.54 0.3048 21
+DS 8.89 2.54 -8.89 2.54 0.3048 21
+DS -8.89 0 -6.35 0 0.3048 21
+DS -6.35 0 -6.35 2.54 0.3048 21
+DS -8.89 -2.54 -8.89 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_7x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_7x2
+$MODULE pin_socket_7x2-90
+Po 0 0 0 15 52603061 00000000 ~~
+Li pin_socket_7x2-90
+Cd Pin socket 7x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_7x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -9.2 -2 9.2 -2 0.3048 21
+DS 9.2 -2 9.2 6.5 0.3048 21
+DS -9.2 6.5 9.2 6.5 0.3048 21
+DS -9.2 0 -6.35 0 0.3048 21
+DS -6.35 0 -6.35 6.5 0.3048 21
+DS -9.2 -2 -9.2 6.5 0.3048 21
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_7x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_7x2-90
+$MODULE pin_socket_8
+Po 0 0 0 15 4B90DF8F 00000000 ~~
+Li pin_socket_8
+Cd Pin socket 8pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_8
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_8"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -7.62 -1.27 -7.62 1.27 0.3048 21
+DS -10.16 -1.27 10.16 -1.27 0.3048 21
+DS 10.16 -1.27 10.16 1.27 0.3048 21
+DS 10.16 1.27 -10.16 1.27 0.3048 21
+DS -10.16 1.27 -10.16 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_8.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_8
+$MODULE pin_socket_8x2
+Po 0 0 0 15 4B90DC99 00000000 ~~
+Li pin_socket_8x2
+Cd Pin socket 8x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_8x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_8x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -10.16 -2.54 10.16 -2.54 0.3048 21
+DS 10.16 -2.54 10.16 2.54 0.3048 21
+DS 10.16 2.54 -10.16 2.54 0.3048 21
+DS -10.16 0 -7.62 0 0.3048 21
+DS -7.62 0 -7.62 2.54 0.3048 21
+DS -10.16 -2.54 -10.16 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_8x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_8x2
+$MODULE pin_socket_8x2-90
+Po 0 0 0 15 526030E3 00000000 ~~
+Li pin_socket_8x2-90
+Cd Pin socket 8x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_8x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -10.5 -2 10.5 -2 0.3048 21
+DS 10.5 -2 10.5 6.5 0.3048 21
+DS -10.5 6.5 10.5 6.5 0.3048 21
+DS -10.5 0 -7.62 0 0.3048 21
+DS -7.62 0 -7.62 6.5 0.3048 21
+DS -10.5 -2 -10.5 6.5 0.3048 21
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_8x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_8x2-90
+$MODULE pin_socket_9
+Po 0 0 0 15 4B90DF58 00000000 ~~
+Li pin_socket_9
+Cd Pin socket 9pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_9
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_9"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -8.89 -1.27 -8.89 1.27 0.3048 21
+DS -11.43 -1.27 11.43 -1.27 0.3048 21
+DS 11.43 -1.27 11.43 1.27 0.3048 21
+DS 11.43 1.27 -11.43 1.27 0.3048 21
+DS -11.43 1.27 -11.43 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_9.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_9
+$MODULE pin_socket_9x2
+Po 0 0 0 15 4B90DC4B 00000000 ~~
+Li pin_socket_9x2
+Cd Pin socket 9x2pin
+Kw CONN DEV
+Sc 0
+AR pin_socket_9x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_9x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -11.43 -2.54 11.43 -2.54 0.3048 21
+DS 11.43 -2.54 11.43 2.54 0.3048 21
+DS 11.43 2.54 -11.43 2.54 0.3048 21
+DS -11.43 0 -8.89 0 0.3048 21
+DS -8.89 0 -8.89 2.54 0.3048 21
+DS -11.43 -2.54 -11.43 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_9x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_9x2
+$MODULE pin_socket_9x2-90
+Po 0 0 0 15 52603195 00000000 ~~
+Li pin_socket_9x2-90
+Cd Pin socket 9x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_socket_2x2
+Op 0 0 0
+T0 0 7.7 1.016 1.016 0 0.2032 N V 21 N "PIN_SOCKET_9x2-90"
+T1 0 -8.5 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -11.7 -2 11.7 -2 0.3048 21
+DS 11.7 -2 11.7 6.5 0.3048 21
+DS -11.7 6.5 11.7 6.5 0.3048 21
+DS -11.7 0 -8.89 0 0.3048 21
+DS -8.89 0 -8.89 6.5 0.3048 21
+DS -11.7 -2 -11.7 6.5 0.3048 21
+$PAD
+Sh "18" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -6.185
+$EndPAD
+$PAD
+Sh "17" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -3.645
+$EndPAD
+$PAD
+Sh "15" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -3.645
+$EndPAD
+$PAD
+Sh "16" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -6.185
+$EndPAD
+$PAD
+Sh "14" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -6.185
+$EndPAD
+$PAD
+Sh "13" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -3.645
+$EndPAD
+$PAD
+Sh "11" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -3.645
+$EndPAD
+$PAD
+Sh "12" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -6.185
+$EndPAD
+$PAD
+Sh "10" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.185
+$EndPAD
+$PAD
+Sh "9" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.645
+$EndPAD
+$PAD
+Sh "7" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.645
+$EndPAD
+$PAD
+Sh "8" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -6.185
+$EndPAD
+$PAD
+Sh "6" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -6.185
+$EndPAD
+$PAD
+Sh "5" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -3.645
+$EndPAD
+$PAD
+Sh "1" R 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -3.645
+$EndPAD
+$PAD
+Sh "2" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -6.185
+$EndPAD
+$PAD
+Sh "3" O 1.5 2 0 0 0
+Dr 1.02 0 0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -3.645
+$EndPAD
+$PAD
+Sh "4" O 1.5 2 0 0 0
+Dr 1.02 0 -0.25
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -6.185
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_socket_9x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_socket_9x2-90
+$MODULE pin_strip_1
+Po 0 0 0 15 4B90E035 00000000 ~~
+Li pin_strip_1
+Cd Pin strip 1pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_1
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_1"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 1.27 1.27 -1.27 1.27 0.3048 21
+DS -1.27 -1.27 1.27 -1.27 0.3048 21
+DS -1.27 1.27 -1.27 -1.27 0.3048 21
+DS 1.27 -1.27 1.27 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_1
+$MODULE pin_strip_1-90
+Po 0 0 0 15 4EF89133 00000000 ~~
+Li pin_strip_1-90
+Cd Pin strip 1pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_1-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_1-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -1.27 1.27 1.27 3.81 0.3048 21
+DS -1.27 3.81 1.27 1.27 0.3048 21
+DS -1.27 1.27 1.27 1.27 0.3048 21
+DS 1.27 1.27 1.27 3.81 0.3048 21
+DS 1.27 3.81 -1.27 3.81 0.3048 21
+DS -1.27 3.81 -1.27 1.27 0.3048 21
+DS 0.03048 0 0.03048 10.16 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0.03048
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_1-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_1-90
+$MODULE pin_strip_10
+Po 0 0 0 15 4B90DB5D 00000000 ~~
+Li pin_strip_10
+Cd Pin strip 10pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_10"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -10.16 -1.27 -10.16 1.27 0.3048 21
+DS -12.7 -1.27 12.7 -1.27 0.3048 21
+DS 12.7 -1.27 12.7 1.27 0.3048 21
+DS 12.7 1.27 -12.7 1.27 0.3048 21
+DS -12.7 1.27 -12.7 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_10.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_10
+$MODULE pin_strip_10-90
+Po 0 0 0 15 4EF89123 00000000 ~~
+Li pin_strip_10-90
+Cd Pin strip 10pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_10-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_10-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -10.16 3.81 -12.7 1.27 0.3048 21
+DS -12.7 3.81 -10.16 1.27 0.3048 21
+DS 11.43 0 11.43 10.16 0.3048 21
+DS 8.89 0 8.89 10.16 0.3048 21
+DS 6.35 0 6.35 10.16 0.3048 21
+DS 3.81 0 3.81 10.16 0.3048 21
+DS -12.7 1.27 12.7 1.27 0.3048 21
+DS 12.7 1.27 12.7 3.81 0.3048 21
+DS 12.7 3.81 -12.7 3.81 0.3048 21
+DS -10.16 1.27 -10.16 3.81 0.3048 21
+DS -11.43 0 -11.43 10.16 0.3048 21
+DS 1.27 0 1.27 10.16 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS -3.81 0 -3.81 10.16 0.3048 21
+DS -6.35 10.16 -6.35 0 0.3048 21
+DS -8.89 0 -8.89 10.16 0.3048 21
+DS -12.7 3.81 -12.7 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_10-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_10-90
+$MODULE pin_strip_10x2
+Po 0 0 0 15 4B90DBE1 00000000 ~~
+Li pin_strip_10x2
+Cd Pin strip 10x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_10x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -12.7 0 -10.16 0 0.3048 21
+DS -10.16 0 -10.16 2.54 0.3048 21
+DS 12.7 -2.54 -12.7 -2.54 0.3048 21
+DS -12.7 -2.54 -12.7 2.54 0.3048 21
+DS -12.7 2.54 12.7 2.54 0.3048 21
+DS 12.7 2.54 12.7 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_10x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_10x2
+$MODULE pin_strip_10x2-90
+Po 0 0 0 15 4F09A54C 00000000 ~~
+Li pin_strip_10x2-90
+Cd Pin strip 10x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_10x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -12.7 2.54 -10.16 5.08 0.3048 21
+DS -10.16 2.54 -12.7 5.08 0.3048 21
+DS 11.43 1.27 11.43 11.43 0.3048 21
+DS 8.89 1.27 8.89 11.43 0.3048 21
+DS 6.35 1.27 6.35 11.43 0.3048 21
+DS 3.81 1.27 3.81 11.43 0.3048 21
+DS 2.54 2.54 12.7 2.54 0.3048 21
+DS 12.7 2.54 12.7 5.08 0.3048 21
+DS 12.7 5.08 2.54 5.08 0.3048 21
+DS -10.16 5.08 -10.16 2.54 0.3048 21
+DS -11.43 1.27 -11.43 11.43 0.3048 21
+DS 1.27 1.27 1.27 11.43 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS -3.81 1.27 -3.81 11.43 0.3048 21
+DS -6.35 11.43 -6.35 1.27 0.3048 21
+DS -8.89 1.27 -8.89 11.43 0.3048 21
+DS -12.7 5.08 -12.7 2.54 0.3048 21
+DS -12.7 2.54 2.54 2.54 0.3048 21
+DS 2.54 5.08 -12.7 5.08 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_10x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_10x2-90
+$MODULE pin_strip_11
+Po 0 0 0 15 4EF88ECC 00000000 ~~
+Li pin_strip_11
+Cd Pin strip 11pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_11
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_11"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -13.97 -1.27 13.97 -1.27 0.3048 21
+DS 13.97 -1.27 13.97 1.27 0.3048 21
+DS 13.97 1.27 -13.97 1.27 0.3048 21
+DS -11.43 -1.27 -11.43 1.27 0.3048 21
+DS -13.97 1.27 -13.97 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_11.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_11
+$MODULE pin_strip_11-90
+Po 0 0 0 15 4EF8FA80 00000000 ~~
+Li pin_strip_11-90
+Cd Pin strip 11pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_11-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -13.97 1.27 13.97 1.27 0.3048 21
+DS 13.97 1.27 13.97 3.81 0.3048 21
+DS 13.97 3.81 -13.97 3.81 0.3048 21
+DS 12.7 0 12.7 10.16 0.3048 21
+DS -11.43 3.81 -13.97 1.27 0.3048 21
+DS -13.97 3.81 -11.43 1.27 0.3048 21
+DS 10.16 0 10.16 10.16 0.3048 21
+DS 7.62 0 7.62 10.16 0.3048 21
+DS 5.08 0 5.08 10.16 0.3048 21
+DS 2.54 0 2.54 10.16 0.3048 21
+DS -11.43 1.27 -11.43 3.81 0.3048 21
+DS -12.7 0 -12.7 10.16 0.3048 21
+DS 0 0 0 10.16 0.3048 21
+DS -2.54 0 -2.54 10.16 0.3048 21
+DS -5.08 0 -5.08 10.16 0.3048 21
+DS -7.62 10.16 -7.62 0 0.3048 21
+DS -10.16 0 -10.16 10.16 0.3048 21
+DS -13.97 3.81 -13.97 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_11-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_11-90
+$MODULE pin_strip_11x2
+Po 0 0 0 15 4F09A63C 00000000 ~~
+Li pin_strip_11x2
+Cd Pin strip 11x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_11x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 13.97 2.54 -13.97 2.54 0.3048 21
+DS -13.97 -2.54 13.97 -2.54 0.3048 21
+DS -13.97 0 -11.43 0 0.3048 21
+DS -11.43 0 -11.43 2.54 0.3048 21
+DS -13.97 -2.54 -13.97 2.54 0.3048 21
+DS 13.97 2.54 13.97 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_11x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_11x2
+$MODULE pin_strip_11x2-90
+Po 0 0 0 15 4EF8EF92 00000000 ~~
+Li pin_strip_11x2-90
+Cd Pin strip 11x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_18x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_11x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -13.97 2.54 13.97 2.54 0.3048 21
+DS 13.97 2.54 13.97 5.08 0.3048 21
+DS 13.97 5.08 -13.97 5.08 0.3048 21
+DS 12.7 1.27 12.7 11.43 0.3048 21
+DS -13.97 2.54 -11.43 5.08 0.3048 21
+DS -11.43 2.54 -13.97 5.08 0.3048 21
+DS 10.16 1.27 10.16 11.43 0.3048 21
+DS 7.62 1.27 7.62 11.43 0.3048 21
+DS 5.08 1.27 5.08 11.43 0.3048 21
+DS 2.54 1.27 2.54 11.43 0.3048 21
+DS -11.43 5.08 -11.43 2.54 0.3048 21
+DS -12.7 1.27 -12.7 11.43 0.3048 21
+DS 0 1.27 0 11.43 0.3048 21
+DS -2.54 1.27 -2.54 11.43 0.3048 21
+DS -5.08 1.27 -5.08 11.43 0.3048 21
+DS -7.62 11.43 -7.62 1.27 0.3048 21
+DS -10.16 1.27 -10.16 11.43 0.3048 21
+DS -13.97 5.08 -13.97 2.54 0.3048 21
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_11x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_11x2-90
+$MODULE pin_strip_12
+Po 0 0 0 15 4EF8909E 00000000 ~~
+Li pin_strip_12
+Cd Pin strip 12pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_12
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_12"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 15.24 1.27 -15.24 1.27 0.3048 21
+DS -15.24 -1.27 15.24 -1.27 0.3048 21
+DS 15.24 -1.27 15.24 1.27 0.3048 21
+DS -12.7 -1.27 -12.7 1.27 0.3048 21
+DS -15.24 1.27 -15.24 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_12.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_12
+$MODULE pin_strip_12-90
+Po 0 0 0 15 4EF8FA5E 00000000 ~~
+Li pin_strip_12-90
+Cd Pin strip 12pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_12-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -15.24 1.27 15.24 1.27 0.3048 21
+DS 15.24 1.27 15.24 3.81 0.3048 21
+DS 15.24 3.81 -15.24 3.81 0.3048 21
+DS 13.97 0 13.97 10.16 0.3048 21
+DS 11.43 0 11.43 10.16 0.3048 21
+DS -12.7 3.81 -15.24 1.27 0.3048 21
+DS -15.24 3.81 -12.7 1.27 0.3048 21
+DS 8.89 0 8.89 10.16 0.3048 21
+DS 6.35 0 6.35 10.16 0.3048 21
+DS 3.81 0 3.81 10.16 0.3048 21
+DS 1.27 0 1.27 10.16 0.3048 21
+DS -12.7 1.27 -12.7 3.81 0.3048 21
+DS -13.97 0 -13.97 10.16 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS -3.81 0 -3.81 10.16 0.3048 21
+DS -6.35 0 -6.35 10.16 0.3048 21
+DS -8.89 10.16 -8.89 0 0.3048 21
+DS -11.43 0 -11.43 10.16 0.3048 21
+DS -15.24 3.81 -15.24 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_12-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_12-90
+$MODULE pin_strip_12x2
+Po 0 0 0 15 4F09A699 00000000 ~~
+Li pin_strip_12x2
+Cd Pin strip 12x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_12x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 15.24 2.54 -15.24 2.54 0.3048 21
+DS -15.24 -2.54 15.24 -2.54 0.3048 21
+DS -15.24 0 -12.7 0 0.3048 21
+DS -12.7 0 -12.7 2.54 0.3048 21
+DS -15.24 -2.54 -15.24 2.54 0.3048 21
+DS 15.24 2.54 15.24 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_12x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_12x2
+$MODULE pin_strip_12x2-90
+Po 0 0 0 15 4EF8EF65 00000000 ~~
+Li pin_strip_12x2-90
+Cd Pin strip 12x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_18x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_12x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -15.24 2.54 15.24 2.54 0.3048 21
+DS 15.24 2.54 15.24 5.08 0.3048 21
+DS 15.24 5.08 -15.24 5.08 0.3048 21
+DS 13.97 1.27 13.97 11.43 0.3048 21
+DS 11.43 1.27 11.43 11.43 0.3048 21
+DS -15.24 2.54 -12.7 5.08 0.3048 21
+DS -12.7 2.54 -15.24 5.08 0.3048 21
+DS 8.89 1.27 8.89 11.43 0.3048 21
+DS 6.35 1.27 6.35 11.43 0.3048 21
+DS 3.81 1.27 3.81 11.43 0.3048 21
+DS 1.27 1.27 1.27 11.43 0.3048 21
+DS -12.7 5.08 -12.7 2.54 0.3048 21
+DS -13.97 1.27 -13.97 11.43 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS -3.81 1.27 -3.81 11.43 0.3048 21
+DS -6.35 1.27 -6.35 11.43 0.3048 21
+DS -8.89 11.43 -8.89 1.27 0.3048 21
+DS -11.43 1.27 -11.43 11.43 0.3048 21
+DS -15.24 5.08 -15.24 2.54 0.3048 21
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_12x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_12x2-90
+$MODULE pin_strip_13
+Po 0 0 0 15 4EF89075 00000000 ~~
+Li pin_strip_13
+Cd Pin strip 13pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_13
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_13"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 16.51 1.27 -16.51 1.27 0.3048 21
+DS -16.51 -1.27 16.51 -1.27 0.3048 21
+DS 16.51 -1.27 16.51 1.27 0.3048 21
+DS -13.97 -1.27 -13.97 1.27 0.3048 21
+DS -16.51 1.27 -16.51 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_13.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_13
+$MODULE pin_strip_13-90
+Po 0 0 0 15 4EF8FA3D 00000000 ~~
+Li pin_strip_13-90
+Cd Pin strip 13pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_13-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -16.51 1.27 16.51 1.27 0.3048 21
+DS 16.51 1.27 16.51 3.81 0.3048 21
+DS 16.51 3.81 -16.51 3.81 0.3048 21
+DS 12.7 0 12.7 10.16 0.3048 21
+DS 15.24 10.16 15.24 0 0.3048 21
+DS 10.16 0 10.16 10.16 0.3048 21
+DS -13.97 3.81 -16.51 1.27 0.3048 21
+DS -16.51 3.81 -13.97 1.27 0.3048 21
+DS 7.62 0 7.62 10.16 0.3048 21
+DS 5.08 0 5.08 10.16 0.3048 21
+DS 2.54 0 2.54 10.16 0.3048 21
+DS 0 0 0 10.16 0.3048 21
+DS -13.97 1.27 -13.97 3.81 0.3048 21
+DS -15.24 0 -15.24 10.16 0.3048 21
+DS -2.54 0 -2.54 10.16 0.3048 21
+DS -5.08 0 -5.08 10.16 0.3048 21
+DS -7.62 0 -7.62 10.16 0.3048 21
+DS -10.16 10.16 -10.16 0 0.3048 21
+DS -12.7 0 -12.7 10.16 0.3048 21
+DS -16.51 3.81 -16.51 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_13-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_13-90
+$MODULE pin_strip_13x2
+Po 0 0 0 15 4F09A6D6 00000000 ~~
+Li pin_strip_13x2
+Cd Pin strip 13x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_13x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 16.51 2.54 -16.51 2.54 0.3048 21
+DS -16.51 -2.54 16.51 -2.54 0.3048 21
+DS -16.51 0 -13.97 0 0.3048 21
+DS -13.97 0 -13.97 2.54 0.3048 21
+DS -16.51 -2.54 -16.51 2.54 0.3048 21
+DS 16.51 2.54 16.51 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_13x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_13x2
+$MODULE pin_strip_13x2-90
+Po 0 0 0 15 4EF8EF37 00000000 ~~
+Li pin_strip_13x2-90
+Cd Pin strip 13x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_18x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_13x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -16.51 2.54 16.51 2.54 0.3048 21
+DS 16.51 2.54 16.51 5.08 0.3048 21
+DS 16.51 5.08 -16.51 5.08 0.3048 21
+DS 12.7 1.27 12.7 11.43 0.3048 21
+DS 15.24 11.43 15.24 1.27 0.3048 21
+DS 10.16 1.27 10.16 11.43 0.3048 21
+DS -16.51 2.54 -13.97 5.08 0.3048 21
+DS -13.97 2.54 -16.51 5.08 0.3048 21
+DS 7.62 1.27 7.62 11.43 0.3048 21
+DS 5.08 1.27 5.08 11.43 0.3048 21
+DS 2.54 1.27 2.54 11.43 0.3048 21
+DS 0 1.27 0 11.43 0.3048 21
+DS -13.97 5.08 -13.97 2.54 0.3048 21
+DS -15.24 1.27 -15.24 11.43 0.3048 21
+DS -2.54 1.27 -2.54 11.43 0.3048 21
+DS -5.08 1.27 -5.08 11.43 0.3048 21
+DS -7.62 1.27 -7.62 11.43 0.3048 21
+DS -10.16 11.43 -10.16 1.27 0.3048 21
+DS -12.7 1.27 -12.7 11.43 0.3048 21
+DS -16.51 5.08 -16.51 2.54 0.3048 21
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_13x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_13x2-90
+$MODULE pin_strip_14
+Po 0 0 0 15 4EF8904D 00000000 ~~
+Li pin_strip_14
+Cd Pin strip 14pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_14
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_14"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 17.78 1.27 -17.78 1.27 0.3048 21
+DS -17.78 -1.27 17.78 -1.27 0.3048 21
+DS 17.78 -1.27 17.78 1.27 0.3048 21
+DS -15.24 -1.27 -15.24 1.27 0.3048 21
+DS -17.78 1.27 -17.78 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_14.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_14
+$MODULE pin_strip_14-90
+Po 0 0 0 15 4EF8FA19 00000000 ~~
+Li pin_strip_14-90
+Cd Pin strip 14pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_14-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -17.78 1.27 17.78 1.27 0.3048 21
+DS 17.78 1.27 17.78 3.81 0.3048 21
+DS 17.78 3.81 -17.78 3.81 0.3048 21
+DS 11.43 0 11.43 10.16 0.3048 21
+DS 13.97 10.16 13.97 0 0.3048 21
+DS 16.51 0 16.51 10.16 0.3048 21
+DS 8.89 0 8.89 10.16 0.3048 21
+DS -15.24 3.81 -17.78 1.27 0.3048 21
+DS -17.78 3.81 -15.24 1.27 0.3048 21
+DS 6.35 0 6.35 10.16 0.3048 21
+DS 3.81 0 3.81 10.16 0.3048 21
+DS 1.27 0 1.27 10.16 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS -15.24 1.27 -15.24 3.81 0.3048 21
+DS -16.51 0 -16.51 10.16 0.3048 21
+DS -3.81 0 -3.81 10.16 0.3048 21
+DS -6.35 0 -6.35 10.16 0.3048 21
+DS -8.89 0 -8.89 10.16 0.3048 21
+DS -11.43 10.16 -11.43 0 0.3048 21
+DS -13.97 0 -13.97 10.16 0.3048 21
+DS -17.78 3.81 -17.78 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_14-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_14-90
+$MODULE pin_strip_14x2
+Po 0 0 0 15 4F09A704 00000000 ~~
+Li pin_strip_14x2
+Cd Pin strip 14x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_14x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 17.78 2.54 -17.78 2.54 0.3048 21
+DS -17.78 -2.54 17.78 -2.54 0.3048 21
+DS -17.78 0 -15.24 0 0.3048 21
+DS -15.24 0 -15.24 2.54 0.3048 21
+DS -17.78 -2.54 -17.78 2.54 0.3048 21
+DS 17.78 2.54 17.78 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_14x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_14x2
+$MODULE pin_strip_14x2-90
+Po 0 0 0 15 4EF8EF09 00000000 ~~
+Li pin_strip_14x2-90
+Cd Pin strip 14x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_18x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_14x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -17.78 2.54 17.78 2.54 0.3048 21
+DS 17.78 2.54 17.78 5.08 0.3048 21
+DS 17.78 5.08 -17.78 5.08 0.3048 21
+DS 11.43 1.27 11.43 11.43 0.3048 21
+DS 13.97 11.43 13.97 1.27 0.3048 21
+DS 16.51 1.27 16.51 11.43 0.3048 21
+DS 8.89 1.27 8.89 11.43 0.3048 21
+DS -17.78 2.54 -15.24 5.08 0.3048 21
+DS -15.24 2.54 -17.78 5.08 0.3048 21
+DS 6.35 1.27 6.35 11.43 0.3048 21
+DS 3.81 1.27 3.81 11.43 0.3048 21
+DS 1.27 1.27 1.27 11.43 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS -15.24 5.08 -15.24 2.54 0.3048 21
+DS -16.51 1.27 -16.51 11.43 0.3048 21
+DS -3.81 1.27 -3.81 11.43 0.3048 21
+DS -6.35 1.27 -6.35 11.43 0.3048 21
+DS -8.89 1.27 -8.89 11.43 0.3048 21
+DS -11.43 11.43 -11.43 1.27 0.3048 21
+DS -13.97 1.27 -13.97 11.43 0.3048 21
+DS -17.78 5.08 -17.78 2.54 0.3048 21
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_14x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_14x2-90
+$MODULE pin_strip_15
+Po 0 0 0 15 4EF88FEA 00000000 ~~
+Li pin_strip_15
+Cd Pin strip 15pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_15
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_15"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 19.05 1.27 -19.05 1.27 0.3048 21
+DS -19.05 -1.27 19.05 -1.27 0.3048 21
+DS 19.05 -1.27 19.05 1.27 0.3048 21
+DS -16.51 -1.27 -16.51 1.27 0.3048 21
+DS -19.05 1.27 -19.05 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_15.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_15
+$MODULE pin_strip_15-90
+Po 0 0 0 15 4EF8F9F8 00000000 ~~
+Li pin_strip_15-90
+Cd Pin strip 15pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_15-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -19.05 1.27 19.05 1.27 0.3048 21
+DS 19.05 1.27 19.05 3.81 0.3048 21
+DS 19.05 3.81 -19.05 3.81 0.3048 21
+DS 10.16 0 10.16 10.16 0.3048 21
+DS 12.7 10.16 12.7 0 0.3048 21
+DS 15.24 0 15.24 10.16 0.3048 21
+DS 17.78 0 17.78 10.16 0.3048 21
+DS 7.62 0 7.62 10.16 0.3048 21
+DS -16.51 3.81 -19.05 1.27 0.3048 21
+DS -19.05 3.81 -16.51 1.27 0.3048 21
+DS 5.08 0 5.08 10.16 0.3048 21
+DS 2.54 0 2.54 10.16 0.3048 21
+DS 0 0 0 10.16 0.3048 21
+DS -2.54 0 -2.54 10.16 0.3048 21
+DS -16.51 1.27 -16.51 3.81 0.3048 21
+DS -17.78 0 -17.78 10.16 0.3048 21
+DS -5.08 0 -5.08 10.16 0.3048 21
+DS -7.62 0 -7.62 10.16 0.3048 21
+DS -10.16 0 -10.16 10.16 0.3048 21
+DS -12.7 10.16 -12.7 0 0.3048 21
+DS -15.24 0 -15.24 10.16 0.3048 21
+DS -19.05 3.81 -19.05 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_15-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_15-90
+$MODULE pin_strip_15x2
+Po 0 0 0 15 4F09A736 00000000 ~~
+Li pin_strip_15x2
+Cd Pin strip 15x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_15x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 19.05 2.54 -19.05 2.54 0.3048 21
+DS -19.05 -2.54 19.05 -2.54 0.3048 21
+DS -19.05 0 -16.51 0 0.3048 21
+DS -16.51 0 -16.51 2.54 0.3048 21
+DS -19.05 -2.54 -19.05 2.54 0.3048 21
+DS 19.05 2.54 19.05 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_15x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_15x2
+$MODULE pin_strip_15x2-90
+Po 0 0 0 15 4EF8EEA2 00000000 ~~
+Li pin_strip_15x2-90
+Cd Pin strip 15x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_18x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_15x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -19.05 2.54 19.05 2.54 0.3048 21
+DS 19.05 2.54 19.05 5.08 0.3048 21
+DS 19.05 5.08 -19.05 5.08 0.3048 21
+DS 10.16 1.27 10.16 11.43 0.3048 21
+DS 12.7 11.43 12.7 1.27 0.3048 21
+DS 15.24 1.27 15.24 11.43 0.3048 21
+DS 17.78 1.27 17.78 11.43 0.3048 21
+DS 7.62 1.27 7.62 11.43 0.3048 21
+DS -19.05 2.54 -16.51 5.08 0.3048 21
+DS -16.51 2.54 -19.05 5.08 0.3048 21
+DS 5.08 1.27 5.08 11.43 0.3048 21
+DS 2.54 1.27 2.54 11.43 0.3048 21
+DS 0 1.27 0 11.43 0.3048 21
+DS -2.54 1.27 -2.54 11.43 0.3048 21
+DS -16.51 5.08 -16.51 2.54 0.3048 21
+DS -17.78 1.27 -17.78 11.43 0.3048 21
+DS -5.08 1.27 -5.08 11.43 0.3048 21
+DS -7.62 1.27 -7.62 11.43 0.3048 21
+DS -10.16 1.27 -10.16 11.43 0.3048 21
+DS -12.7 11.43 -12.7 1.27 0.3048 21
+DS -15.24 1.27 -15.24 11.43 0.3048 21
+DS -19.05 5.08 -19.05 2.54 0.3048 21
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_15x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_15x2-90
+$MODULE pin_strip_16
+Po 0 0 0 15 4EF88FC6 00000000 ~~
+Li pin_strip_16
+Cd Pin strip 16pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_16
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_16"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 20.32 1.27 -20.32 1.27 0.3048 21
+DS -20.32 -1.27 20.32 -1.27 0.3048 21
+DS 20.32 -1.27 20.32 1.27 0.3048 21
+DS -17.78 -1.27 -17.78 1.27 0.3048 21
+DS -20.32 1.27 -20.32 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_16
+$MODULE pin_strip_16-90
+Po 0 0 0 15 4EF8F9D8 00000000 ~~
+Li pin_strip_16-90
+Cd Pin strip 16pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_16-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -20.32 1.27 20.32 1.27 0.3048 21
+DS 20.32 1.27 20.32 3.81 0.3048 21
+DS 20.32 3.81 -20.32 3.81 0.3048 21
+DS 8.89 0 8.89 10.16 0.3048 21
+DS 11.43 10.16 11.43 0 0.3048 21
+DS 13.97 0 13.97 10.16 0.3048 21
+DS 16.51 0 16.51 10.16 0.3048 21
+DS 19.05 0 19.05 10.16 0.3048 21
+DS 6.35 0 6.35 10.16 0.3048 21
+DS -17.78 3.81 -20.32 1.27 0.3048 21
+DS -20.32 3.81 -17.78 1.27 0.3048 21
+DS 3.81 0 3.81 10.16 0.3048 21
+DS 1.27 0 1.27 10.16 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS -3.81 0 -3.81 10.16 0.3048 21
+DS -17.78 1.27 -17.78 3.81 0.3048 21
+DS -19.05 0 -19.05 10.16 0.3048 21
+DS -6.35 0 -6.35 10.16 0.3048 21
+DS -8.89 0 -8.89 10.16 0.3048 21
+DS -11.43 0 -11.43 10.16 0.3048 21
+DS -13.97 10.16 -13.97 0 0.3048 21
+DS -16.51 0 -16.51 10.16 0.3048 21
+DS -20.32 3.81 -20.32 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_16-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_16-90
+$MODULE pin_strip_16x2
+Po 0 0 0 15 4F09A769 00000000 ~~
+Li pin_strip_16x2
+Cd Pin strip 16x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_16x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 20.32 2.54 -20.32 2.54 0.3048 21
+DS -20.32 -2.54 20.32 -2.54 0.3048 21
+DS -20.32 0 -17.78 0 0.3048 21
+DS -17.78 0 -17.78 2.54 0.3048 21
+DS -20.32 -2.54 -20.32 2.54 0.3048 21
+DS 20.32 2.54 20.32 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_16x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_16x2
+$MODULE pin_strip_16x2-90
+Po 0 0 0 15 4EF8EE7D 00000000 ~~
+Li pin_strip_16x2-90
+Cd Pin strip 16x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_18x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_16x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -20.32 2.54 20.32 2.54 0.3048 21
+DS 20.32 2.54 20.32 5.08 0.3048 21
+DS 20.32 5.08 -20.32 5.08 0.3048 21
+DS 8.89 1.27 8.89 11.43 0.3048 21
+DS 11.43 11.43 11.43 1.27 0.3048 21
+DS 13.97 1.27 13.97 11.43 0.3048 21
+DS 16.51 1.27 16.51 11.43 0.3048 21
+DS 19.05 1.27 19.05 11.43 0.3048 21
+DS 6.35 1.27 6.35 11.43 0.3048 21
+DS -20.32 2.54 -17.78 5.08 0.3048 21
+DS -17.78 2.54 -20.32 5.08 0.3048 21
+DS 3.81 1.27 3.81 11.43 0.3048 21
+DS 1.27 1.27 1.27 11.43 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS -3.81 1.27 -3.81 11.43 0.3048 21
+DS -17.78 5.08 -17.78 2.54 0.3048 21
+DS -19.05 1.27 -19.05 11.43 0.3048 21
+DS -6.35 1.27 -6.35 11.43 0.3048 21
+DS -8.89 1.27 -8.89 11.43 0.3048 21
+DS -11.43 1.27 -11.43 11.43 0.3048 21
+DS -13.97 11.43 -13.97 1.27 0.3048 21
+DS -16.51 1.27 -16.51 11.43 0.3048 21
+DS -20.32 5.08 -20.32 2.54 0.3048 21
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_16x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_16x2-90
+$MODULE pin_strip_17
+Po 0 0 0 15 4EF88F9A 00000000 ~~
+Li pin_strip_17
+Cd Pin strip 17pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_17
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_17"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 21.59 1.27 -21.59 1.27 0.3048 21
+DS -21.59 -1.27 21.59 -1.27 0.3048 21
+DS 21.59 -1.27 21.59 1.27 0.3048 21
+DS -19.05 -1.27 -19.05 1.27 0.3048 21
+DS -21.59 1.27 -21.59 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_17.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_17
+$MODULE pin_strip_17-90
+Po 0 0 0 15 4EF8F9B0 00000000 ~~
+Li pin_strip_17-90
+Cd Pin strip 17pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_17-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -21.59 1.27 21.59 1.27 0.3048 21
+DS 21.59 1.27 21.59 3.81 0.3048 21
+DS 21.59 3.81 -21.59 3.81 0.3048 21
+DS 7.62 0 7.62 10.16 0.3048 21
+DS 10.16 10.16 10.16 0 0.3048 21
+DS 12.7 0 12.7 10.16 0.3048 21
+DS 15.24 0 15.24 10.16 0.3048 21
+DS 17.78 0 17.78 10.16 0.3048 21
+DS 5.08 0 5.08 10.16 0.3048 21
+DS 20.32 0 20.32 10.16 0.3048 21
+DS -19.05 3.81 -21.59 1.27 0.3048 21
+DS -21.59 3.81 -19.05 1.27 0.3048 21
+DS 2.54 0 2.54 10.16 0.3048 21
+DS 0 0 0 10.16 0.3048 21
+DS -2.54 0 -2.54 10.16 0.3048 21
+DS -5.08 0 -5.08 10.16 0.3048 21
+DS -19.05 1.27 -19.05 3.81 0.3048 21
+DS -20.32 0 -20.32 10.16 0.3048 21
+DS -7.62 0 -7.62 10.16 0.3048 21
+DS -10.16 0 -10.16 10.16 0.3048 21
+DS -12.7 0 -12.7 10.16 0.3048 21
+DS -15.24 10.16 -15.24 0 0.3048 21
+DS -17.78 0 -17.78 10.16 0.3048 21
+DS -21.59 3.81 -21.59 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_17-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_17-90
+$MODULE pin_strip_17x2
+Po 0 0 0 15 4F09A796 00000000 ~~
+Li pin_strip_17x2
+Cd Pin strip 17x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_17x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 21.59 2.54 -21.59 2.54 0.3048 21
+DS -21.59 -2.54 21.59 -2.54 0.3048 21
+DS -21.59 0 -19.05 0 0.3048 21
+DS -19.05 0 -19.05 2.54 0.3048 21
+DS -21.59 -2.54 -21.59 2.54 0.3048 21
+DS 21.59 2.54 21.59 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_17x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_17x2
+$MODULE pin_strip_17x2-90
+Po 0 0 0 15 4EF8EE36 00000000 ~~
+Li pin_strip_17x2-90
+Cd Pin strip 17x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_18x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_17x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 21.59 5.08 -21.59 5.08 0.3048 21
+DS -21.59 2.54 21.59 2.54 0.3048 21
+DS 7.62 1.27 7.62 11.43 0.3048 21
+DS 10.16 11.43 10.16 1.27 0.3048 21
+DS 12.7 1.27 12.7 11.43 0.3048 21
+DS 15.24 1.27 15.24 11.43 0.3048 21
+DS 17.78 1.27 17.78 11.43 0.3048 21
+DS 5.08 1.27 5.08 11.43 0.3048 21
+DS 21.59 2.54 21.59 5.08 0.3048 21
+DS 20.32 1.27 20.32 11.43 0.3048 21
+DS -21.59 2.54 -19.05 5.08 0.3048 21
+DS -19.05 2.54 -21.59 5.08 0.3048 21
+DS 2.54 1.27 2.54 11.43 0.3048 21
+DS 0 1.27 0 11.43 0.3048 21
+DS -2.54 1.27 -2.54 11.43 0.3048 21
+DS -5.08 1.27 -5.08 11.43 0.3048 21
+DS -19.05 5.08 -19.05 2.54 0.3048 21
+DS -20.32 1.27 -20.32 11.43 0.3048 21
+DS -7.62 1.27 -7.62 11.43 0.3048 21
+DS -10.16 1.27 -10.16 11.43 0.3048 21
+DS -12.7 1.27 -12.7 11.43 0.3048 21
+DS -15.24 11.43 -15.24 1.27 0.3048 21
+DS -17.78 1.27 -17.78 11.43 0.3048 21
+DS -21.59 5.08 -21.59 2.54 0.3048 21
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_17x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_17x2-90
+$MODULE pin_strip_18
+Po 0 0 0 15 4EF88F70 00000000 ~~
+Li pin_strip_18
+Cd Pin strip 18pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_18
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_18"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 22.86 1.27 -22.86 1.27 0.3048 21
+DS -22.86 -1.27 22.86 -1.27 0.3048 21
+DS 22.86 -1.27 22.86 1.27 0.3048 21
+DS -20.32 -1.27 -20.32 1.27 0.3048 21
+DS -22.86 1.27 -22.86 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_18.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_18
+$MODULE pin_strip_18-90
+Po 0 0 0 15 4EF8F979 00000000 ~~
+Li pin_strip_18-90
+Cd Pin strip 18pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_18-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -22.86 1.27 22.86 1.27 0.3048 21
+DS 22.86 1.27 22.86 3.81 0.3048 21
+DS 22.86 3.81 -22.86 3.81 0.3048 21
+DS 6.35 0 6.35 10.16 0.3048 21
+DS 8.89 10.16 8.89 0 0.3048 21
+DS 11.43 0 11.43 10.16 0.3048 21
+DS 13.97 0 13.97 10.16 0.3048 21
+DS 16.51 0 16.51 10.16 0.3048 21
+DS 3.81 0 3.81 10.16 0.3048 21
+DS 19.05 0 19.05 10.16 0.3048 21
+DS 21.59 0 21.59 10.16 0.3048 21
+DS -20.32 3.81 -22.86 1.27 0.3048 21
+DS -22.86 3.81 -20.32 1.27 0.3048 21
+DS 1.27 0 1.27 10.16 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS -3.81 0 -3.81 10.16 0.3048 21
+DS -6.35 0 -6.35 10.16 0.3048 21
+DS -20.32 1.27 -20.32 3.81 0.3048 21
+DS -21.59 0 -21.59 10.16 0.3048 21
+DS -8.89 0 -8.89 10.16 0.3048 21
+DS -11.43 0 -11.43 10.16 0.3048 21
+DS -13.97 0 -13.97 10.16 0.3048 21
+DS -16.51 10.16 -16.51 0 0.3048 21
+DS -19.05 0 -19.05 10.16 0.3048 21
+DS -22.86 3.81 -22.86 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_18-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_18-90
+$MODULE pin_strip_18x2
+Po 0 0 0 15 4F09A80A 00000000 ~~
+Li pin_strip_18x2
+Cd Pin strip 18x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_18x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -22.86 2.54 22.86 2.54 0.3048 21
+DS 22.86 -2.54 -22.86 -2.54 0.3048 21
+DS -22.86 0 -20.32 0 0.3048 21
+DS -20.32 0 -20.32 2.54 0.3048 21
+DS -22.86 -2.54 -22.86 2.54 0.3048 21
+DS 22.86 2.54 22.86 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 1.27
+$EndPAD
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_18x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_18x2
+$MODULE pin_strip_18x2-90
+Po 0 0 0 15 4EF8991B 00000000 ~~
+Li pin_strip_18x2-90
+Cd Pin strip 18x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_18x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_18x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 22.86 5.08 -22.86 5.08 0.3048 21
+DS -22.86 2.54 22.86 2.54 0.3048 21
+DS 6.35 1.27 6.35 11.43 0.3048 21
+DS 8.89 11.43 8.89 1.27 0.3048 21
+DS 11.43 1.27 11.43 11.43 0.3048 21
+DS 13.97 1.27 13.97 11.43 0.3048 21
+DS 16.51 1.27 16.51 11.43 0.3048 21
+DS 3.81 1.27 3.81 11.43 0.3048 21
+DS 22.86 2.54 22.86 5.08 0.3048 21
+DS 19.05 1.27 19.05 11.43 0.3048 21
+DS 21.59 1.27 21.59 11.43 0.3048 21
+DS -22.86 2.54 -20.32 5.08 0.3048 21
+DS -20.32 2.54 -22.86 5.08 0.3048 21
+DS 1.27 1.27 1.27 11.43 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS -3.81 1.27 -3.81 11.43 0.3048 21
+DS -6.35 1.27 -6.35 11.43 0.3048 21
+DS -20.32 5.08 -20.32 2.54 0.3048 21
+DS -21.59 1.27 -21.59 11.43 0.3048 21
+DS -8.89 1.27 -8.89 11.43 0.3048 21
+DS -11.43 1.27 -11.43 11.43 0.3048 21
+DS -13.97 1.27 -13.97 11.43 0.3048 21
+DS -16.51 11.43 -16.51 1.27 0.3048 21
+DS -19.05 1.27 -19.05 11.43 0.3048 21
+DS -22.86 5.08 -22.86 2.54 0.3048 21
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_18x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_18x2-90
+$MODULE pin_strip_19-90
+Po 0 0 0 15 4EF8F93F 00000000 ~~
+Li pin_strip_19-90
+Cd Pin strip 19pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_19-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -24.13 1.27 24.13 1.27 0.3048 21
+DS 24.13 1.27 24.13 3.81 0.3048 21
+DS 24.13 3.81 -24.13 3.81 0.3048 21
+DS 5.08 0 5.08 10.16 0.3048 21
+DS 7.62 10.16 7.62 0 0.3048 21
+DS 10.16 0 10.16 10.16 0.3048 21
+DS 12.7 0 12.7 10.16 0.3048 21
+DS 15.24 0 15.24 10.16 0.3048 21
+DS 2.54 0 2.54 10.16 0.3048 21
+DS 17.78 0 17.78 10.16 0.3048 21
+DS 20.32 0 20.32 10.16 0.3048 21
+DS 22.86 0 22.86 10.16 0.3048 21
+DS -21.59 3.81 -24.13 1.27 0.3048 21
+DS -24.13 3.81 -21.59 1.27 0.3048 21
+DS 0 0 0 10.16 0.3048 21
+DS -2.54 0 -2.54 10.16 0.3048 21
+DS -5.08 0 -5.08 10.16 0.3048 21
+DS -7.62 0 -7.62 10.16 0.3048 21
+DS -21.59 1.27 -21.59 3.81 0.3048 21
+DS -22.86 0 -22.86 10.16 0.3048 21
+DS -10.16 0 -10.16 10.16 0.3048 21
+DS -12.7 0 -12.7 10.16 0.3048 21
+DS -15.24 0 -15.24 10.16 0.3048 21
+DS -17.78 10.16 -17.78 0 0.3048 21
+DS -20.32 0 -20.32 10.16 0.3048 21
+DS -24.13 3.81 -24.13 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 0
+$EndPAD
+$PAD
+Sh "19" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_19-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_19-90
+$MODULE pin_strip_19x2
+Po 0 0 0 15 4F09A845 00000000 ~~
+Li pin_strip_19x2
+Cd Pin strip 19x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_19x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 24.13 2.54 -24.13 2.54 0.3048 21
+DS -24.13 -2.54 24.13 -2.54 0.3048 21
+DS -24.13 0 -21.59 0 0.3048 21
+DS -21.59 0 -21.59 2.54 0.3048 21
+DS -24.13 -2.54 -24.13 2.54 0.3048 21
+DS 24.13 2.54 24.13 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 1.27
+$EndPAD
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -1.27
+$EndPAD
+$PAD
+Sh "37" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 1.27
+$EndPAD
+$PAD
+Sh "38" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_19x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_19x2
+$MODULE pin_strip_19x2-90
+Po 0 0 0 15 4EF898DF 00000000 ~~
+Li pin_strip_19x2-90
+Cd Pin strip 19x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_19x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_19x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -24.13 5.08 24.13 5.08 0.3048 21
+DS 24.13 2.54 -24.13 2.54 0.3048 21
+DS 5.08 1.27 5.08 11.43 0.3048 21
+DS 7.62 11.43 7.62 1.27 0.3048 21
+DS 10.16 1.27 10.16 11.43 0.3048 21
+DS 12.7 1.27 12.7 11.43 0.3048 21
+DS 15.24 1.27 15.24 11.43 0.3048 21
+DS 2.54 1.27 2.54 11.43 0.3048 21
+DS 24.13 2.54 24.13 5.08 0.3048 21
+DS 17.78 1.27 17.78 11.43 0.3048 21
+DS 20.32 1.27 20.32 11.43 0.3048 21
+DS 22.86 1.27 22.86 11.43 0.3048 21
+DS -24.13 2.54 -21.59 5.08 0.3048 21
+DS -21.59 2.54 -24.13 5.08 0.3048 21
+DS 0 1.27 0 11.43 0.3048 21
+DS -2.54 1.27 -2.54 11.43 0.3048 21
+DS -5.08 1.27 -5.08 11.43 0.3048 21
+DS -7.62 1.27 -7.62 11.43 0.3048 21
+DS -21.59 5.08 -21.59 2.54 0.3048 21
+DS -22.86 1.27 -22.86 11.43 0.3048 21
+DS -10.16 1.27 -10.16 11.43 0.3048 21
+DS -12.7 1.27 -12.7 11.43 0.3048 21
+DS -15.24 1.27 -15.24 11.43 0.3048 21
+DS -17.78 11.43 -17.78 1.27 0.3048 21
+DS -20.32 1.27 -20.32 11.43 0.3048 21
+DS -24.13 5.08 -24.13 2.54 0.3048 21
+$PAD
+Sh "38" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 -1.27
+$EndPAD
+$PAD
+Sh "37" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.86 1.27
+$EndPAD
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.32 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.86 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.32 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_19x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_19x2-90
+$MODULE pin_strip_1x2-90
+Po 0 0 0 15 4EF84DF6 00000000 ~~
+Li pin_strip_1x2-90
+Cd Pin strip 1x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_1x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_1x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -1.27 2.54 1.27 5.08 0.3048 21
+DS -1.27 5.08 1.27 2.54 0.3048 21
+DS -1.27 2.54 1.27 2.54 0.3048 21
+DS 1.27 2.54 1.27 5.08 0.3048 21
+DS 1.27 5.08 -1.27 5.08 0.3048 21
+DS -1.27 5.08 -1.27 2.54 0.3048 21
+DS 0.03048 1.27 0.03048 11.43 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.30048
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.30048
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_1x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_1x2-90
+$MODULE pin_strip_2
+Po 0 0 0 15 4F0999B2 00000000 ~~
+Li pin_strip_2
+Cd Pin strip 2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_2
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_2"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 0 -1.27 0 1.27 0.3048 21
+DS 0 1.27 -2.54 -1.27 0.3048 21
+DS -2.54 1.27 0 -1.27 0.3048 21
+DS 2.54 1.27 -2.54 1.27 0.3048 21
+DS -2.54 -1.27 2.54 -1.27 0.3048 21
+DS -2.54 1.27 -2.54 -1.27 0.3048 21
+DS 2.54 -1.27 2.54 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_2
+$MODULE pin_strip_2-90
+Po 0 0 0 15 4EF89145 00000000 ~~
+Li pin_strip_2-90
+Cd Pin strip 2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_2-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_2-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 0 3.81 -2.54 1.27 0.3048 21
+DS 0 3.81 0 1.27 0.3048 21
+DS 0 1.27 -2.54 3.81 0.3048 21
+DS -2.54 3.81 2.54 3.81 0.3048 21
+DS 2.54 3.81 2.54 1.27 0.3048 21
+DS 2.54 1.27 -2.54 1.27 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS 1.27 0 1.27 10.16 0.3048 21
+DS -2.54 3.81 -2.54 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_2-90
+$MODULE pin_strip_20
+Po 0 0 0 15 4EF88F08 00000000 ~~
+Li pin_strip_20
+Cd Pin strip 20pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_20
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_20"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 25.4 1.27 -25.4 1.27 0.3048 21
+DS -25.4 -1.27 25.4 -1.27 0.3048 21
+DS 25.4 -1.27 25.4 1.27 0.3048 21
+DS -22.86 -1.27 -22.86 1.27 0.3048 21
+DS -25.4 1.27 -25.4 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$PAD
+Sh "19" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 0
+$EndPAD
+$PAD
+Sh "20" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_20.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_20
+$MODULE pin_strip_20-90
+Po 0 0 0 15 4EF8F904 00000000 ~~
+Li pin_strip_20-90
+Cd Pin strip 20pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_20-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_20-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -25.4 1.27 25.4 1.27 0.3048 21
+DS 25.4 1.27 25.4 3.81 0.3048 21
+DS 25.4 3.81 -25.4 3.81 0.3048 21
+DS 3.81 0 3.81 10.16 0.3048 21
+DS 6.35 10.16 6.35 0 0.3048 21
+DS 8.89 0 8.89 10.16 0.3048 21
+DS 11.43 0 11.43 10.16 0.3048 21
+DS 13.97 0 13.97 10.16 0.3048 21
+DS 1.27 0 1.27 10.16 0.3048 21
+DS 16.51 0 16.51 10.16 0.3048 21
+DS 19.05 0 19.05 10.16 0.3048 21
+DS 21.59 0 21.59 10.16 0.3048 21
+DS 24.13 0 24.13 10.16 0.3048 21
+DS -22.86 3.81 -25.4 1.27 0.3048 21
+DS -25.4 3.81 -22.86 1.27 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS -3.81 0 -3.81 10.16 0.3048 21
+DS -6.35 0 -6.35 10.16 0.3048 21
+DS -8.89 0 -8.89 10.16 0.3048 21
+DS -22.86 1.27 -22.86 3.81 0.3048 21
+DS -24.13 0 -24.13 10.16 0.3048 21
+DS -11.43 0 -11.43 10.16 0.3048 21
+DS -13.97 0 -13.97 10.16 0.3048 21
+DS -16.51 0 -16.51 10.16 0.3048 21
+DS -19.05 10.16 -19.05 0 0.3048 21
+DS -21.59 0 -21.59 10.16 0.3048 21
+DS -25.4 3.81 -25.4 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "10" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "11" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "12" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "13" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "14" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "15" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "16" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "17" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 0
+$EndPAD
+$PAD
+Sh "18" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$PAD
+Sh "19" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 0
+$EndPAD
+$PAD
+Sh "20" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_20-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_20-90
+$MODULE pin_strip_20x2
+Po 0 0 0 15 4F09A877 00000000 ~~
+Li pin_strip_20x2
+Cd Pin strip 20x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_10x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_20x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 25.4 2.54 -25.4 2.54 0.3048 21
+DS -25.4 -2.54 25.4 -2.54 0.3048 21
+DS -25.4 0 -22.86 0 0.3048 21
+DS -22.86 0 -22.86 2.54 0.3048 21
+DS -25.4 -2.54 -25.4 2.54 0.3048 21
+DS 25.4 2.54 25.4 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "37" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 1.27
+$EndPAD
+$PAD
+Sh "38" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -1.27
+$EndPAD
+$PAD
+Sh "39" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 1.27
+$EndPAD
+$PAD
+Sh "40" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_20x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_20x2
+$MODULE pin_strip_20x2-90
+Po 0 0 0 15 4EF8988C 00000000 ~~
+Li pin_strip_20x2-90
+Cd Pin strip 20x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_20x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_20x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 25.4 2.54 -25.4 2.54 0.3048 21
+DS -25.4 5.08 25.4 5.08 0.3048 21
+DS 3.81 1.27 3.81 11.43 0.3048 21
+DS 6.35 11.43 6.35 1.27 0.3048 21
+DS 8.89 1.27 8.89 11.43 0.3048 21
+DS 11.43 1.27 11.43 11.43 0.3048 21
+DS 13.97 1.27 13.97 11.43 0.3048 21
+DS 1.27 1.27 1.27 11.43 0.3048 21
+DS 25.4 2.54 25.4 5.08 0.3048 21
+DS 16.51 1.27 16.51 11.43 0.3048 21
+DS 19.05 1.27 19.05 11.43 0.3048 21
+DS 21.59 1.27 21.59 11.43 0.3048 21
+DS 24.13 1.27 24.13 11.43 0.3048 21
+DS -25.4 2.54 -22.86 5.08 0.3048 21
+DS -22.86 2.54 -25.4 5.08 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS -3.81 1.27 -3.81 11.43 0.3048 21
+DS -6.35 1.27 -6.35 11.43 0.3048 21
+DS -8.89 1.27 -8.89 11.43 0.3048 21
+DS -22.86 5.08 -22.86 2.54 0.3048 21
+DS -24.13 1.27 -24.13 11.43 0.3048 21
+DS -11.43 1.27 -11.43 11.43 0.3048 21
+DS -13.97 1.27 -13.97 11.43 0.3048 21
+DS -16.51 1.27 -16.51 11.43 0.3048 21
+DS -19.05 11.43 -19.05 1.27 0.3048 21
+DS -21.59 1.27 -21.59 11.43 0.3048 21
+DS -25.4 5.08 -25.4 2.54 0.3048 21
+$PAD
+Sh "40" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 -1.27
+$EndPAD
+$PAD
+Sh "39" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 1.27
+$EndPAD
+$PAD
+Sh "38" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -1.27
+$EndPAD
+$PAD
+Sh "37" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 1.27
+$EndPAD
+$PAD
+Sh "36" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "35" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "34" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "33" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "32" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "31" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "30" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "29" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "28" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "27" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "26" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "25" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "24" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "23" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "22" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "21" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "19" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "20" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_20x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_20x2-90
+$MODULE pin_strip_2x2
+Po 0 0 0 15 4B90DF21 00000000 ~~
+Li pin_strip_2x2
+Cd Pin strip 2x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_2x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_2x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -2.54 -2.54 2.54 -2.54 0.3048 21
+DS 2.54 -2.54 2.54 2.54 0.3048 21
+DS 2.54 2.54 -2.54 2.54 0.3048 21
+DS -2.54 0 0 0 0.3048 21
+DS 0 0 0 2.54 0.3048 21
+DS -2.54 -2.54 -2.54 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_2x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_2x2
+$MODULE pin_strip_2x2-90
+Po 0 0 0 15 4EF89157 00000000 ~~
+Li pin_strip_2x2-90
+Cd Pin strip 2x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_2x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_2x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS 0 2.54 0 5.08 0.3048 21
+DS 0 5.08 -2.54 2.54 0.3048 21
+DS 0 2.54 -2.54 5.08 0.3048 21
+DS -2.54 2.54 2.54 2.54 0.3048 21
+DS 2.54 2.54 2.54 5.08 0.3048 21
+DS 2.54 5.08 -2.54 5.08 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS 1.27 1.27 1.27 11.43 0.3048 21
+DS -2.54 5.08 -2.54 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_2x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_2x2-90
+$MODULE pin_strip_3
+Po 0 0 0 15 4B90E017 00000000 ~~
+Li pin_strip_3
+Cd Pin strip 3pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_3
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_3"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -1.27 1.27 -1.27 -1.27 0.3048 21
+DS -3.81 -1.27 3.81 -1.27 0.3048 21
+DS 3.81 -1.27 3.81 1.27 0.3048 21
+DS 3.81 1.27 -3.81 1.27 0.3048 21
+DS -3.81 1.27 -3.81 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_3.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_3
+$MODULE pin_strip_3-90
+Po 0 0 0 15 4EF89165 00000000 ~~
+Li pin_strip_3-90
+Cd Pin strip 3pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_3-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_3-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -3.81 1.27 -1.27 3.81 0.3048 21
+DS -1.27 1.27 -3.81 3.81 0.3048 21
+DS -3.81 1.27 3.81 1.27 0.3048 21
+DS 3.81 1.27 3.81 3.81 0.3048 21
+DS 3.81 3.81 -3.81 3.81 0.3048 21
+DS -1.27 1.27 -1.27 3.81 0.3048 21
+DS -2.54 0 -2.54 10.16 0.3048 21
+DS 2.54 10.16 2.54 0 0.3048 21
+DS 0 0 0 10.16 0.3048 21
+DS -3.81 3.81 -3.81 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_3-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_3-90
+$MODULE pin_strip_3x2
+Po 0 0 0 15 4B90DEF7 00000000 ~~
+Li pin_strip_3x2
+Cd Pin strip 3x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_3x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_3x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -3.81 -2.54 3.81 -2.54 0.3048 21
+DS 3.81 -2.54 3.81 2.54 0.3048 21
+DS 3.81 2.54 -3.81 2.54 0.3048 21
+DS -3.81 0 -1.27 0 0.3048 21
+DS -1.27 0 -1.27 2.54 0.3048 21
+DS -3.81 -2.54 -3.81 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_3x2
+$MODULE pin_strip_3x2-90
+Po 0 0 0 15 4EF89176 00000000 ~~
+Li pin_strip_3x2-90
+Cd Pin strip 3x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_3x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_3x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -3.81 2.54 -1.27 5.08 0.3048 21
+DS -1.27 2.54 -3.81 5.08 0.3048 21
+DS -3.81 2.54 3.81 2.54 0.3048 21
+DS 3.81 2.54 3.81 5.08 0.3048 21
+DS 3.81 5.08 -3.81 5.08 0.3048 21
+DS -1.27 5.08 -1.27 2.54 0.3048 21
+DS -2.54 1.27 -2.54 11.43 0.3048 21
+DS 2.54 11.43 2.54 1.27 0.3048 21
+DS 0 1.27 0 11.43 0.3048 21
+DS -3.81 5.08 -3.81 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_3x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_3x2-90
+$MODULE pin_strip_4
+Po 0 0 0 15 4B90DFFC 00000000 ~~
+Li pin_strip_4
+Cd Pin strip 4pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_4
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_4"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -2.54 -1.27 -2.54 1.27 0.3048 21
+DS 5.08 1.27 -5.08 1.27 0.3048 21
+DS -5.08 -1.27 5.08 -1.27 0.3048 21
+DS -5.08 1.27 -5.08 -1.27 0.3048 21
+DS 5.08 -1.27 5.08 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_4.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_4
+$MODULE pin_strip_4-90
+Po 0 0 0 15 4EF89183 00000000 ~~
+Li pin_strip_4-90
+Cd Pin strip 4pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_4-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_4-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -5.08 1.27 -2.54 3.81 0.3048 21
+DS -2.54 1.27 -5.08 3.81 0.3048 21
+DS -5.08 1.27 5.08 1.27 0.3048 21
+DS 5.08 1.27 5.08 3.81 0.3048 21
+DS 5.08 3.81 -5.08 3.81 0.3048 21
+DS -2.54 1.27 -2.54 3.81 0.3048 21
+DS -3.81 0 -3.81 10.16 0.3048 21
+DS 3.81 0 3.81 10.16 0.3048 21
+DS 1.27 10.16 1.27 0 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS -5.08 3.81 -5.08 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_4-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_4-90
+$MODULE pin_strip_4x2
+Po 0 0 0 15 4B90DEC7 00000000 ~~
+Li pin_strip_4x2
+Cd Pin strip 4x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_4x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_4x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -5.08 -2.54 5.08 -2.54 0.3048 21
+DS 5.08 -2.54 5.08 2.54 0.3048 21
+DS 5.08 2.54 -5.08 2.54 0.3048 21
+DS -5.08 0 -2.54 0 0.3048 21
+DS -2.54 0 -2.54 2.54 0.3048 21
+DS -5.08 -2.54 -5.08 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_4x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_4x2
+$MODULE pin_strip_4x2-90
+Po 0 0 0 15 4EF89195 00000000 ~~
+Li pin_strip_4x2-90
+Cd Pin strip 4x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_4x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_4x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -5.08 2.54 -2.54 5.08 0.3048 21
+DS -2.54 2.54 -5.08 5.08 0.3048 21
+DS -5.08 2.54 5.08 2.54 0.3048 21
+DS 5.08 2.54 5.08 5.08 0.3048 21
+DS 5.08 5.08 -5.08 5.08 0.3048 21
+DS -2.54 5.08 -2.54 2.54 0.3048 21
+DS -3.81 1.27 -3.81 11.43 0.3048 21
+DS 3.81 1.27 3.81 11.43 0.3048 21
+DS 1.27 11.43 1.27 1.27 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS -5.08 5.08 -5.08 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_4x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_4x2-90
+$MODULE pin_strip_5
+Po 0 0 0 15 4B90DFE0 00000000 ~~
+Li pin_strip_5
+Cd Pin strip 5pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_5
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_5"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -3.81 -1.27 -3.81 1.27 0.3048 21
+DS 6.35 1.27 -6.35 1.27 0.3048 21
+DS -6.35 -1.27 6.35 -1.27 0.3048 21
+DS -6.35 1.27 -6.35 -1.27 0.3048 21
+DS 6.35 -1.27 6.35 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_5
+$MODULE pin_strip_5-90
+Po 0 0 0 15 4EF891A5 00000000 ~~
+Li pin_strip_5-90
+Cd Pin strip 5pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_5-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_5-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -6.35 1.27 -3.81 3.81 0.3048 21
+DS -3.81 1.27 -6.35 3.81 0.3048 21
+DS -6.35 1.27 6.35 1.27 0.3048 21
+DS 6.35 1.27 6.35 3.81 0.3048 21
+DS 6.35 3.81 -6.35 3.81 0.3048 21
+DS -3.81 1.27 -3.81 3.81 0.3048 21
+DS -5.08 0 -5.08 10.16 0.3048 21
+DS 5.08 0 5.08 10.16 0.3048 21
+DS 2.54 0 2.54 10.16 0.3048 21
+DS 0 10.16 0 0 0.3048 21
+DS -2.54 0 -2.54 10.16 0.3048 21
+DS -6.35 3.81 -6.35 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_5-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_5-90
+$MODULE pin_strip_5x2
+Po 0 0 0 15 4B90DE8F 00000000 ~~
+Li pin_strip_5x2
+Cd Pin strip 5x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_5x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_5x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -6.35 -2.54 6.35 -2.54 0.3048 21
+DS 6.35 -2.54 6.35 2.54 0.3048 21
+DS 6.35 2.54 -6.35 2.54 0.3048 21
+DS -6.35 0 -3.81 0 0.3048 21
+DS -3.81 0 -3.81 2.54 0.3048 21
+DS -6.35 -2.54 -6.35 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_5x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_5x2
+$MODULE pin_strip_5x2-90
+Po 0 0 0 15 4EF891B3 00000000 ~~
+Li pin_strip_5x2-90
+Cd Pin strip 5x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_5x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_5x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -6.35 2.54 -3.81 5.08 0.3048 21
+DS -3.81 2.54 -6.35 5.08 0.3048 21
+DS -6.35 2.54 6.35 2.54 0.3048 21
+DS 6.35 2.54 6.35 5.08 0.3048 21
+DS 6.35 5.08 -6.35 5.08 0.3048 21
+DS -3.81 5.08 -3.81 2.54 0.3048 21
+DS -5.08 1.27 -5.08 11.43 0.3048 21
+DS 5.08 1.27 5.08 11.43 0.3048 21
+DS 2.54 1.27 2.54 11.43 0.3048 21
+DS 0 11.43 0 1.27 0.3048 21
+DS -2.54 1.27 -2.54 11.43 0.3048 21
+DS -6.35 5.08 -6.35 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_5x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_5x2-90
+$MODULE pin_strip_6
+Po 0 0 0 15 4B90DFC4 00000000 ~~
+Li pin_strip_6
+Cd Pin strip 6pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_6
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_6"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -5.08 -1.27 -5.08 1.27 0.3048 21
+DS -7.62 1.27 -7.62 -1.27 0.3048 21
+DS -7.62 -1.27 7.62 -1.27 0.3048 21
+DS 7.62 -1.27 7.62 1.27 0.3048 21
+DS 7.62 1.27 -7.62 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_6.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_6
+$MODULE pin_strip_6-90
+Po 0 0 0 15 4EF891C9 00000000 ~~
+Li pin_strip_6-90
+Cd Pin strip 6pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_6-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_6-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -7.62 3.81 -5.08 1.27 0.3048 21
+DS -5.08 1.27 -5.08 3.81 0.3048 21
+DS -5.08 3.81 -7.62 1.27 0.3048 21
+DS -6.35 0 -6.35 10.16 0.381 21
+DS 6.35 0 6.35 10.16 0.381 21
+DS 3.81 0 3.81 10.16 0.381 21
+DS 1.27 0 1.27 10.16 0.381 21
+DS -1.27 10.16 -1.27 0 0.381 21
+DS -3.81 0 -3.81 10.16 0.381 21
+DS -7.62 3.81 -7.62 1.27 0.3048 21
+DS -7.62 1.27 7.62 1.27 0.3048 21
+DS 7.62 1.27 7.62 3.81 0.3048 21
+DS 7.62 3.81 -7.62 3.81 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_6-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_6-90
+$MODULE pin_strip_6x2
+Po 0 0 0 15 4B90DE54 00000000 ~~
+Li pin_strip_6x2
+Cd Pin strip 6x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_6x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_6x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -7.62 -2.54 7.62 -2.54 0.3048 21
+DS 7.62 -2.54 7.62 2.54 0.3048 21
+DS 7.62 2.54 -7.62 2.54 0.3048 21
+DS -7.62 0 -5.08 0 0.3048 21
+DS -5.08 0 -5.08 2.54 0.3048 21
+DS -7.62 -2.54 -7.62 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_6x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_6x2
+$MODULE pin_strip_6x2-90
+Po 0 0 0 15 4EF891D8 00000000 ~~
+Li pin_strip_6x2-90
+Cd Pin strip 6x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_6x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_6x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -7.62 5.08 -5.08 2.54 0.3048 21
+DS -7.62 2.54 -5.08 5.08 0.3048 21
+DS -5.08 5.08 -5.08 2.54 0.3048 21
+DS -6.35 1.27 -6.35 11.43 0.381 21
+DS 6.35 1.27 6.35 11.43 0.381 21
+DS 3.81 1.27 3.81 11.43 0.381 21
+DS 1.27 1.27 1.27 11.43 0.381 21
+DS -1.27 11.43 -1.27 1.27 0.381 21
+DS -3.81 1.27 -3.81 11.43 0.381 21
+DS -7.62 5.08 -7.62 2.54 0.3048 21
+DS -7.62 2.54 7.62 2.54 0.3048 21
+DS 7.62 2.54 7.62 5.08 0.3048 21
+DS 7.62 5.08 -7.62 5.08 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_6x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_6x2-90
+$MODULE pin_strip_7
+Po 0 0 0 15 4B90DFA8 00000000 ~~
+Li pin_strip_7
+Cd Pin strip 7pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_7
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_7"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -6.35 -1.27 -6.35 1.27 0.3048 21
+DS -8.89 1.27 8.89 1.27 0.3048 21
+DS 8.89 -1.27 -8.89 -1.27 0.3048 21
+DS -8.89 1.27 -8.89 -1.27 0.3048 21
+DS 8.89 -1.27 8.89 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_7.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_7
+$MODULE pin_strip_7-90
+Po 0 0 0 15 4EF89316 00000000 ~~
+Li pin_strip_7-90
+Cd Pin strip 7pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_7-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_7-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -8.89 1.27 -6.35 3.81 0.3048 21
+DS -6.35 1.27 -8.89 3.81 0.3048 21
+DS -8.89 1.27 8.89 1.27 0.3048 21
+DS 8.89 1.27 8.89 3.81 0.3048 21
+DS 8.89 3.81 -8.89 3.81 0.3048 21
+DS 7.62 0 7.62 10.16 0.3048 21
+DS -6.35 1.27 -6.35 3.81 0.3048 21
+DS -7.62 0 -7.62 10.16 0.3048 21
+DS 5.08 0 5.08 10.16 0.3048 21
+DS 2.54 0 2.54 10.16 0.3048 21
+DS 0 0 0 10.16 0.3048 21
+DS -2.54 10.16 -2.54 0 0.3048 21
+DS -5.08 0 -5.08 10.16 0.3048 21
+DS -8.89 3.81 -8.89 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_7-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_7-90
+$MODULE pin_strip_7x2
+Po 0 0 0 15 4B90DCE3 00000000 ~~
+Li pin_strip_7x2
+Cd Pin strip 7x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_7x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_7x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -8.89 -2.54 8.89 -2.54 0.3048 21
+DS 8.89 -2.54 8.89 2.54 0.3048 21
+DS 8.89 2.54 -8.89 2.54 0.3048 21
+DS -8.89 0 -6.35 0 0.3048 21
+DS -6.35 0 -6.35 2.54 0.3048 21
+DS -8.89 -2.54 -8.89 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_7x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_7x2
+$MODULE pin_strip_7x2-90
+Po 0 0 0 15 4EF89324 00000000 ~~
+Li pin_strip_7x2-90
+Cd Pin strip 7x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_7x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_7x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -8.89 2.54 -6.35 5.08 0.3048 21
+DS -6.35 2.54 -8.89 5.08 0.3048 21
+DS 6.35 2.54 8.89 2.54 0.3048 21
+DS 8.89 2.54 8.89 5.08 0.3048 21
+DS 8.89 5.08 6.35 5.08 0.3048 21
+DS 7.62 1.27 7.62 11.43 0.3048 21
+DS -6.35 5.08 -6.35 2.54 0.3048 21
+DS -7.62 1.27 -7.62 11.43 0.3048 21
+DS 5.08 1.27 5.08 11.43 0.3048 21
+DS 2.54 1.27 2.54 11.43 0.3048 21
+DS 0 1.27 0 11.43 0.3048 21
+DS -2.54 11.43 -2.54 1.27 0.3048 21
+DS -5.08 1.27 -5.08 11.43 0.3048 21
+DS -8.89 5.08 -8.89 2.54 0.3048 21
+DS -8.89 2.54 6.35 2.54 0.3048 21
+DS 6.35 5.08 -8.89 5.08 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_7x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_7x2-90
+$MODULE pin_strip_8
+Po 0 0 0 15 4B90DF8F 00000000 ~~
+Li pin_strip_8
+Cd Pin strip 8pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_8
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_8"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -7.62 -1.27 -7.62 1.27 0.3048 21
+DS -10.16 -1.27 10.16 -1.27 0.3048 21
+DS 10.16 -1.27 10.16 1.27 0.3048 21
+DS 10.16 1.27 -10.16 1.27 0.3048 21
+DS -10.16 1.27 -10.16 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_8.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_8
+$MODULE pin_strip_8-90
+Po 0 0 0 15 4EF89332 00000000 ~~
+Li pin_strip_8-90
+Cd Pin strip 8pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_8-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_8-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -10.16 1.27 -7.62 3.81 0.3048 21
+DS -7.62 1.27 -10.16 3.81 0.3048 21
+DS -10.16 1.27 10.16 1.27 0.3048 21
+DS 10.16 1.27 10.16 3.81 0.3048 21
+DS 10.16 3.81 -10.16 3.81 0.3048 21
+DS 8.89 0 8.89 10.16 0.3048 21
+DS 6.35 0 6.35 10.16 0.3048 21
+DS -7.62 1.27 -7.62 3.81 0.3048 21
+DS -8.89 0 -8.89 10.16 0.3048 21
+DS 3.81 0 3.81 10.16 0.3048 21
+DS 1.27 0 1.27 10.16 0.3048 21
+DS -1.27 0 -1.27 10.16 0.3048 21
+DS -3.81 10.16 -3.81 0 0.3048 21
+DS -6.35 0 -6.35 10.16 0.3048 21
+DS -10.16 3.81 -10.16 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_8-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_8-90
+$MODULE pin_strip_8x2
+Po 0 0 0 15 4B90DC99 00000000 ~~
+Li pin_strip_8x2
+Cd Pin strip 8x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_8x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_8x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -10.16 -2.54 10.16 -2.54 0.3048 21
+DS 10.16 -2.54 10.16 2.54 0.3048 21
+DS 10.16 2.54 -10.16 2.54 0.3048 21
+DS -10.16 0 -7.62 0 0.3048 21
+DS -7.62 0 -7.62 2.54 0.3048 21
+DS -10.16 -2.54 -10.16 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_8x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_8x2
+$MODULE pin_strip_8x2-90
+Po 0 0 0 15 4EF89340 00000000 ~~
+Li pin_strip_8x2-90
+Cd Pin strip 8x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_8x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_8x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -10.16 2.54 -7.62 5.08 0.3048 21
+DS -7.62 2.54 -10.16 5.08 0.3048 21
+DS 5.08 2.54 10.16 2.54 0.3048 21
+DS 10.16 2.54 10.16 5.08 0.3048 21
+DS 10.16 5.08 5.08 5.08 0.3048 21
+DS 8.89 1.27 8.89 11.43 0.3048 21
+DS 6.35 1.27 6.35 11.43 0.3048 21
+DS -7.62 5.08 -7.62 2.54 0.3048 21
+DS -8.89 1.27 -8.89 11.43 0.3048 21
+DS 3.81 1.27 3.81 11.43 0.3048 21
+DS 1.27 1.27 1.27 11.43 0.3048 21
+DS -1.27 1.27 -1.27 11.43 0.3048 21
+DS -3.81 11.43 -3.81 1.27 0.3048 21
+DS -6.35 1.27 -6.35 11.43 0.3048 21
+DS -10.16 5.08 -10.16 2.54 0.3048 21
+DS -10.16 2.54 5.08 2.54 0.3048 21
+DS 5.08 5.08 -10.16 5.08 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_8x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_8x2-90
+$MODULE pin_strip_9
+Po 0 0 0 15 4B90DF58 00000000 ~~
+Li pin_strip_9
+Cd Pin strip 9pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_9
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_9"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -8.89 -1.27 -8.89 1.27 0.3048 21
+DS -11.43 -1.27 11.43 -1.27 0.3048 21
+DS 11.43 -1.27 11.43 1.27 0.3048 21
+DS 11.43 1.27 -11.43 1.27 0.3048 21
+DS -11.43 1.27 -11.43 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_9.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_9
+$MODULE pin_strip_9-90
+Po 0 0 0 15 4EF8934D 00000000 ~~
+Li pin_strip_9-90
+Cd Pin strip 9pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_9-90
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_9-90"
+T1 0.254 -3.556 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -11.43 1.27 -8.89 3.81 0.3048 21
+DS -8.89 1.27 -11.43 3.81 0.3048 21
+DS -11.43 1.27 11.43 1.27 0.3048 21
+DS 11.43 1.27 11.43 3.81 0.3048 21
+DS 11.43 3.81 -11.43 3.81 0.3048 21
+DS 10.16 0 10.16 10.16 0.3048 21
+DS 7.62 0 7.62 10.16 0.3048 21
+DS 5.08 0 5.08 10.16 0.3048 21
+DS -8.89 1.27 -8.89 3.81 0.3048 21
+DS -10.16 0 -10.16 10.16 0.3048 21
+DS 2.54 0 2.54 10.16 0.3048 21
+DS 0 0 0 10.16 0.3048 21
+DS -2.54 0 -2.54 10.16 0.3048 21
+DS -5.08 10.16 -5.08 0 0.3048 21
+DS -7.62 0 -7.62 10.16 0.3048 21
+DS -11.43 3.81 -11.43 1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_9-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_9-90
+$MODULE pin_strip_9x2
+Po 0 0 0 15 4B90DC4B 00000000 ~~
+Li pin_strip_9x2
+Cd Pin strip 9x2pin
+Kw CONN DEV
+Sc 0
+AR pin_strip_9x2
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_9x2"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -11.43 -2.54 11.43 -2.54 0.3048 21
+DS 11.43 -2.54 11.43 2.54 0.3048 21
+DS 11.43 2.54 -11.43 2.54 0.3048 21
+DS -11.43 0 -8.89 0 0.3048 21
+DS -8.89 0 -8.89 2.54 0.3048 21
+DS -11.43 -2.54 -11.43 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_9x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_9x2
+$MODULE pin_strip_9x2-90
+Po 0 0 0 15 4EF8935A 00000000 ~~
+Li pin_strip_9x2-90
+Cd Pin strip 9x2pin 90
+Kw CONN DEV
+Sc 0
+AR pin_strip_9x2-90
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_STRIP_9x2-90"
+T1 0 -5.08 1.016 0.889 0 0.2032 N I 21 N "Val**"
+DS -11.43 2.54 -8.89 5.08 0.3048 21
+DS -8.89 2.54 -11.43 5.08 0.3048 21
+DS 3.81 2.54 11.43 2.54 0.3048 21
+DS 11.43 2.54 11.43 5.08 0.3048 21
+DS 11.43 5.08 3.81 5.08 0.3048 21
+DS 10.16 1.27 10.16 11.43 0.3048 21
+DS 7.62 1.27 7.62 11.43 0.3048 21
+DS 5.08 1.27 5.08 11.43 0.3048 21
+DS -8.89 5.08 -8.89 2.54 0.3048 21
+DS -10.16 1.27 -10.16 11.43 0.3048 21
+DS 2.54 1.27 2.54 11.43 0.3048 21
+DS 0 1.27 0 11.43 0.3048 21
+DS -2.54 1.27 -2.54 11.43 0.3048 21
+DS -5.08 11.43 -5.08 1.27 0.3048 21
+DS -7.62 1.27 -7.62 11.43 0.3048 21
+DS -11.43 5.08 -11.43 2.54 0.3048 21
+DS -11.43 2.54 3.81 2.54 0.3048 21
+DS 3.81 5.08 -11.43 5.08 0.3048 21
+$PAD
+Sh "1" R 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 1.27
+$EndPAD
+$PAD
+Sh "2" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 -1.27
+$EndPAD
+$PAD
+Sh "3" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 1.27
+$EndPAD
+$PAD
+Sh "4" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -1.27
+$EndPAD
+$PAD
+Sh "5" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "6" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "7" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "8" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "10" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "11" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "12" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "13" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "14" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$PAD
+Sh "15" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 1.27
+$EndPAD
+$PAD
+Sh "16" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -1.27
+$EndPAD
+$PAD
+Sh "17" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 1.27
+$EndPAD
+$PAD
+Sh "18" O 1.524 1.99898 0 0 0
+Dr 1.00076 0 -0.24892
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -1.27
+$EndPAD
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_9x2-90.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_strip_9x2-90
+$EndLIBRARY
