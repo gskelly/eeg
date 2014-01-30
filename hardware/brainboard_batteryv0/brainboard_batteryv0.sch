@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "29 jan 2014"
+Date "30 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,8 +50,8 @@ $Comp
 L USB-MINI-B CON1
 U 1 1 52C3190B
 P 1200 1200
-F 0 "CON1" H 950 1650 60  0000 C CNN
-F 1 "USB-MINI-B" H 1150 700 60  0000 C CNN
+F 0 "CON1" H 1450 700 60  0000 C CNN
+F 1 "USB-MINI-B" H 900 700 60  0000 C CNN
 F 2 "~" H 1200 1200 60  0000 C CNN
 F 3 "~" H 1200 1200 60  0000 C CNN
 	1    1200 1200
@@ -1945,4 +1945,6 @@ Wire Wire Line
 	2350 6100 1500 6100
 Wire Wire Line
 	1500 6100 1500 6500
+Text Notes 600  650  0    51   ~ 0
+USB on bottom layer. DNP if using BBB's charging\ncircuitry via 4-hole battery header.
 $EndSCHEMATC
