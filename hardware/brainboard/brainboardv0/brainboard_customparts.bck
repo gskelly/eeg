@@ -1,0 +1,140 @@
+EESchema-DOCLIB  Version 2.0  Date: 1/21/2014 3:19:34 PM
+#
+$CMP 24C256
+D I2C Serial EEPROM
+K EEPROM Serial
+$ENDCMP
+#
+$CMP BQ24075(T)
+D 1.5A USB-FRIENDLY Li-Ion BATTERY CHARGER AND POWER-PATH MANAGEMENT IC
+K battery, charger, USB
+$ENDCMP
+#
+$CMP BQ27510
+D System-Side Impedance Track™ Fuel Gauge With Direct Battery Connection
+K battery fuel gauge
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP LTC2951-1
+D Pushbutton On/Off Controller
+$ENDCMP
+#
+$CMP LTC2951-2
+D Pushbutton On/Off Controller
+$ENDCMP
+#
+$CMP MC74VHC1G03
+D Single 2-Input Positive NOR-Gate w/ Open-Drain Y
+K logic, gate, nor, open-drain, od
+$ENDCMP
+#
+$CMP MCP73831T
+D Single-Cell, Fully Integrated Li-Ion, Li-Polymer Charge Management Controller
+$ENDCMP
+#
+$CMP MOS_N
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOS_N_E
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOS_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOS_P_E
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP SN74AUP1G04
+D Low-Power Single Inverter Gate
+K inverter
+$ENDCMP
+#
+$CMP SN74LVC138ARGY
+D 3-to-8 line decoder/demux (1.65-3.6 V)
+$ENDCMP
+#
+$CMP SN74LVC1G02
+D Single 2-Input Positive NOR-Gate
+K logic, gate, nor
+$ENDCMP
+#
+$CMP SN74LVC1G373
+D Single D-Type Latch With 3-State Output
+K logic, latch
+$ENDCMP
+#
+$CMP SN74LVC2G132
+D Dual 2-Input NAND Gate With Schmitt-Trigger Inputs
+K logic, gate, NAND, schmitt trigger
+$ENDCMP
+#
+$CMP TEENSY3.0
+D Basic connections for Teensy 3.0 ARM Cortex-M3 based MCU board
+$ENDCMP
+#
+$CMP TLV301X
+D Nanopower, 1.8V, SOT23 Comparator with 1.242 V Reference
+K comparator
+$ENDCMP
+#
+$CMP TPD4E001
+D 4 channels ESD protection IEEE1394
+K ESD
+F texas/tpd2s017.pdf
+$ENDCMP
+#
+$CMP TPD4E001DBV
+D 4 channels ESD protection IEEE1394
+K ESD
+F texas/tpd2s017.pdf
+$ENDCMP
+#
+$CMP TPS60403
+D Unregulated 60mA Charge Pump Voltage Inverter
+$ENDCMP
+#
+$CMP TPS72325
+D 200mA Low-Noise, High-PSRR -2.5V Low-Dropout Linear Regulator
+$ENDCMP
+#
+$CMP TPS73150
+D Low-noise LDO regulator 5V SOT23 package
+$ENDCMP
+#
+$CMP TPS73225
+D 2.5V 250mA Low Dropout Regulator
+$ENDCMP
+#
+$CMP TPS73233
+D 3.3V 250mA Low Dropout Regulator
+$ENDCMP
+#
+$CMP TPS732XX
+D Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection
+K ldo
+$ENDCMP
+#
+$CMP TPS736xx-SON
+D Cap-Free, NMOS, 400mA Low Dropout Regulator with Reverse Current Protection
+K ldo
+$ENDCMP
+#
+$CMP ZEN056V230A16LS
+D Polymer Enhanced Zener Diode Micro-Assembly
+K zener, ptc, fuse
+$ENDCMP
+#
+#End Doc Library
