@@ -1,0 +1,453 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:brainboard_customparts
+LIBS:SparkFun-Passives
+LIBS:brainboard_wearable_v2-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title "BrainBoard: Open-Source Hardware for Wearable BCI"
+Date "7 jul 2014"
+Rev "0"
+Comp "Virginia Commonwealth University"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATUC3L064 U10
+U 1 1 53AA1ACD
+P 5850 3350
+F 0 "U10" H 5850 1500 60  0000 C CNN
+F 1 "ATUC3L064" H 5850 4600 60  0000 C CNN
+F 2 "" H 5850 3350 60  0000 C CNN
+F 3 "" H 5850 3350 60  0000 C CNN
+F 4 "Atmel" H 5850 3350 60  0001 C CNN "Manufacturer 1"
+F 5 "AT32UC3L064-AUT" H 5850 3350 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 5850 3350 60  0001 C CNN "Vendor 1"
+F 7 "$7.80/1 $4.898/25" H 5850 3350 60  0001 C CNN "Pricing 1"
+	1    5850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C47
+U 1 1 53AA1ACE
+P 4050 3000
+F 0 "C47" H 4050 3100 40  0000 L CNN
+F 1 "0.1uF" H 4056 2915 40  0000 L CNN
+F 2 "~" H 4088 2850 30  0000 C CNN
+F 3 "~" H 4050 3000 60  0000 C CNN
+F 4 "Kemet" H 4050 3000 60  0001 C CNN "Manufacturer 1"
+F 5 "C0603C104K4RACTU" H 4050 3000 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 4050 3000 60  0001 C CNN "Vendor 1"
+F 7 "$0.10/1 $0.022/10 $0.0118/50" H 4050 3000 60  0001 C CNN "Pricing 1"
+	1    4050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C48
+U 1 1 53AA1ACF
+P 4300 3000
+F 0 "C48" H 4300 3100 40  0000 L CNN
+F 1 "0.1uF" H 4306 2915 40  0000 L CNN
+F 2 "~" H 4338 2850 30  0000 C CNN
+F 3 "~" H 4300 3000 60  0000 C CNN
+F 4 "Kemet" H 4300 3000 60  0001 C CNN "Manufacturer 1"
+F 5 "C0603C104K4RACTU" H 4300 3000 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 4300 3000 60  0001 C CNN "Vendor 1"
+F 7 "$0.10/1 $0.022/10 $0.0118/50" H 4300 3000 60  0001 C CNN "Pricing 1"
+	1    4300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C46
+U 1 1 53AA1AD0
+P 3800 3000
+F 0 "C46" H 3800 3100 40  0000 L CNN
+F 1 "10uF" H 3806 2915 40  0000 L CNN
+F 2 "~" H 3838 2850 30  0000 C CNN
+F 3 "~" H 3800 3000 60  0000 C CNN
+F 4 "Kemet" H 3800 3000 60  0001 C CNN "Manufacturer 1"
+F 5 "C0805C106Z8VACTU" H 3800 3000 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 3800 3000 60  0001 C CNN "Vendor 1"
+F 7 "$0.16/1 $0.111/10 $0.063/50" H 3800 3000 60  0001 C CNN "Pricing 1"
+	1    3800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C45
+U 1 1 53AA1AD1
+P 3500 3000
+F 0 "C45" H 3500 3100 40  0000 L CNN
+F 1 "0.1uF" H 3506 2915 40  0000 L CNN
+F 2 "~" H 3538 2850 30  0000 C CNN
+F 3 "~" H 3500 3000 60  0000 C CNN
+F 4 "Kemet" H 3500 3000 60  0001 C CNN "Manufacturer 1"
+F 5 "C0603C104K4RACTU" H 3500 3000 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 3500 3000 60  0001 C CNN "Vendor 1"
+F 7 "$0.10/1 $0.022/10 $0.0118/50" H 3500 3000 60  0001 C CNN "Pricing 1"
+	1    3500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C44
+U 1 1 53AA1AD2
+P 3250 3000
+F 0 "C44" H 3250 3100 40  0000 L CNN
+F 1 "2.2uF" H 3256 2915 40  0000 L CNN
+F 2 "~" H 3288 2850 30  0000 C CNN
+F 3 "~" H 3250 3000 60  0000 C CNN
+F 4 "Kemet" H 3250 3000 60  0001 C CNN "Manufacturer 1"
+F 5 "C0603C225K8PACTU" H 3250 3000 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 3250 3000 60  0001 C CNN "Vendor 1"
+F 7 "$0.17/1 $0.113/10 $0.0676/50" H 3250 3000 60  0001 C CNN "Pricing 1"
+	1    3250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR064
+U 1 1 53AA1AD3
+P 2950 3250
+F 0 "#PWR064" H 2950 3250 40  0001 C CNN
+F 1 "DGND" H 2950 3180 40  0000 C CNN
+F 2 "" H 2950 3250 60  0000 C CNN
+F 3 "" H 2950 3250 60  0000 C CNN
+	1    2950 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 4100 2    51   Input ~ 0
+/DRDY
+Text GLabel 6800 3200 2    51   Output ~ 0
+/PWDN
+Text GLabel 4800 3500 0    51   Output ~ 0
+MOSI
+Text GLabel 4800 3400 0    51   Input ~ 0
+MISO
+Text GLabel 4800 3300 0    51   Output ~ 0
+SCLK
+$Comp
+L DGND #PWR065
+U 1 1 53AA1AD4
+P 4900 5100
+F 0 "#PWR065" H 4900 5100 40  0001 C CNN
+F 1 "DGND" H 4900 5030 40  0000 C CNN
+F 2 "" H 4900 5100 60  0000 C CNN
+F 3 "" H 4900 5100 60  0000 C CNN
+	1    4900 5100
+	1    0    0    -1  
+$EndComp
+Text Label 6800 2300 0    51   ~ 0
+TCK
+Text Label 6800 2400 0    51   ~ 0
+TMS
+Text Label 6800 2500 0    51   ~ 0
+TDO
+Text Label 6800 2600 0    51   ~ 0
+TDI
+$Comp
+L CONN_5X2 P8
+U 1 1 53AA1AD5
+P 9100 2900
+F 0 "P8" H 9100 3200 60  0000 C CNN
+F 1 "CONN_5X2" V 9100 2900 50  0000 C CNN
+F 2 "~" H 9100 2900 60  0000 C CNN
+F 3 "~" H 9100 2900 60  0000 C CNN
+F 4 "FCI" H 9100 2900 60  0001 C CNN "Manufacturer 1"
+F 5 "95278-101B10LF" H 9100 2900 60  0001 C CNN "PN 1"
+F 6 "Mouser" H 9100 2900 60  0001 C CNN "Vendor 1"
+F 7 "$0.86/1 $0.737/10 $0.673/100" H 9100 2900 60  0001 C CNN "Pricing 1"
+	1    9100 2900
+	1    0    0    -1  
+$EndComp
+Text Label 4700 3000 0    51   ~ 0
+RESET_MCU
+Text Label 10000 2700 0    51   ~ 0
+RESET_MCU
+$Comp
+L DGND #PWR066
+U 1 1 53AA1AD6
+P 9800 3400
+F 0 "#PWR066" H 9800 3400 40  0001 C CNN
+F 1 "DGND" H 9800 3330 40  0000 C CNN
+F 2 "" H 9800 3400 60  0000 C CNN
+F 3 "" H 9800 3400 60  0000 C CNN
+	1    9800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C49
+U 1 1 53AA1AD7
+P 9800 3000
+F 0 "C49" H 9800 3100 40  0000 L CNN
+F 1 "0.1uF" H 9806 2915 40  0000 L CNN
+F 2 "~" H 9838 2850 30  0000 C CNN
+F 3 "~" H 9800 3000 60  0000 C CNN
+F 4 "Kemet" H 9800 3000 60  0001 C CNN "Manufacturer 1"
+F 5 "C0603C104K4RACTU" H 9800 3000 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 9800 3000 60  0001 C CNN "Vendor 1"
+F 7 "$0.10/1 $0.022/10 $0.0118/50" H 9800 3000 60  0001 C CNN "Pricing 1"
+	1    9800 3000
+	1    0    0    -1  
+$EndComp
+Text Notes 8800 2300 0    51   ~ 0
+JTAG INTERFACE
+NoConn ~ 6650 4300
+NoConn ~ 5050 3600
+NoConn ~ 6650 3800
+NoConn ~ 6650 3900
+NoConn ~ 6650 4200
+NoConn ~ 6650 4400
+Text Notes 4950 1950 0    51   ~ 0
+MCU uses on-chip oscillator to save board space.
+NoConn ~ 5050 4200
+Text GLabel 4800 4300 0    51   Output ~ 0
+RESET_BT
+Text GLabel 4800 3800 0    51   Output ~ 0
+UARTBT_TX
+Text GLabel 4800 3900 0    51   Input ~ 0
+UARTBT_RX
+Text GLabel 4800 4000 0    51   Output ~ 0
+UARTBT_RTS
+Text GLabel 4800 4100 0    51   Input ~ 0
+UARTBT_CTS
+$Comp
+L C C43
+U 1 1 53AA1AD8
+P 2950 3000
+F 0 "C43" H 2950 3100 40  0000 L CNN
+F 1 "0.1uF" H 2956 2915 40  0000 L CNN
+F 2 "~" H 2988 2850 30  0000 C CNN
+F 3 "~" H 2950 3000 60  0000 C CNN
+F 4 "Kemet" H 2950 3000 60  0001 C CNN "Manufacturer 1"
+F 5 "C0603C104K4RACTU" H 2950 3000 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 2950 3000 60  0001 C CNN "Vendor 1"
+F 7 "$0.10/1 $0.022/10 $0.0118/50" H 2950 3000 60  0001 C CNN "Pricing 1"
+	1    2950 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 2700 2    51   BiDi ~ 0
+SCL
+Text GLabel 6800 2800 2    51   BiDi ~ 0
+SDA
+Text GLabel 6800 3000 2    51   Input ~ 0
+IMU_INT
+$Comp
+L +3.3V #PWR067
+U 1 1 53AA1AD9
+P 2950 2250
+F 0 "#PWR067" H 2950 2210 30  0001 C CNN
+F 1 "+3.3V" H 2950 2360 30  0000 C CNN
+F 2 "~" H 2950 2250 60  0000 C CNN
+F 3 "~" H 2950 2250 60  0000 C CNN
+	1    2950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR068
+U 1 1 53AA1ADA
+P 9800 2600
+F 0 "#PWR068" H 9800 2560 30  0001 C CNN
+F 1 "+3.3V" H 9800 2710 30  0000 C CNN
+F 2 "~" H 9800 2600 60  0000 C CNN
+F 3 "~" H 9800 2600 60  0000 C CNN
+	1    9800 2600
+	1    0    0    -1  
+$EndComp
+Text Notes 7150 4150 0    51   ~ 0
+/DRDY on EXTINT[5]
+NoConn ~ 6650 3700
+NoConn ~ 6650 4000
+NoConn ~ 6650 4500
+Wire Wire Line
+	4800 3200 5050 3200
+Wire Wire Line
+	6800 4100 6650 4100
+Wire Wire Line
+	6650 3000 6800 3000
+Wire Wire Line
+	6650 2800 6800 2800
+Wire Wire Line
+	6650 2700 6800 2700
+Wire Wire Line
+	2950 3200 2950 3250
+Connection ~ 2950 3200
+Connection ~ 4050 2500
+Wire Wire Line
+	4050 2800 4050 2500
+Wire Wire Line
+	3800 2500 5050 2500
+Wire Wire Line
+	3800 2800 3800 2500
+Connection ~ 3500 2400
+Wire Wire Line
+	3500 2800 3500 2400
+Wire Wire Line
+	3250 2400 5050 2400
+Wire Wire Line
+	3250 2800 3250 2400
+Connection ~ 2950 2300
+Connection ~ 3800 3200
+Connection ~ 4050 3200
+Connection ~ 3500 3200
+Connection ~ 3250 3200
+Wire Wire Line
+	2950 3200 4300 3200
+Wire Wire Line
+	4800 4300 5050 4300
+Wire Wire Line
+	5050 4100 4800 4100
+Wire Wire Line
+	5050 4000 4800 4000
+Wire Wire Line
+	4800 3800 5050 3800
+Wire Wire Line
+	8400 2600 6650 2600
+Wire Wire Line
+	6650 2500 8600 2500
+Wire Wire Line
+	6650 2400 8500 2400
+Wire Wire Line
+	6650 2300 8700 2300
+Wire Notes Line
+	8350 2200 8350 3600
+Wire Notes Line
+	10500 2200 8350 2200
+Wire Notes Line
+	10500 3600 10500 2200
+Wire Notes Line
+	8350 3600 10500 3600
+Connection ~ 9800 2800
+Connection ~ 9800 3200
+Wire Wire Line
+	9700 2700 10000 2700
+Wire Wire Line
+	9700 2900 9700 2700
+Wire Wire Line
+	9500 2900 9700 2900
+Wire Wire Line
+	9800 2800 9800 2600
+Wire Wire Line
+	9500 2800 9800 2800
+Wire Wire Line
+	9800 3200 9800 3400
+Wire Wire Line
+	9600 3200 9800 3200
+Connection ~ 9600 3100
+Wire Wire Line
+	9600 3100 9500 3100
+Wire Wire Line
+	9600 2700 9600 3200
+Wire Wire Line
+	9500 2700 9600 2700
+Wire Wire Line
+	2950 2250 2950 2800
+Wire Wire Line
+	8400 3100 8400 2600
+Wire Wire Line
+	8700 3100 8400 3100
+Wire Wire Line
+	8500 2900 8700 2900
+Wire Wire Line
+	8500 2400 8500 2900
+Wire Wire Line
+	8600 2800 8700 2800
+Wire Wire Line
+	8600 2500 8600 2800
+Wire Wire Line
+	8700 2300 8700 2700
+Wire Wire Line
+	4700 3000 5050 3000
+Connection ~ 4900 2300
+Connection ~ 4900 2400
+Connection ~ 4900 2600
+Connection ~ 4900 2500
+Connection ~ 4900 2700
+Wire Wire Line
+	4900 2600 5050 2600
+Connection ~ 4900 2800
+Wire Wire Line
+	4900 2700 5050 2700
+Wire Wire Line
+	4900 2300 4900 2800
+Connection ~ 4900 5000
+Wire Wire Line
+	4900 5000 5050 5000
+Connection ~ 4900 4900
+Wire Wire Line
+	4900 4900 5050 4900
+Connection ~ 4900 4800
+Wire Wire Line
+	4900 4800 5050 4800
+Connection ~ 4900 4700
+Wire Wire Line
+	5050 4700 4900 4700
+Wire Wire Line
+	4900 4600 4900 5100
+Wire Wire Line
+	5050 4600 4900 4600
+Wire Wire Line
+	5050 3900 4800 3900
+Wire Wire Line
+	5050 3500 4800 3500
+Wire Wire Line
+	5050 3400 4800 3400
+Wire Wire Line
+	5050 3300 4800 3300
+Wire Wire Line
+	4300 2800 5050 2800
+Wire Wire Line
+	2950 2300 5050 2300
+NoConn ~ 6650 3400
+Text GLabel 4800 3200 0    51   Output ~ 0
+/CS
+NoConn ~ 6650 3500
+NoConn ~ 5050 4400
+NoConn ~ 5050 3700
+NoConn ~ 8700 3000
+Wire Wire Line
+	6800 3200 6650 3200
+NoConn ~ 6650 3100
+NoConn ~ 6650 2900
+NoConn ~ 6650 3300
+Text Notes 7200 3050 0    51   ~ 0
+IMU_INT on EXTINT[0]
+NoConn ~ 9500 3000
+Text Notes 7200 3650 0    51   ~ 0
+/BATTLO on EXTINT[2]
+Wire Wire Line
+	6650 3600 6800 3600
+Text GLabel 6800 3600 2    51   Input ~ 0
+/BATTLO
+$EndSCHEMATC

@@ -1,0 +1,48 @@
+0.01uF,2,"C6 C8",~
+0.1uF,2,"C1 C11",~
+0.47uF,1,"C9",~
+2.2uF,1,"C10",~
+10uF,5,"C2 C3 C4 C5 C7",~
+USB-MINI-B,1,"CON1",~
+SMAJ7.0A,1,"D1",~
+PGOOD,1,"D2",~
+CHARGE,1,"D3",~
+PMEG2005AEA,1,"D4",~
+POWER,1,"D5",~
+ALRT,1,"D6",~
+PTC 1.95A,2,"F1 F2",~
+JST,1,"P1",~
+VBAT,1,"P2",~
+GND,1,"P3",~
+BBB_PMIC,1,"P4",~
+VBUS,1,"P6",~
+WP,1,"P7",~
+EN,1,"P8",~
+PREREG,1,"P9",~
+3V3,1,"P10",~
+SI2312,1,"Q1",~
+1.18k,1,"R7",~
+2.2k,5,"R8 R10 R11 R18 R19",~
+4.7k,3,"R2 R3 R4",~
+5.6k,2,"R12 R13",~
+10k,1,"R9",~
+30.1k,1,"R14",~
+52.3k,2,"R15 R16",~
+75k,1,"R1",~
+191k,1,"R6",~
+806k,2,"R5 R17",~
+SYSOFF,1,"S1",~
+BBB_SLEEP,1,"S2",~
+TS PMIC,1,"SJ3",SparkFun-Passives-SJ_2S
+BAT,2,"SJ1 SJ2",SparkFun-Passives-SJ_2S-NO
+A2-0,1,"SJ4",SparkFun-Passives-SJ_2S-NO
+A1-0,1,"SJ5",SparkFun-Passives-SJ_2S-NO
+SENSE,1,"SJ7",SparkFun-Passives-SJ_2S-NO
+LOWBAT_DIS,1,"SJ6",SparkFun-Passives-SJ_3_PASTE1&2
+NTC 10K,1,"TH1",~
+MAX17048,1,"U1",
+BQ24074(T),1,"U2",
+24C256,1,"U3",~
+TPS73601-SON,1,"U4",~
+LTC2951-1,1,"U5",~
+BEAGLEBONE_BLACK,1,"U6",~

@@ -1,0 +1,25 @@
+LIR2450,1,BT1,Keystone Electronics,3008
+30pF,2,C7 C8,Samsung Electro-Mechanics America Inc,CL05C300JB5NCNC
+1.5nF,1,C25,AVX Corporation,04025C152JAT2A
+4.7nF,2,C21 C22,Samsung Electro-Mechanics America Inc,CL05B472KB5NNNC
+0.1uF,10,C1 C2 C4 C5 C6 C13 C14 C19 C27 C29,Samsung Electro-Mechanics America Inc,CL05A104MP5NNNC
+1uF,6,C3 C11 C23 C24 C26 C28,Taiyo Yuden,JMK105BJ105KV-F
+10uF,4,C9 C10 C12 C20,Samsung Electro-Mechanics America Inc,CL10A106MQ8NNNC
+RED,1,D1,Rohm Semiconductor,SML-P11VTT86
+BLM18PG121SN1,1,FB1,Murata Electronics North America,BLM18PG121SN1D
+10uH,1,L1,TDK Corporation,MLZ1608E100M
+CONN_3X2,1,P2,Sullins Connector Solutions,PPPC032LJBN-RC
+2.2k,1,R6,Stackpole Electronics Inc,RMCF0402FT2K20
+10k,4,R3 R4 R12 R13,Stackpole Electronics Inc,RMCF0402JT10K0
+51k,1,R11,Stackpole Electronics Inc,RMCF0402FT51K0
+1M,2,R2 R14,Stackpole Electronics Inc,RMCF0402JT1M00
+2.2M,1,R1,Samsung Electro-Mechanics America Inc,RC1005F225CS
+JS102011SAQN,1,S1,C&K Components,JS102011SAQN
+FR015L3EZ,1,U1,Fairchild Semiconductor,FR015L3EZ
+ADS1291/2,1,U7,Texas Instruments,ADS1292IRSMT
+OPA376,1,U6,Texas Instruments,OPA376AIDCKR
+TPS727XXDSE,1,U2,Texas Instruments,TPS72733DSET
+ATMEGA328P-28PIN,1,U3,Atmel,ATMEGA328P-MMH
+ADXL362,1,U4,Analog Devices Inc,ADXL362BCCZ-RL7
+BLUETOOTH-RN42,1,U5,Microchip Technology,RN42-I/RM
+ABM3B-8.000MHZ,1,Y1,Abracon Corporation,ABM3B-8.000MHZ-B2-T

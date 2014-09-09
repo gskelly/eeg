@@ -1,0 +1,238 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:brainboard_customparts
+LIBS:SparkFun-Passives
+LIBS:brainboard_wearable_v2-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title "BrainBoard: Open-Source Hardware for Wearable BCI"
+Date "25 jul 2014"
+Rev "0"
+Comp "Virginia Commonwealth University"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BLUETOOTH-RN41" U11
+U 1 1 53AA19AA
+P 5650 3700
+F 0 "U11" H 5650 2300 60  0000 C CNN
+F 1 "BLUETOOTH-RN42" H 5600 4050 60  0000 C CNN
+F 2 "" H 5650 3700 60  0000 C CNN
+F 3 "" H 5650 3700 60  0000 C CNN
+F 4 "Microchip Technology" H 5650 3700 60  0001 C CNN "Manufacturer 1"
+F 5 "RN42-I/RM" H 5650 3700 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 5650 3700 60  0001 C CNN "Vendor 1"
+F 7 "$19.14/1 $15.95/10" H 5650 3700 60  0001 C CNN "Pricing 1"
+	1    5650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR069
+U 1 1 53AA19AB
+P 6600 5000
+F 0 "#PWR069" H 6600 5000 40  0001 C CNN
+F 1 "DGND" H 6600 4930 40  0000 C CNN
+F 2 "" H 6600 5000 60  0000 C CNN
+F 3 "" H 6600 5000 60  0000 C CNN
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4500 6600 4500
+Wire Wire Line
+	6450 4600 6600 4600
+Connection ~ 6600 4600
+Wire Wire Line
+	6600 4700 6450 4700
+Connection ~ 6600 4700
+Connection ~ 6600 4800
+Wire Wire Line
+	4850 2600 4700 2600
+Wire Wire Line
+	4700 2600 4700 2400
+Wire Wire Line
+	4850 2700 4650 2700
+NoConn ~ 6450 2800
+NoConn ~ 6450 2900
+NoConn ~ 4850 2900
+NoConn ~ 4850 3000
+NoConn ~ 4850 3100
+NoConn ~ 4850 3200
+NoConn ~ 4850 4100
+NoConn ~ 4850 4200
+NoConn ~ 6450 3600
+NoConn ~ 6450 3700
+NoConn ~ 6450 3800
+NoConn ~ 6450 3900
+NoConn ~ 6450 4000
+NoConn ~ 6450 4100
+$Comp
+L TST TP7
+U 1 1 53AA19AD
+P 7450 3400
+F 0 "TP7" H 7450 3700 40  0000 C CNN
+F 1 "BTRST" H 7450 3650 30  0000 C CNN
+F 2 "~" H 7450 3400 60  0000 C CNN
+F 3 "~" H 7450 3400 60  0000 C CNN
+	1    7450 3400
+	0    1    1    0   
+$EndComp
+NoConn ~ 6450 3300
+Wire Wire Line
+	6450 3400 7450 3400
+Wire Wire Line
+	4850 3500 4650 3500
+Wire Wire Line
+	4850 3600 4650 3600
+Text GLabel 4650 3600 0    51   Output ~ 0
+UARTBT_RX
+Text GLabel 4650 3500 0    51   Input ~ 0
+UARTBT_TX
+Text GLabel 4650 2700 0    51   Input ~ 0
+RESET_BT
+NoConn ~ 4850 4500
+NoConn ~ 4850 4600
+NoConn ~ 4850 4700
+NoConn ~ 4850 4800
+Text Label 6550 3400 0    51   ~ 0
+FACTORY
+$Comp
+L R R17
+U 1 1 53AA19AE
+P 6800 4350
+F 0 "R17" V 6880 4350 40  0000 C CNN
+F 1 "2.2k" V 6807 4351 40  0000 C CNN
+F 2 "~" V 6730 4350 30  0000 C CNN
+F 3 "~" H 6800 4350 30  0000 C CNN
+F 4 "Stackpole Electronics" V 6800 4350 60  0001 C CNN "Manufacturer 1"
+F 5 "RMCF0603JT330R" V 6800 4350 60  0001 C CNN "PN 1"
+F 6 "DigiKey" V 6800 4350 60  0001 C CNN "Vendor 1"
+F 7 "$0.02/1 $0.017/10 $0.0092/50" V 6800 4350 60  0001 C CNN "Pricing 1"
+	1    6800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 53AA19AF
+P 7200 4350
+F 0 "R18" V 7280 4350 40  0000 C CNN
+F 1 "2.2k" V 7207 4351 40  0000 C CNN
+F 2 "~" V 7130 4350 30  0000 C CNN
+F 3 "~" H 7200 4350 30  0000 C CNN
+F 4 "Stackpole Electronics" V 7200 4350 60  0001 C CNN "Manufacturer 1"
+F 5 "RMCF0603JT330R" V 7200 4350 60  0001 C CNN "PN 1"
+F 6 "DigiKey" V 7200 4350 60  0001 C CNN "Vendor 1"
+F 7 "$0.02/1 $0.017/10 $0.0092/50" V 7200 4350 60  0001 C CNN "Pricing 1"
+	1    7200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D5
+U 1 1 53AA19B0
+P 6800 3800
+F 0 "D5" H 6800 3900 50  0000 C CNN
+F 1 "STAT" H 6800 3700 50  0000 C CNN
+F 2 "~" H 6800 3800 60  0000 C CNN
+F 3 "~" H 6800 3800 60  0000 C CNN
+F 4 "Kingbright Company LLC" H 6800 3800 60  0001 C CNN "Manufacturer 1"
+F 5 "APT1608SRCPRV" H 6800 3800 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 6800 3800 60  0001 C CNN "Vendor 1"
+F 7 "$0.17/1 $0.131/10 $0.1044/25" H 6800 3800 60  0001 C CNN "Pricing 1"
+	1    6800 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 53AA19B1
+P 7200 3800
+F 0 "D6" H 7200 3900 50  0000 C CNN
+F 1 "CONN" H 7200 3700 50  0000 C CNN
+F 2 "~" H 7200 3800 60  0000 C CNN
+F 3 "~" H 7200 3800 60  0000 C CNN
+F 4 "Kingbright Company LLC" H 7200 3800 60  0001 C CNN "Manufacturer 1"
+F 5 "APT1608SGC" H 7200 3800 60  0001 C CNN "PN 1"
+F 6 "DigiKey" H 7200 3800 60  0001 C CNN "Vendor 1"
+F 7 "$0.16/1 $0.117/10 $0.0936/25" H 7200 3800 60  0001 C CNN "Pricing 1"
+	1    7200 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 3500 6800 3500
+Wire Wire Line
+	6800 3500 6800 3600
+Wire Wire Line
+	6800 4000 6800 4100
+Wire Wire Line
+	6800 4800 6800 4600
+Connection ~ 6800 4800
+Wire Wire Line
+	7200 4800 7200 4600
+Wire Wire Line
+	7200 4100 7200 4000
+Wire Wire Line
+	6450 3200 7200 3200
+Wire Wire Line
+	7200 3200 7200 3600
+Text Label 6550 3200 0    51   ~ 0
+STATUS
+Text Label 6550 3500 0    51   ~ 0
+STATUSn
+$Comp
+L +3.3V #PWR070
+U 1 1 53AA19B2
+P 4700 2400
+F 0 "#PWR070" H 4700 2360 30  0001 C CNN
+F 1 "+3.3V" H 4700 2510 30  0000 C CNN
+F 2 "" H 4700 2400 60  0000 C CNN
+F 3 "" H 4700 2400 60  0000 C CNN
+	1    4700 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 3700 0    51   Output ~ 0
+UARTBT_CTS
+Text GLabel 4650 3800 0    51   Input ~ 0
+UARTBT_RTS
+Wire Wire Line
+	4650 3700 4850 3700
+Wire Wire Line
+	4650 3800 4850 3800
+Wire Wire Line
+	6600 4500 6600 5000
+Wire Wire Line
+	6450 4800 7200 4800
+$EndSCHEMATC

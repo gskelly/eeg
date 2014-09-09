@@ -1,0 +1,262 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:brainboard_customparts
+LIBS:SparkFun-Passives
+LIBS:brainboard_wearable_v2-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date "25 jul 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MPU6050 U1
+U 1 1 53AA2507
+P 5450 4100
+F 0 "U1" H 5450 3850 60  0000 C CNN
+F 1 "MPU6050" H 5450 4100 60  0000 C CNN
+F 2 "" H 5450 4000 60  0000 C CNN
+F 3 "" H 5450 4000 60  0000 C CNN
+	1    5450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR02
+U 1 1 53AA2508
+P 3950 4750
+F 0 "#PWR02" H 3950 4750 40  0001 C CNN
+F 1 "DGND" H 3950 4680 40  0000 C CNN
+F 2 "" H 3950 4750 60  0000 C CNN
+F 3 "" H 3950 4750 60  0000 C CNN
+	1    3950 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 53AA2509
+P 7100 4450
+F 0 "C4" H 7100 4550 40  0000 L CNN
+F 1 "0.01uF" H 7106 4365 40  0000 L CNN
+F 2 "~" H 7138 4300 30  0000 C CNN
+F 3 "~" H 7100 4450 60  0000 C CNN
+	1    7100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 53AA250A
+P 3650 4450
+F 0 "C1" H 3650 4550 40  0000 L CNN
+F 1 "0.1uF" H 3656 4365 40  0000 L CNN
+F 2 "~" H 3688 4300 30  0000 C CNN
+F 3 "~" H 3650 4450 60  0000 C CNN
+	1    3650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 53AA250B
+P 3950 4450
+F 0 "C2" H 3950 4550 40  0000 L CNN
+F 1 "0.1uF" H 3956 4365 40  0000 L CNN
+F 2 "~" H 3988 4300 30  0000 C CNN
+F 3 "~" H 3950 4450 60  0000 C CNN
+	1    3950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 53AA250C
+P 4150 4450
+F 0 "C3" H 4150 4550 40  0000 L CNN
+F 1 "2.2nF" H 4156 4365 40  0000 L CNN
+F 2 "~" H 4188 4300 30  0000 C CNN
+F 3 "~" H 4150 4450 60  0000 C CNN
+	1    4150 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6450 3650
+NoConn ~ 6450 3750
+NoConn ~ 6450 4350
+NoConn ~ 6450 4450
+NoConn ~ 6450 4550
+$Comp
+L DGND #PWR03
+U 1 1 53AA250D
+P 7100 4750
+F 0 "#PWR03" H 7100 4750 40  0001 C CNN
+F 1 "DGND" H 7100 4680 40  0000 C CNN
+F 2 "" H 7100 4750 60  0000 C CNN
+F 3 "" H 7100 4750 60  0000 C CNN
+	1    7100 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3650 4450 3650
+Wire Wire Line
+	4450 4250 4350 4250
+Wire Wire Line
+	4450 4050 3950 4050
+Wire Wire Line
+	3950 4050 3950 4250
+Wire Wire Line
+	4450 4150 4150 4150
+Wire Wire Line
+	4150 4150 4150 4250
+Wire Wire Line
+	3950 4650 3950 4750
+Connection ~ 4150 4700
+Wire Wire Line
+	4350 4250 4350 4700
+Connection ~ 3950 4700
+Wire Wire Line
+	4450 3850 3850 3850
+Wire Wire Line
+	4450 3950 3850 3950
+Wire Wire Line
+	3850 3850 3850 4700
+Connection ~ 3850 4700
+Connection ~ 3850 3950
+Wire Wire Line
+	3650 4650 3650 4700
+Wire Wire Line
+	3650 4700 4350 4700
+Wire Wire Line
+	4150 4700 4150 4650
+Wire Wire Line
+	3650 3150 3650 4250
+Connection ~ 3650 3650
+Text GLabel 7450 3950 2    49   BiDi ~ 0
+SDA
+Text GLabel 7450 3850 2    49   BiDi ~ 0
+SCL
+Wire Wire Line
+	6450 3950 7450 3950
+Wire Wire Line
+	6450 3850 7450 3850
+Text GLabel 4150 3750 0    60   Input ~ 0
+IMU_INT
+Wire Wire Line
+	4150 3750 4450 3750
+Wire Wire Line
+	7100 4150 6450 4150
+Wire Wire Line
+	7100 3100 7100 4250
+Connection ~ 7100 4150
+Wire Wire Line
+	7100 4650 7100 4750
+Connection ~ 7100 4700
+Wire Wire Line
+	6450 4050 7400 4050
+Wire Wire Line
+	7400 4700 7100 4700
+Wire Wire Line
+	7400 4050 7400 4700
+Text Label 6500 4150 0    60   ~ 0
+VLOGIC
+Text Label 6900 4050 0    60   ~ 0
+AD0
+Text Label 4150 3850 0    60   ~ 0
+FSYNC
+Text Label 4150 3950 0    60   ~ 0
+CLKIN
+Text Label 4150 4050 0    60   ~ 0
+REGOUT
+Text Label 4150 4150 0    60   ~ 0
+CPOUT
+$Comp
+L +3.3V #PWR04
+U 1 1 53AA250F
+P 3650 3150
+F 0 "#PWR04" H 3650 3110 30  0001 C CNN
+F 1 "+3.3V" H 3650 3260 30  0000 C CNN
+F 2 "~" H 3650 3150 60  0000 C CNN
+F 3 "~" H 3650 3150 60  0000 C CNN
+	1    3650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR05
+U 1 1 53AA2510
+P 7100 3100
+F 0 "#PWR05" H 7100 3060 30  0001 C CNN
+F 1 "+3.3V" H 7100 3210 30  0000 C CNN
+F 2 "~" H 7100 3100 60  0000 C CNN
+F 3 "~" H 7100 3100 60  0000 C CNN
+	1    7100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 53AB8299
+P 6650 3550
+F 0 "R4" V 6730 3550 40  0000 C CNN
+F 1 "4.7k" V 6657 3551 40  0000 C CNN
+F 2 "~" V 6580 3550 30  0000 C CNN
+F 3 "~" H 6650 3550 30  0000 C CNN
+	1    6650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 53AB82A6
+P 6850 3550
+F 0 "R5" V 6930 3550 40  0000 C CNN
+F 1 "4.7k" V 6857 3551 40  0000 C CNN
+F 2 "~" V 6780 3550 30  0000 C CNN
+F 3 "~" H 6850 3550 30  0000 C CNN
+	1    6850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3800 6850 3950
+Connection ~ 6850 3950
+Wire Wire Line
+	6650 3800 6650 3850
+Connection ~ 6650 3850
+Wire Wire Line
+	6650 3300 6650 3250
+Wire Wire Line
+	6650 3250 7100 3250
+Connection ~ 7100 3250
+Wire Wire Line
+	6850 3300 6850 3250
+Connection ~ 6850 3250
+$EndSCHEMATC

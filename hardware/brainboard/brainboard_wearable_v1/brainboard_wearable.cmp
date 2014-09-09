@@ -1,0 +1,227 @@
+Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 5/16/2014 4:30:08 PM
+
+BeginCmp
+TimeStamp = /537653E0;
+Reference = BT1;
+ValeurCmp = LIR2450;
+IdModule  = keystone_3008;
+EndCmp
+
+BeginCmp
+TimeStamp = /537653FA;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /537653F8;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /537653DF;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5376540B;
+Reference = C4;
+ValeurCmp = 30pF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5376540C;
+Reference = C5;
+ValeurCmp = 30pF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /537653F5;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765CF6;
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765CFC;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765CE4;
+Reference = C10;
+ValeurCmp = 1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765CEA;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D48;
+Reference = C12;
+ValeurCmp = 4.7nF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D50;
+Reference = C13;
+ValeurCmp = 4.7nF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D2A;
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D22;
+Reference = C15;
+ValeurCmp = 10uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D08;
+Reference = C16;
+ValeurCmp = 1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D0E;
+Reference = C17;
+ValeurCmp = 1uF;
+IdModule  = c_tant_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D58;
+Reference = C18;
+ValeurCmp = 1.5nF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D68;
+Reference = FB1;
+ValeurCmp = BLM18PG121SN1;
+IdModule  = inductor_smd_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765E22;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765417;
+Reference = P2;
+ValeurCmp = ICSP;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /537653F7;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D90;
+Reference = R2;
+ValeurCmp = 51k;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D60;
+Reference = R3;
+ValeurCmp = 1M;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53767794;
+Reference = S1;
+ValeurCmp = DPDT;
+IdModule  = CL-SB-22B;
+EndCmp
+
+BeginCmp
+TimeStamp = /5376540F;
+Reference = TP1;
+ValeurCmp = FACT;
+IdModule  = testpoint_1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765411;
+Reference = TP2;
+ValeurCmp = STATUS;
+IdModule  = testpoint_1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765402;
+Reference = U1;
+ValeurCmp = ATMEGA328P-28PIN;
+IdModule  = qfn-28;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765D39;
+Reference = U2;
+ValeurCmp = ADS1291/2;
+IdModule  = s-pvqfn-n32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53765409;
+Reference = U3;
+ValeurCmp = BLUETOOTH-RN42;
+IdModule  = w_rf_modules:roving_rn-42;
+EndCmp
+
+BeginCmp
+TimeStamp = /537684AA;
+Reference = U4;
+ValeurCmp = TPS73233;
+IdModule  = sot23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5376540A;
+Reference = Y1;
+ValeurCmp = ABM3B-8.000MHZ;
+IdModule  = crystal_smd_5x3.2mm;
+EndCmp
+
+EndListe
