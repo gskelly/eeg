@@ -1,8 +1,54 @@
-EESchema-DOCLIB  Version 2.0  Date: 1/22/2014 3:33:36 PM
+EESchema-DOCLIB  Version 2.0  Date: 4/7/2014 8:34:27 PM
 #
 $CMP 24C256
 D I2C Serial EEPROM
 K EEPROM Serial
+$ENDCMP
+#
+$CMP ADS1291/2
+D Low-Power, 1/2-Channel, 24-Bit Analog Front End for Biopotential Measurements
+$ENDCMP
+#
+$CMP ADS1293
+D Low Power, 3-Channel, 24-Bit Analog Front End for Biopotential Measurements
+$ENDCMP
+#
+$CMP ADS1294/6/8(R)
+D Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements
+$ENDCMP
+#
+$CMP ADS1299
+D Low-Noise, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements
+$ENDCMP
+#
+$CMP ADXL345
+D 3-Axis, +/-2/4/8/16 g Digital Accelerometer
+K Digital, Accelerometer
+$ENDCMP
+#
+$CMP ADXL362
+D Micropower, 3-Axis, +/-2/4/8/16 g Digital Accelerometer
+K Micropower, Digital, Accelerometer
+$ENDCMP
+#
+$CMP ATMEGA328P
+D 8-Bit picoPower AVR Microcontroller with 32 KB of ISP Flash
+K AVR
+$ENDCMP
+#
+$CMP ATMEGA328P-28PIN
+D 8-Bit picoPower AVR Microcontroller with 32 KB of ISP Flash
+K AVR
+$ENDCMP
+#
+$CMP ATMEGA32U4
+D 8-Bit AVR Microcontroller with 32 KB of ISP Flash and USB Controller
+K AVR USB
+$ENDCMP
+#
+$CMP B2BZENER
+D Diode zener
+K DEV DIODE
 $ENDCMP
 #
 $CMP BQ24075(T)
@@ -17,6 +63,28 @@ $ENDCMP
 #
 $CMP C
 D Condensateur non polarise
+$ENDCMP
+#
+$CMP CUT_TRACE
+D Cuttable trace
+$ENDCMP
+#
+$CMP DPDT
+D Double-pole double-throw mechanical switch
+K DPDT switch
+$ENDCMP
+#
+$CMP DUAL_DIODE_CA
+D Dual diode, common anode
+K DEV DIODE
+$ENDCMP
+#
+$CMP DUAL_MOS_P_E
+D Dual Enhancement-Mode P-Channel MOSFET
+$ENDCMP
+#
+$CMP FR015L3EZ
+D Low-Side Reverse Bias / Reverse Polarity Protector (15mΩ, -20V)
 $ENDCMP
 #
 $CMP LTC2951-1
@@ -52,6 +120,15 @@ $CMP MOS_P_E
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP NVT2006BQ
+D Bidirectional voltage-level translator for open-drain and push-pull applications
+K logic-level, translator, bidirectional
+$ENDCMP
+#
+$CMP OPA376
+D Low-Noise, Low Quiescent Current, Precision Operational Amplifier
+$ENDCMP
+#
 $CMP R
 D Resistance
 K R DEV
@@ -60,6 +137,10 @@ $ENDCMP
 $CMP SN74AUP1G04
 D Low-Power Single Inverter Gate
 K inverter
+$ENDCMP
+#
+$CMP SN74AVC4T234
+D 4-Bit Dual-Supply Non-Inverting Bus Translator
 $ENDCMP
 #
 $CMP SN74LVC138ARGY
@@ -81,6 +162,20 @@ D Dual 2-Input NAND Gate With Schmitt-Trigger Inputs
 K logic, gate, NAND, schmitt trigger
 $ENDCMP
 #
+$CMP SOLDER_JUMPER
+D Solder jumper
+$ENDCMP
+#
+$CMP SPST
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP SPST_SMALL
+D Interrupteur simple
+K switch
+$ENDCMP
+#
 $CMP TEENSY3.0
 D Basic connections for Teensy 3.0 ARM Cortex-M3 based MCU board
 $ENDCMP
@@ -88,6 +183,11 @@ $ENDCMP
 $CMP TLV301X
 D Nanopower, 1.8V, SOT23 Comparator with 1.242 V Reference
 K comparator
+$ENDCMP
+#
+$CMP TLV705
+D 200-mA, Low IQ, Low-Noise, Low-Dropout Regulator
+K ldo
 $ENDCMP
 #
 $CMP TPD4E001
@@ -102,8 +202,26 @@ K ESD
 F texas/tpd2s017.pdf
 $ENDCMP
 #
+$CMP TPD6E001RSE
+D 6 channels ESD protection IEEE1394
+K ESD
+F texas/tpd2s017.pdf
+$ENDCMP
+#
+$CMP TPS60150
+D 5V/140mA Charge Pump Device
+$ENDCMP
+#
 $CMP TPS60403
 D Unregulated 60mA Charge Pump Voltage Inverter
+$ENDCMP
+#
+$CMP TPS62230
+D 2 MHz / 3 MHz Ultra Small Step Down Converter in 1x1.5 SON package
+$ENDCMP
+#
+$CMP TPS63036
+D HIGH-EFFICIENCY SINGLE INDUCTOR BUCK-BOOST CONVERTER In Tiny WCSP
 $ENDCMP
 #
 $CMP TPS72325
@@ -114,20 +232,12 @@ $CMP TPS73150
 D Low-noise LDO regulator 5V SOT23 package
 $ENDCMP
 #
-$CMP TPS73225
-D 2.5V 250mA Low Dropout Regulator
-$ENDCMP
-#
-$CMP TPS73233
-D 3.3V 250mA Low Dropout Regulator
-$ENDCMP
-#
 $CMP TPS732XX
 D Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection
 K ldo
 $ENDCMP
 #
-$CMP TPS736xx-SON
+$CMP TPS736XX-SON
 D Cap-Free, NMOS, 400mA Low Dropout Regulator with Reverse Current Protection
 K ldo
 $ENDCMP

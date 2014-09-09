@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "BrainBoard: Open-Source Hardware for Wearable BCI"
-Date "23 jan 2014"
+Date "19 jun 2014"
 Rev "0"
 Comp "Virginia Commonwealth University"
 Comment1 ""
@@ -210,7 +210,7 @@ L LED D2
 U 1 1 5244B49D
 P 7200 3800
 F 0 "D2" H 7200 3900 50  0000 C CNN
-F 1 "CONNECT" H 7200 3700 50  0000 C CNN
+F 1 "CONN" H 7200 3700 50  0000 C CNN
 F 2 "~" H 7200 3800 60  0000 C CNN
 F 3 "~" H 7200 3800 60  0000 C CNN
 F 4 "Kingbright Company LLC" H 7200 3800 60  0001 C CNN "Manufacturer 1"

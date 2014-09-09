@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 3/19/2014 11:42:31 AM
+Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 4/14/2014 5:28:47 PM
 
 BeginCmp
 TimeStamp = /52C6E0F9;
@@ -120,6 +120,13 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /532C89F8;
+Reference = D6;
+ValeurCmp = ALRT;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52D6F53A;
 Reference = F1;
 ValeurCmp = PTC 1.95A;
@@ -159,13 +166,6 @@ TimeStamp = /52C31F04;
 Reference = P4;
 ValeurCmp = BBB_PMIC;
 IdModule  = PIN_ARRAY_2X2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52CC99DF;
-Reference = P5;
-ValeurCmp = ~ALRT;
-IdModule  = PINTST;
 EndCmp
 
 BeginCmp
@@ -337,6 +337,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /532C89F2;
+Reference = R19;
+ValeurCmp = 2.2k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52CC53B6;
 Reference = S1;
 ValeurCmp = SYSOFF;
@@ -410,7 +417,7 @@ BeginCmp
 TimeStamp = /52C5F605;
 Reference = U1;
 ValeurCmp = MAX17048;
-IdModule  = tdfn8;
+IdModule  = tdfn8-2x2;
 EndCmp
 
 BeginCmp
@@ -431,14 +438,14 @@ BeginCmp
 TimeStamp = /52DEDA76;
 Reference = U4;
 ValeurCmp = TPS73601-SON;
-IdModule  = hvson8-vias;
+IdModule  = s-pvson-n8-vias;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E04E64;
 Reference = U5;
 ValeurCmp = LTC2951-1;
-IdModule  = dfn8-2x3;
+IdModule  = dfn8-3x2;
 EndCmp
 
 BeginCmp

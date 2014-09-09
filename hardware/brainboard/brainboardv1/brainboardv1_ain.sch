@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "BrainBoard: Open-Source Hardware for Wearable BCI"
-Date "23 jan 2014"
+Date "19 jun 2014"
 Rev "0"
 Comp "Virginia Commonwealth University"
 Comment1 ""

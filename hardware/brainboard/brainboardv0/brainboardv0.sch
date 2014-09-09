@@ -30,11 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:brainboard_customparts
-LIBS:resistor-ruf
-LIBS:resistor-bourns
-LIBS:SparkFun-Passives
-LIBS:beaglebone
-LIBS:SparkFun-RF
 LIBS:brainboardv0-cache
 EELAYER 27 0
 EELAYER END
@@ -42,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "BrainBoard: Open-Source Hardware for Wearable BCI"
-Date "26 sep 2013"
+Date "25 jul 2014"
 Rev "0"
 Comp "Virginia Commonwealth University"
 Comment1 ""

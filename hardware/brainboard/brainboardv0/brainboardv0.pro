@@ -1,6 +1,6 @@
-update=7/24/2013 1:44:33 PM
+update=7/25/2014 7:00:23 PM
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=brainboardv0.net
@@ -45,6 +45,11 @@ LibName21=ref-packages
 LibDir=FlyingBone-master/lib;kicadlibrary-master
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../../../../Program Files/KiCad/share/library/converted;kicadlibrary-master
@@ -90,8 +95,3 @@ LibName33=resistor-bourns
 LibName34=SparkFun-Passives
 LibName35=FlyingBone-master/lib/beaglebone
 LibName36=SparkFun-RF
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
