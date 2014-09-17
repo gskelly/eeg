@@ -47,3 +47,5 @@ Brainboard and re-implements it in a more elegant fashion (see thesis for detail
 7. Click the "Play" icon to begin recording.
 
 For more info, check Dr. Ou Bai's documentation for BCI2VR, included with the toolbox.
+
+Questions may be directed toward Graham Kelly, preferably at kellygs@vcu.edu, or at graham.smith.kelly@gmail.com as a backup. Dr. Bai may be reached at obai@vcu.edu. 
