@@ -30,12 +30,20 @@ This will probably ultimately be moved to its own repository. Brainboard v2 is a
 BeagleBone Black cape that takes the BBB support from earlier versions of the
 Brainboard and re-implements it in a more elegant fashion (see thesis for details).
 
-TO USE THE BCI2VR GUI (assumes you already have MATLAB r2011b or later):
+**To use the BCI2VR GUI (assumes you already have MATLAB r2011b or later):**
+
 1. Go to the link above and download the required MATLAB files for the basic BCI2VR functionality.
+
 2. Copy btv_brainBoardBtFun.m into the functions folder.
+
 3. Copy brainBoardBt_btv_daq_settings.m and brainBoardBt_14Ch.loc into the setup_files folder.
+
 4. Make sure the toolbox is added to your path. Run bci2vr.m and click "Data Acquisition." 
+
 5. Click the "Load setup file" icon and load brainBoardBt_btv_daq_settings.
+
 6. The program will attempt to open a Bluetooth connection with BrainBoard. It occasionally fails; in this case simply close the GUI and try again.
+
 7. Click the "Play" icon to begin recording.
+
 For more info, check Dr. Ou Bai's documentation for BCI2VR, included with the toolbox.
