@@ -1,7 +1,7 @@
 (kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
 
   (general
-    (links 142)
+    (links 0)
     (no_connects 0)
     (area 83.743887 35.941 131.362301 79.789)
     (thickness 1.6)
@@ -17,7 +17,7 @@
     (15 Top signal hide)
     (2 Ground power hide)
     (1 Power power hide)
-    (0 Bottom signal hide)
+    (0 Bottom signal)
     (16 B.Adhes user)
     (17 F.Adhes user)
     (18 B.Paste user)
@@ -55,8 +55,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.23 0.4)
-    (pad_drill 0)
+    (pad_size 6 6)
+    (pad_drill 4.5)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
