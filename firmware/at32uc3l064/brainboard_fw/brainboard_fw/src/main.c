@@ -80,6 +80,9 @@ __attribute__((aligned(4))) dsp16_t dsp_filter_output_buffer[FRAME_SIZE-FILT_COE
 /* Average value for mu frequency band: not currently implemented */
 dsp32_t mu_band_avg;
 
+int debug_usart;
+spi_status_t debug_spi;
+
 
 /* Data packet struct */
 bboard_data24bit_packet_t data_usart_tx_packet =
@@ -296,7 +299,7 @@ void config_spi(void)
 	const spi_options_t spi_opt =
 	{
 		.reg			= SPI_ADS1299_MAIN_CHIPNUM,		// "Master" ADS1299 when daisy-chaining: connected to CS0
-		.baudrate		= 1000000,						// 1 MHz preferred baudrate
+		.baudrate		= SPI_BAUDRATE,					// 1 MHz preferred baudrate
 		.bits			= 8,							// 8 bits per character (range is 8 to 16)
 		.spck_delay		= 0,							// Delay before first clock pulse after selecting slave (in PBA clock periods)
 		.trans_delay	= 0,							// Delay between each transfer/character (in PBA clock periods)
@@ -309,7 +312,7 @@ void config_spi(void)
 	spi_initMaster(SPI_ADDRESS, &spi_opt);
 	
 	/* Setup configuration for chip connected to CS0 */
-	spi_setupChipReg(SPI_ADDRESS, &spi_opt, sysclk_get_pba_hz());
+	debug_spi = spi_setupChipReg(SPI_ADDRESS, &spi_opt, sysclk_get_pba_hz());
 	
 	/* Allow the module to transfer data */
 	spi_enable(SPI_ADDRESS);
@@ -413,7 +416,7 @@ void config_usart(void)
 	
 	/* Enable USART for Bluetooth module comms */
 	sysclk_enable_peripheral_clock(USARTBT_MODULE);
-	usart_init_hw_handshaking(USARTBT_MODULE, &usartbt_opt, sysclk_get_pba_hz());
+	debug_usart = usart_init_hw_handshaking(USARTBT_MODULE, &usartbt_opt, sysclk_get_pba_hz());
 }
 
 status_code_t config_rn42(volatile avr32_usart_t* usart)
@@ -540,17 +543,21 @@ int main(void)
 	/* Set up peripheral modules other than TWI, which needs INTC first */
 	config_usart();
 	config_rn42(USARTBT_MODULE);	
-	config_spi();	
+	config_spi();
+	ads1299_device_init(SPI_ADS1299_MAIN_CHIPNUM, 0);	
 		
 	/* Verify ADS1299 device ID */
-	usart_write_line(AUX_USART, "Checking ADS1299 device ID...\r\n");
+	//usart_write_line(AUX_USART, "Checking ADS1299 device ID...\r\n");
 	if (ads1299_check_device_id(SPI_ADS1299_MAIN_CHIPNUM) == STATUS_OK) {
-		usart_write_line(AUX_USART, "Device ID verified.\r\n");
+		//usart_write_line(AUX_USART, "Device ID verified.\r\n");
 	}
 	else {
 		usart_write_line(AUX_USART, "Invalid ID. Possible SPI error.\r\n");
-		while(1) { cpu_relax(); }
+		/* Don't continue in error state; go to DEEPSTOP */
+		AVR32_INTC.ipr[0];  // Dummy read in case any PB write operations are incomplete
+		SLEEP(AVR32_PM_SMODE_DEEPSTOP);
 	}
+	
 	
 	/* Configure global interrupt controller */
 	Disable_global_interrupt();
@@ -566,8 +573,10 @@ int main(void)
 		//usart_write_line(AUX_USART, "IMU successfully initialized.\r\n");
 	}
 	else {
-		//usart_write_line(AUX_USART, "IMU failed to initialize.\r\n");
-		while (1) { cpu_relax(); }
+		usart_write_line(AUX_USART, "IMU failed to initialize.\r\n");
+		/* Don't continue in error state; go to DEEPSTOP */
+		AVR32_INTC.ipr[0];  // Dummy read in case any PB write operations are incomplete
+		SLEEP(AVR32_PM_SMODE_DEEPSTOP);
 	}
 	#endif
 	
@@ -584,7 +593,6 @@ int main(void)
 	
 	/* Begin A/D conversion on the ADS1299 */
 	/* Comment out to allow host computer to initiate data collection */
-//  ads1299_device_init(SPI_ADS1299_MAIN_CHIPNUM);
 // 	ads1299_send_byte(SPI_ADS1299_MAIN_CHIPNUM, ADS1299_OPC_RDATAC);			
 // 	ads1299_soft_start_conversion(SPI_ADS1299_MAIN_CHIPNUM);
 	

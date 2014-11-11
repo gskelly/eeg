@@ -41,6 +41,38 @@
 
 #define BRAINBOARD_REV					2	
 
+//! \name Oscillator Definitions
+// @{
+
+/*! \brief System oscillator frequencies (Hz.) and startup times (periods).
+ *
+ * RCOsc has no custom calibration by default. Set the following definition
+ * to the appropriate value if a custom RCOsc calibration has been applied
+ * to your part.
+ */
+
+//!< RCOsc frequency: Hz.
+
+#define FRCOSC                  (AVR32_SCIF_RCOSC_FREQUENCY)
+
+//!< Osc32 frequency (Hz.) and startup time (RCOsc periods).
+
+#define FOSC32                  (32768)
+#define OSC32_STARTUP           (AVR32_SCIF_OSCCTRL32_STARTUP_131072_RCOSC)
+
+#define BOARD_OSC32_IS_XTAL     true
+#define BOARD_OSC32_HZ          FOSC32
+#define BOARD_OSC32_STARTUP_US  (920000)
+#define BOARD_OSC32_PINSEL      (0)
+
+
+// The UC3-L0-Xplained does not have an Osc0 crystal.
+
+#define FOSC0                   ((int) "NONE")
+//#define OSC0_STARTUP          (AVR32_SCIF_OSCCTRL0_STARTUP_2048_RCOSC)
+
+// @}
+
 /* For the below values, clocks are derived from the uC's digital frequency-locked loop (DFLL),
  * divided by various clock dividers */
 #define FCPU_HZ							(DFLL_FREQ_HZ >> CONFIG_SYSCLK_CPU_DIV) // CPU frequency in Hz

@@ -44,6 +44,7 @@ extern "C" {
 #endif
 
 #define SPI_ADDRESS						(&AVR32_SPI)
+#define SPI_BAUDRATE					1000000UL
 #define DUMMY_BYTE						0x00
 
 #define SPI_ADS1299_MAIN_CHIPNUM		0

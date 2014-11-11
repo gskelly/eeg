@@ -601,9 +601,10 @@ typedef enum
  *
  * \pre Requires spi.h from the Atmel Software Framework and ads1299_spi_adapt.h.
  * \param chip_select The chip select number of the ADS1299 to be initialized.
+ * \param init_regs	Nonzero if initializing registers to firmware default settings; 0 otherwise.
  * \return Zero if successful, or an error code if unsuccessful.
  */
-ads1299_error_t ads1299_device_init(uint8_t);
+ads1299_error_t ads1299_device_init(uint8_t, uint8_t);
 
 /**
  *	\brief Read a single register from the ADS1299.

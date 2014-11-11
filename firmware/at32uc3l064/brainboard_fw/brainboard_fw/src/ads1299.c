@@ -47,7 +47,7 @@ extern "C" {
 
 /* SYSTEM CONTROL FUNCTIONS **********************************************************************************************************************/
 
-ads1299_error_t	ads1299_device_init(uint8_t chip_select)
+ads1299_error_t	ads1299_device_init(uint8_t chip_select, uint8_t init_regs)
 {
 	#if UC3
 	/* Power cycle ADS1299 */
@@ -62,76 +62,78 @@ ads1299_error_t	ads1299_device_init(uint8_t chip_select)
 	ads1299_send_byte(chip_select, ADS1299_OPC_SDATAC);
 	/* Stop taking conversions; apparently not done automatically */
 	ads1299_send_byte(chip_select, ADS1299_OPC_STOP);
-	
-	/* Write to GPIO register, set all pins to driven-low output */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_GPIO, ADS1299_REG_GPIO_GPIOC4_OUTPUT |
-													ADS1299_REG_GPIO_GPIOD4_LOW    |
-													ADS1299_REG_GPIO_GPIOC3_OUTPUT |
-													ADS1299_REG_GPIO_GPIOD3_LOW    |
-													ADS1299_REG_GPIO_GPIOC2_OUTPUT |
-													ADS1299_REG_GPIO_GPIOD2_LOW    |
-													ADS1299_REG_GPIO_GPIOC1_OUTPUT |
-													ADS1299_REG_GPIO_GPIOD1_LOW    );
-	
-	/* Write to CONFIG1, set data rate to 250 Hz */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CONFIG1, ADS1299_REG_CONFIG1_RESERVED_VALUE |
-													   ADS1299_REG_CONFIG1_FMOD_DIV_BY_4096);
-	/* Write to CONFIG2 register, generate test signal internally */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CONFIG2, ADS1299_REG_CONFIG2_RESERVED_VALUE | 
-													   ADS1299_REG_CONFIG2_CAL_INT        |
-													   ADS1299_REG_CONFIG2_CAL_PULSE_FCLK_DIV_2_21);
-													   
-	/* Write to CONFIG3, enable internal reference buffer, bias internally generated, bias buffer enabled */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CONFIG3, ADS1299_REG_CONFIG3_REFBUF_ENABLED |
-													   ADS1299_REG_CONFIG3_BIASREF_INT    |
-													   ADS1299_REG_CONFIG3_BIASBUF_ENABLED);
-	/* Reference settling time */
-	delay_ms(150);
-	
-	/* Write to CH1 settings register, set as normal input, gain 24 */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CH1SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
-												      ADS1299_REG_CHNSET_GAIN_24			|
-													  ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-													  ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
-	/* Write to CH2 settings register, set as normal input, gain 24 */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CH2SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
-												      ADS1299_REG_CHNSET_GAIN_24			|
-													  ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-													  ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
-	/* Write to CH3 settings register, set as normal input, gain 24 */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CH3SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
-												      ADS1299_REG_CHNSET_GAIN_24			|
-													  ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-													  ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
-	/* Write to CH4 settings register, set as normal input, gain 24 */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CH4SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
-													  ADS1299_REG_CHNSET_GAIN_24			|
-	                                                  ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-													  ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
-	/* Write to CH5 settings register, set as normal input, gain 24 */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CH5SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
-													  ADS1299_REG_CHNSET_GAIN_24			|
-													  ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-													  ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
-	/* Write to CH6 settings register, set as normal input, gain 24 */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CH6SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
-													  ADS1299_REG_CHNSET_GAIN_24			|
-													  ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-													  ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
-	/* Write to CH5 settings register, set as normal input, gain 24 */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CH7SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
-													  ADS1299_REG_CHNSET_GAIN_24			|
-													  ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-													  ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
-	/* Write to CH6 settings register, set as normal input, gain 24 */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_CH8SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
-													  ADS1299_REG_CHNSET_GAIN_24			|
-													  ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-													  ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
-	
-	/* Write to MISC1 register, SRB1 on (ref electrode) */
-	ads1299_wreg(chip_select, ADS1299_REGADDR_MISC1, ADS1299_REG_MISC1_SRB1_ON);
-		
+ 	
+	if (init_regs) 
+	{
+		/* Write to GPIO register, set all pins to driven-low output */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_GPIO, ADS1299_REG_GPIO_GPIOC4_OUTPUT |
+		ADS1299_REG_GPIO_GPIOD4_LOW    |
+		ADS1299_REG_GPIO_GPIOC3_OUTPUT |
+		ADS1299_REG_GPIO_GPIOD3_LOW    |
+		ADS1299_REG_GPIO_GPIOC2_OUTPUT |
+		ADS1299_REG_GPIO_GPIOD2_LOW    |
+		ADS1299_REG_GPIO_GPIOC1_OUTPUT |
+		ADS1299_REG_GPIO_GPIOD1_LOW    );
+			
+		/* Write to CONFIG1, set data rate to 250 Hz */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CONFIG1, ADS1299_REG_CONFIG1_RESERVED_VALUE |
+		ADS1299_REG_CONFIG1_FMOD_DIV_BY_4096);
+		/* Write to CONFIG2 register, generate test signal internally */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CONFIG2, ADS1299_REG_CONFIG2_RESERVED_VALUE |
+		ADS1299_REG_CONFIG2_CAL_INT        |
+		ADS1299_REG_CONFIG2_CAL_PULSE_FCLK_DIV_2_21);
+			
+		/* Write to CONFIG3, enable internal reference buffer, bias internally generated, bias buffer enabled */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CONFIG3, ADS1299_REG_CONFIG3_REFBUF_ENABLED |
+		ADS1299_REG_CONFIG3_BIASREF_INT    |
+		ADS1299_REG_CONFIG3_BIASBUF_ENABLED);
+		/* Reference settling time */
+		delay_ms(150);
+			
+		/* Write to CH1 settings register, set as normal input, gain 24 */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CH1SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
+		ADS1299_REG_CHNSET_GAIN_24			|
+		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
+		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		/* Write to CH2 settings register, set as normal input, gain 24 */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CH2SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
+		ADS1299_REG_CHNSET_GAIN_24			|
+		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
+		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		/* Write to CH3 settings register, set as normal input, gain 24 */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CH3SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
+		ADS1299_REG_CHNSET_GAIN_24			|
+		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
+		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		/* Write to CH4 settings register, set as normal input, gain 24 */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CH4SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
+		ADS1299_REG_CHNSET_GAIN_24			|
+		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
+		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		/* Write to CH5 settings register, set as normal input, gain 24 */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CH5SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
+		ADS1299_REG_CHNSET_GAIN_24			|
+		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
+		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		/* Write to CH6 settings register, set as normal input, gain 24 */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CH6SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
+		ADS1299_REG_CHNSET_GAIN_24			|
+		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
+		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		/* Write to CH5 settings register, set as normal input, gain 24 */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CH7SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
+		ADS1299_REG_CHNSET_GAIN_24			|
+		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
+		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		/* Write to CH6 settings register, set as normal input, gain 24 */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_CH8SET, ADS1299_REG_CHNSET_CHANNEL_ON			|
+		ADS1299_REG_CHNSET_GAIN_24			|
+		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
+		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+			
+		/* Write to MISC1 register, SRB1 on (ref electrode) */
+		ads1299_wreg(chip_select, ADS1299_REGADDR_MISC1, ADS1299_REG_MISC1_SRB1_ON);
+	} 		
 	return ADS1299_STATUS_OK;
 	#else
 	#endif /* #if UC3 */
